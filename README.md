@@ -23,8 +23,8 @@ MIT License — Copyright (c) 2026 Elahe Zare Borzeshi. See [LICENSE](LICENSE).
 ## Setup
 
 ```bash
-git clone <repository-url>
-cd llm-systematic-review-framework
+git clone https://github.com/Elahezareborzeshi/end-to-end-llm-systematic-review
+cd end-to-end-llm-systematic-review
 
 python3 -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
@@ -47,7 +47,7 @@ streamlit run src/main.py
 ## Repository structure
 
 ```
-llm-systematic-review-framework/
+end-to-end-llm-systematic-review/
 ├── src/                         # Application source code
 │   ├── main.py                  # Streamlit entry point
 │   ├── config.py                # Loads API keys / paths from environment
