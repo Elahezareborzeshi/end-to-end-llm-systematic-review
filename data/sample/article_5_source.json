@@ -1,0 +1,417 @@
+{
+  "MedlineCitation": {
+    "OtherAbstract": [],
+    "InvestigatorList": [],
+    "GeneralNote": [],
+    "CitationSubset": [
+      "IM"
+    ],
+    "SpaceFlightMission": [],
+    "OtherID": [],
+    "KeywordList": [
+      [
+        "Acute kidney injury",
+        "Chronic kidney disease",
+        "Fenoldopam",
+        "Hypertension crisis",
+        "Pediatric"
+      ]
+    ],
+    "PMID": "39249125",
+    "DateRevised": {
+      "Year": "2024",
+      "Month": "09",
+      "Day": "09"
+    },
+    "Article": {
+      "ArticleDate": [
+        {
+          "Year": "2024",
+          "Month": "09",
+          "Day": "09"
+        }
+      ],
+      "Language": [
+        "eng"
+      ],
+      "ELocationID": [
+        "10.1007/s00467-024-06490-7"
+      ],
+      "Journal": {
+        "ISSN": "1432-198X",
+        "JournalIssue": {
+          "PubDate": {
+            "Year": "2024",
+            "Month": "Sep",
+            "Day": "09"
+          }
+        },
+        "Title": "Pediatric nephrology (Berlin, Germany)",
+        "ISOAbbreviation": "Pediatr Nephrol"
+      },
+      "ArticleTitle": "Efficacy and safety of fenoldopam for the treatment of hypertensive crises in children with kidney disease: a retrospective study.",
+      "Abstract": {
+        "AbstractText": [
+          "Hypertensive crises in children represent critical medical situations characterized by severe hypertension and potential organ damage. Fenoldopam, a dopaminergic medication, offers a viable therapeutic option for managing such clinical scenarios. We aimed to evaluate efficacy and safety of fenoldopam in the management of hypertensive urgencies and emergencies.",
+          "This retrospective analysis focused on pediatric patients affected by acute or chronic kidney disease, aged 1\u00a0month-18\u00a0years, admitted to the Pediatric Nephrology and the Pediatric Intensive Care Unit at University-Hospital of Padua, Italy, who presented with\u00a0a hypertensive crisis treated with fenoldopam between March 2010 and December 2022.",
+          "The study included 74 patients with median age 10\u00a0years (interquartile range [IQR] 4-15\u00a0years) who received 102 fenoldopam infusions. Seventy-two percent were already receiving antihypertensive treatment before admission. In all cases, fenoldopam was associated with a reduction of blood pressure (BP) after 8\u00a0h of treatment, but in 87% of patients reduction of the initial mean arterial pressure (MAP) was higher than 25% of calculated drop pressure. MAP normalized in 26% of cases after 24\u00a0h and in\u00a035% after 48\u00a0h. Occurrence of hypotension was 7%, while hypokalemia was observed in 13% of cases. Patients who presented a MAP reduction not exceeding 25% of calculated drop pressure received a lower median fenoldopam dose (0.2 mcg/kg/min; IQR 0.1-0.2) compared with patients having a MAP reduction\u2009>\u200925% of calculated drop pressure (0.4 mcg/kg/min; IQR 0.2-0.6; p\u2009=\u20090.002).",
+          "Fenoldopam seems effective and safe for the treatment of hypertensive crises in children with kidney disease, at a starting dose of 0.2 mcg/kg/min. Strict BP monitoring is required to identify possible excessive drop pressure in the first hours of infusion."
+        ],
+        "CopyrightInformation": "\u00a9 2024. The Author(s)."
+      },
+      "AuthorList": [
+        {
+          "Identifier": [
+            "0009-0007-6113-9312"
+          ],
+          "AffiliationInfo": [
+            {
+              "Identifier": [],
+              "Affiliation": "Department for Women's and Children's Health, University of Padua, Padua, Italy. nicola.bertazzapartigiani@aopd.veneto.it."
+            }
+          ],
+          "LastName": "Bertazza Partigiani",
+          "ForeName": "Nicola",
+          "Initials": "N"
+        },
+        {
+          "Identifier": [],
+          "AffiliationInfo": [
+            {
+              "Identifier": [],
+              "Affiliation": "Department for Women's and Children's Health, University of Padua, Padua, Italy."
+            }
+          ],
+          "LastName": "Vigezzi",
+          "ForeName": "Serena",
+          "Initials": "S"
+        },
+        {
+          "Identifier": [],
+          "AffiliationInfo": [
+            {
+              "Identifier": [],
+              "Affiliation": "Pediatric Nephrology Unit, Department for Women's and Children's Health, University-Hospital of Padua, Padua, Italy."
+            }
+          ],
+          "LastName": "Meneghesso",
+          "ForeName": "Davide",
+          "Initials": "D"
+        },
+        {
+          "Identifier": [],
+          "AffiliationInfo": [
+            {
+              "Identifier": [],
+              "Affiliation": "Department for Women's and Children's Health, University of Padua, Padua, Italy."
+            }
+          ],
+          "LastName": "Tinnirello",
+          "ForeName": "Matteo",
+          "Initials": "M"
+        },
+        {
+          "Identifier": [],
+          "AffiliationInfo": [
+            {
+              "Identifier": [],
+              "Affiliation": "Department of Statistical Sciences, University of Padua, Padua, Italy."
+            }
+          ],
+          "LastName": "Brazzale",
+          "ForeName": "Alessandra Rosalba",
+          "Initials": "AR"
+        },
+        {
+          "Identifier": [],
+          "AffiliationInfo": [
+            {
+              "Identifier": [],
+              "Affiliation": "Pediatric Intensive Care Unit, Department of Women's and Children's Health, University Hospital of Padua, Padua, Italy."
+            }
+          ],
+          "LastName": "Daverio",
+          "ForeName": "Marco",
+          "Initials": "M"
+        },
+        {
+          "Identifier": [],
+          "AffiliationInfo": [
+            {
+              "Identifier": [],
+              "Affiliation": "Pediatric Nephrology Unit, Department for Women's and Children's Health, University-Hospital of Padua, Padua, Italy."
+            },
+            {
+              "Identifier": [],
+              "Affiliation": "Department of Medicine (DMED), University of Udine, Udine, Italy."
+            }
+          ],
+          "LastName": "Vidal",
+          "ForeName": "Enrico",
+          "Initials": "E"
+        }
+      ],
+      "PublicationTypeList": [
+        "Journal Article"
+      ]
+    },
+    "MedlineJournalInfo": {
+      "Country": "Germany",
+      "MedlineTA": "Pediatr Nephrol",
+      "NlmUniqueID": "8708728",
+      "ISSNLinking": "0931-041X"
+    }
+  },
+  "PubmedData": {
+    "ReferenceList": [
+      {
+        "ReferenceList": [],
+        "Reference": [
+          {
+            "Citation": "Yang WC, Lin MJ, Chen CY, Wu HP (2015) Clinical overview of hypertensive crisis in children. World J Clin Cases 3:510\u2013513. https://doi.org/10.12998/wjcc.v3.i6.510",
+            "ArticleIdList": [
+              "10.12998/wjcc.v3.i6.510",
+              "26090371",
+              "4468897"
+            ]
+          },
+          {
+            "Citation": "Seeman T, Hamdani G, Mitsnefes M (2019) Hypertensive crisis in children and adolescents. Pediatr Nephrol 34:2523\u20132537. https://doi.org/10.1007/s00467-018-4092-2",
+            "ArticleIdList": [
+              "10.1007/s00467-018-4092-2",
+              "30276533"
+            ]
+          },
+          {
+            "Citation": "Wu HP, Yang WC, Wu YK, Zhao LL, Chen CY, Fu YC (2012) Clinical significance of blood pressure ratios in hypertensive crisis in children. Arch Dis Child 97:200\u2013205. https://doi.org/10.1136/archdischild-2011-300373",
+            "ArticleIdList": [
+              "10.1136/archdischild-2011-300373",
+              "22241908"
+            ]
+          },
+          {
+            "Citation": "Lurbe E, Agabiti-Rosei E, Cruickshank JK, Dominiczak A et al (2016) 2016 European Society of Hypertension guidelines for the management of high blood pressure in children and adolescents. J Hypertens 34:1887\u20131920. https://doi.org/10.1097/HJH.0000000000001039",
+            "ArticleIdList": [
+              "10.1097/HJH.0000000000001039",
+              "27467768"
+            ]
+          },
+          {
+            "Citation": "Bertazza Partigiani N, Spagnol R, Di Michele L, Santini M, Grotto B, Sartori A, Zamperetti E, Nosadini M, Meneghesso D (2022) Management of hypertensive crises in children: a review of the recent literature. Front Pediatr 10:880678. https://doi.org/10.3389/fped.2022.880678",
+            "ArticleIdList": [
+              "10.3389/fped.2022.880678",
+              "35498798",
+              "9051430"
+            ]
+          },
+          {
+            "Citation": "Thomas C, Svehla L, Moffett BS (2009) Sodium-nitroprusside-induced cyanide toxicity in pediatric patients. Expert Opin Drug Saf 8:599\u2013602. https://doi.org/10.1517/14740330903081717",
+            "ArticleIdList": [
+              "10.1517/14740330903081717",
+              "19645589"
+            ]
+          },
+          {
+            "Citation": "Hammer GB, Lewandowski A, Drover DR et al (2015) Safety and efficacy of sodium nitroprusside during prolonged infusion in pediatric patients. Pediatr Crit Care Med 16:397\u2013403. https://doi.org/10.1097/PCC.0000000000000383",
+            "ArticleIdList": [
+              "10.1097/PCC.0000000000000383",
+              "25715047"
+            ]
+          },
+          {
+            "Citation": "Fuss D, Gond\u00e9 H, Lamoureux F, Pereira T, Colnot M, Buchbinder N, Coquard A, Varin R, Hervou\u00ebt C (2021) Stability study of a compounded oral solution of nicardipine for the treatment of hypertension in children. Eur J Pharm Sci 160:105738. https://doi.org/10.1016/j.ejps.2021.105738",
+            "ArticleIdList": [
+              "10.1016/j.ejps.2021.105738",
+              "33524504"
+            ]
+          },
+          {
+            "Citation": "Flynn JT, Kaelber DC, Baker-Smith CM, Blowey D, Carroll AE et al (2017) Clinical practice guideline for screening and management of high blood pressure in children and adolescents. Pediatrics 140:e20171904. https://doi.org/10.1542/peds.2017-1904",
+            "ArticleIdList": [
+              "10.1542/peds.2017-1904",
+              "28827377"
+            ]
+          },
+          {
+            "Citation": "Flynn JT, Mitsnefes M, Pierce C, Cole SR, Parekh RS, Furth SL, Warady BA, Chronic Kidney Disease in Children Study Group (2008) Blood pressure in children with chronic kidney disease: a report from the Chronic Kidney Disease in Children study. Hypertension 52:631\u2013637. https://doi.org/10.1161/HYPERTENSIONAHA.108.110635",
+            "ArticleIdList": [
+              "10.1161/HYPERTENSIONAHA.108.110635",
+              "18725579"
+            ]
+          },
+          {
+            "Citation": "Samuels J, Ng D, Flynn JT, Mitsnefes M, Poffenbarger T, Warady BA, Furth S, Chronic Kidney Disease in Children Study Group (2012) Ambulatory blood pressure patterns in children with chronic kidney disease. Hypertension 60:43\u201350. https://doi.org/10.1161/HYPERTENSIONAHA.111.189266",
+            "ArticleIdList": [
+              "10.1161/HYPERTENSIONAHA.111.189266",
+              "22585950"
+            ]
+          },
+          {
+            "Citation": "Shatat IF, Flynn JT (2005) Hypertension in children with chronic kidney disease. Adv Chronic Kidney Dis 12:378\u2013384. https://doi.org/10.1053/j.ackd.2005.07.002",
+            "ArticleIdList": [
+              "10.1053/j.ackd.2005.07.002",
+              "16198277"
+            ]
+          },
+          {
+            "Citation": "Chavers BM, Solid CA, Daniels FX, Chen SC, Collins AJ, Frankenfield DL, Herzog CA (2009) Hypertension in pediatric long-term hemodialysis patients in the United States. Clin J Am Soc Nephrol 4:1363\u20131369. https://doi.org/10.2215/CJN.01440209",
+            "ArticleIdList": [
+              "10.2215/CJN.01440209",
+              "19556378",
+              "2723970"
+            ]
+          },
+          {
+            "Citation": "Seeman T (2009) Hypertension after renal transplantation. Pediatr Nephrol 24:959\u2013972. https://doi.org/10.1007/s00467-007-0627-7",
+            "ArticleIdList": [
+              "10.1007/s00467-007-0627-7",
+              "17955265",
+              "6904383"
+            ]
+          },
+          {
+            "Citation": "Tkaczyk M, Nowicki M, Ba\u0142asz-Chmielewska I, Boguszewska-Ba\u00e7zkowska et al (2006) Hypertension in dialysed children: the prevalence and therapeutic approach in Poland\u2013a nationwide survey. Nephrol Dial Transplant 21:736\u2013742. https://doi.org/10.1093/ndt/gfi280",
+            "ArticleIdList": [
+              "10.1093/ndt/gfi280",
+              "16303782"
+            ]
+          },
+          {
+            "Citation": "Noce A, Marrone G, Rovella V, Busca A, Gola C, Ferrannini M, Di Daniele N (2019) Fenoldopam mesylate: a narrative review of its use in acute kidney injury. Curr Pharm Biotechnol 20:366\u2013375. https://doi.org/10.2174/1389201020666190417124711",
+            "ArticleIdList": [
+              "10.2174/1389201020666190417124711",
+              "31038062",
+              "6751352"
+            ]
+          },
+          {
+            "Citation": "Tobias JD, Naguib A, Simsic J, Krawczeski CD (2020) Pharmacologic Control of Blood Pressure in Infants and Children. Pediatr Cardiol 41:1301\u20131318. https://doi.org/10.1007/s00246-020-02448-2",
+            "ArticleIdList": [
+              "10.1007/s00246-020-02448-2",
+              "32915293"
+            ]
+          },
+          {
+            "Citation": "Brogden RN, Markham A (1997) Fenoldopam: a review of its pharmacodynamic and pharmacokinetic properties and intravenous clinical potential in the management of hypertensive urgencies and emergencies. Drugs 54:634\u2013650. https://doi.org/10.2165/00003495-199754040-00008",
+            "ArticleIdList": [
+              "10.2165/00003495-199754040-00008",
+              "9339965"
+            ]
+          },
+          {
+            "Citation": "Sarafidis PA, Georgianos PI, Malindretos P, Liakopoulos V (2012) |Pharmacological management of hypertensive emergencies and urgencies: focus on newer agents. Expert Opin Investig Drugs 21:1089\u20131106. https://doi.org/10.1517/13543784.2012.693477",
+            "ArticleIdList": [
+              "10.1517/13543784.2012.693477",
+              "22667825"
+            ]
+          },
+          {
+            "Citation": "Strauser LM, Pruitt RD, Tobias JD (1999) Initial experience with fenoldopam in children. Am J Ther 6:283\u2013288. https://doi.org/10.1097/00045391-199909000-00007",
+            "ArticleIdList": [
+              "10.1097/00045391-199909000-00007",
+              "11329109"
+            ]
+          },
+          {
+            "Citation": "Hammer GB, Verghese ST, Drover DR, Yaster M, Tobin JR (2008) Pharmacokinetics and pharmacodynamics of fenoldopam mesylate for blood pressure control in pediatric patients. BMC Anesthesiol 8:6. https://doi.org/10.1186/1471-2253-8-6",
+            "ArticleIdList": [
+              "10.1186/1471-2253-8-6",
+              "18837982",
+              "2576052"
+            ]
+          },
+          {
+            "Citation": "Khwaja A (2012) KDIGO clinical practice guidelines for acute kidney injury. Nephron Clin Pract 120:c179\u2013c184. https://doi.org/10.1159/000339789",
+            "ArticleIdList": [
+              "10.1159/000339789",
+              "22890468"
+            ]
+          },
+          {
+            "Citation": "National High Blood Pressure Education Program Working Group on High Blood Pressure in Children and Adolescents (2004) The fourth report on the diagnosis, evaluation, and treatment of high blood pressure in children and adolescents. Pediatrics 114(2 Suppl 4th Report):555\u2013576",
+            "ArticleIdList": [
+              "10.1542/peds.114.S2.555"
+            ]
+          },
+          {
+            "Citation": "Villarreal EG, Rausa J, Chapel AC, Loomba RS, Flores S (2021) Effects of fenoldopam in the pediatric population: fluid status, serum biomarkers, and hemodynamics: a systematic review and meta-analysis. J Pediatr Intensive Care 10:118\u2013125. https://doi.org/10.1055/s-0040-1714704",
+            "ArticleIdList": [
+              "10.1055/s-0040-1714704",
+              "33884212"
+            ]
+          },
+          {
+            "Citation": "Flynn JT, Tullus K (2009) Severe hypertension in children and adolescents: pathophysiology and treatment. Pediatr Nephrol 24:1101\u20131112. https://doi.org/10.1007/s00467-008-1000-1",
+            "ArticleIdList": [
+              "10.1007/s00467-008-1000-1",
+              "18839219"
+            ]
+          },
+          {
+            "Citation": "Lechner BL, Pascual JF, Roscelli JD (2005) Failure of fenoldopam to control severe hypertension secondary to renal graft rejection in a pediatric patient. Mil Med 170:130\u2013132",
+            "ArticleIdList": [
+              "15782833"
+            ]
+          },
+          {
+            "Citation": "Szymanski MW, Richards JR (2023) Fenoldopam. In: StatPearls [Internet]. StatPearls Publishing, Treasure Island. Bookshelf ID: NBK526058"
+          },
+          {
+            "Citation": "Taylor AA, Shepherd AM, Polvino W, Mangoo-Karim R, Ballard K, Sunthornyothin S, Luther RR, Pool JL (1999) Prolonged fenoldopam infusions in patients with mild to moderate hypertension: pharmacodynamic and pharmacokinetic effects. Am J Hypertens 12:906\u2013914. https://doi.org/10.1016/s0895-7061(99)00068-0",
+            "ArticleIdList": [
+              "10.1016/s0895-7061(99)00068-0",
+              "10509549"
+            ]
+          },
+          {
+            "Citation": "Abbott Laboratories, N. C. I. U. 60064. Corlopam Package Insert. Preprint at (2000)"
+          }
+        ]
+      }
+    ],
+    "History": [
+      {
+        "Year": "2024",
+        "Month": "2",
+        "Day": "6"
+      },
+      {
+        "Year": "2024",
+        "Month": "8",
+        "Day": "6"
+      },
+      {
+        "Year": "2024",
+        "Month": "7",
+        "Day": "13"
+      },
+      {
+        "Year": "2024",
+        "Month": "9",
+        "Day": "9",
+        "Hour": "12",
+        "Minute": "43"
+      },
+      {
+        "Year": "2024",
+        "Month": "9",
+        "Day": "9",
+        "Hour": "12",
+        "Minute": "43"
+      },
+      {
+        "Year": "2024",
+        "Month": "9",
+        "Day": "9",
+        "Hour": "11",
+        "Minute": "5"
+      }
+    ],
+    "PublicationStatus": "aheadofprint",
+    "ArticleIdList": [
+      "39249125",
+      "10.1007/s00467-024-06490-7",
+      "10.1007/s00467-024-06490-7"
+    ]
+  }
+}

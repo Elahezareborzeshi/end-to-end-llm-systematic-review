@@ -1,0 +1,3990 @@
+{
+  "generation_date": "2025-11-07T13:58:41.413004",
+  "summary": {
+    "date_range": [
+      2014,
+      2023
+    ],
+    "manual_total": 1507,
+    "manual_included": 1151,
+    "llm_total_downloaded": 4968,
+    "llm_total_processed": 4059,
+    "llm_filtered_out": 909,
+    "llm_total_matched": 1091,
+    "overlaps_all": 1083,
+    "manual_only_all": 424,
+    "llm_only_all": 2976,
+    "precision_all": 0.2668144863266814,
+    "recall_all": 0.7186463171864632,
+    "jaccard_all": 0.24157929957617666,
+    "intersection_included": 775,
+    "manual_only_included": 376,
+    "llm_only_included": 316,
+    "precision_included": 0.7103574702108157,
+    "recall_included": 0.6733275412684622,
+    "f1_score_included": 0.6913470115967886,
+    "jaccard_included": 0.5282890252215405,
+    "match_stats": {
+      "pmid": 1083,
+      "doi": 0,
+      "title": 2848,
+      "unmatched": 128
+    },
+    "title_abstract_screening_summary_file": "data/title_abstract_screening_summary.json",
+    "title_abstract_screening_decisions_file": "data/title_abstract_backend_screening.json",
+    "title_abstract_rag_embeddings_file": "data/title_abstract_rag_embeddings.pkl",
+    "title_abstract_screening_summary": {
+      "date_range": [
+        2012,
+        2023
+      ],
+      "manual_total": 23,
+      "manual_captured": 6,
+      "manual_missed": 17,
+      "llm_total": 4059,
+      "semantic_new_articles": 0,
+      "precision": 1.0,
+      "recall": 0.2608695652173913,
+      "f1_score": 0.41379310344827586,
+      "jaccard": 0.0014720314033366045,
+      "captured_articles": [
+        {
+          "pmid": "37039792",
+          "title": "Heterogeneity in Blood Pressure Response to 4 Antihypertensive Drugs: A Randomized Clinical Trial.",
+          "first_author": "sundström johan",
+          "match_type": "pmid"
+        },
+        {
+          "pmid": "32586526",
+          "title": "Variants in ADRB1 and CYP2C9: Association with Response to Atenolol and Losartan in Marfan Syndrome.",
+          "first_author": "van driest sara l",
+          "match_type": "pmid"
+        },
+        {
+          "pmid": "29288159",
+          "title": "Sphingolipid Metabolic Pathway Impacts Thiazide Diuretics Blood Pressure Response: Insights From Genomics, Metabolomics, and Lipidomics.",
+          "first_author": "shahin mohamed h",
+          "match_type": "pmid"
+        },
+        {
+          "pmid": "29121091",
+          "title": "Effects of four different antihypertensive drugs on plasma metabolomic profiles in patients with essential hypertension.",
+          "first_author": "hiltunen timo p",
+          "match_type": "pmid"
+        },
+        {
+          "pmid": "27381900",
+          "title": "A Genetic Response Score for Hydrochlorothiazide Use: Insights From Genomics and Metabolomics Integration.",
+          "first_author": "shahin mohamed h",
+          "match_type": "pmid"
+        },
+        {
+          "pmid": "27120469",
+          "title": "The Pharmacogenetic Footprint of ACE Inhibition: A Population-Based Metabolomics Study.",
+          "first_author": "altmaier elisabeth",
+          "match_type": "pmid"
+        }
+      ],
+      "missed_articles": [
+        {
+          "pmid": "36888697",
+          "title": "Sensitive detection of single-nucleotide polymorphisms by conjugated polymers for personalized treatment of hypertension",
+          "first_author": "shen"
+        },
+        {
+          "pmid": "37372980",
+          "title": "Metabolomic Profile and Its Correlation with the Plasmatic Levels of Losartan, EXP3174 and Blood Pressure Control in Hypertensive and Chronic Kidney Disease Patients",
+          "first_author": "santos"
+        },
+        {
+          "pmid": "36467587",
+          "title": "Pharmacometabolomic study of drug response to antihypertensive medications for hypertension marker identification in Han Chinese individuals in Taiwan",
+          "first_author": "liang"
+        },
+        {
+          "pmid": "34952949",
+          "title": "Plasma metabolomic profiles associated with hypertension and blood pressure in response to thiazide diuretics",
+          "first_author": "huang"
+        },
+        {
+          "pmid": "35399511",
+          "title": "Antihypertensive Therapy by ACEI/ARB Is Associated With Intestinal Flora Alterations and Metabolomic Profiles in Hypertensive Patients",
+          "first_author": "dong"
+        },
+        {
+          "pmid": "31583478",
+          "title": "Predicting response to lisinopril in treating hypertension: a pilot study",
+          "first_author": "sonn"
+        },
+        {
+          "pmid": "30041085",
+          "title": "(1)H NMR based pharmacometabolomics analysis of metabolic phenotype on predicting metabolism characteristics of losartan in healthy volunteers",
+          "first_author": "he"
+        },
+        {
+          "pmid": "29888336",
+          "title": "Pharmacogenomic studies of hypertension: paving the way for personalized antihypertensive treatment",
+          "first_author": "eadon"
+        },
+        {
+          "pmid": "28741243",
+          "title": "The Pharmacogenomic and Metabolomic Predictors of ACE Inhibitor and Angiotensin II Receptor Blocker Effectiveness and Safety",
+          "first_author": "flaten"
+        },
+        {
+          "pmid": "28587581",
+          "title": "ACE Phenotyping as a Guide Toward Personalized Therapy With ACE Inhibitors",
+          "first_author": "danilov"
+        },
+        {
+          "pmid": "28526818",
+          "title": "Essential hypertension: A filtered serum based metabolomics study",
+          "first_author": "ameta"
+        },
+        {
+          "pmid": "27181907",
+          "title": "A Targeted Metabolomics MRM-MS Study on Identifying Potential Hypertension Biomarkers in Human Plasma and Evaluating Acupuncture Effects",
+          "first_author": "yang"
+        },
+        {
+          "pmid": "28217401",
+          "title": "Presence of arachidonoyl-carnitine is associated with adverse cardiometabolic responses in hypertensive patients treated with atenolol",
+          "first_author": "weng"
+        },
+        {
+          "pmid": "27021566",
+          "title": "Individualized Angiotensin-Converting Enzyme (ACE)-Inhibitor Therapy in Stable Coronary Artery Disease Based on Clinical and Pharmacogenetic Determinants: The PERindopril GENEtic (PERGENE) Risk Model",
+          "first_author": "oemrawsingh"
+        },
+        {
+          "pmid": "27121444",
+          "title": "Impact of ACE2 gene polymorphism on antihypertensive efficacy of ACE inhibitors",
+          "first_author": "chen"
+        },
+        {
+          "pmid": "25872610",
+          "title": "The renal protective effect of angiotensin receptor blockers depends on intra-individual response variation in multiple risk markers",
+          "first_author": "schievink"
+        },
+        {
+          "pmid": "26783503",
+          "title": "Pharmacometabolomic Assessments of Atenolol and Hydrochlorothiazide Treatment Reveal Novel Drug Response Phenotypes",
+          "first_author": "rotroff"
+        }
+      ],
+      "semantic_matches": [],
+      "notes": [
+        "Manual-to-LLM matching prioritised PMID, then title, then first author.",
+        "Semantic inclusion used token-based Jaccard similarity (threshold 0.35).",
+        "Metadata differences (e.g., abbreviations, missing PMIDs) may still cause misses."
+      ]
+    }
+  },
+  "overlaps_sample": [
+    {
+      "llm_info": {
+        "pmid": "27701482",
+        "doi": "",
+        "title": "Presentation and mortality of patients hospitalised with acute heart failure in Botswana.",
+        "authors": "Mwita Julius Chacha, Dewhurst Matthew J, Magafu Mgaywa G",
+        "journal": "Cardiovascular journal of Africa",
+        "publication_date": ""
+      },
+      "manual_info": {
+        "pmid": "27701482",
+        "doi": "10.5830/cvja-2016-067",
+        "title": "Presentation and mortality of patients hospitalised with acute heart failure in Botswana",
+        "authors": "Mwita, J. C.",
+        "journal": "Cardiovasc J Afr",
+        "publication_date": "2017"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "30725543",
+        "doi": "",
+        "title": "Ten-Year Statin Adherence in Survivors of ST-Segment Elevation Myocardial Infarction.",
+        "authors": "Huynh Thao, Lecca Patricia, Montigny Martine",
+        "journal": "Journal of population therapeutics and clinical pharmacology = Journal de la therapeutique des populations et de la pharmacologie clinique",
+        "publication_date": "2018-Nov"
+      },
+      "manual_info": {
+        "pmid": "30725543",
+        "doi": "10.22374/1710-6222.25.2.5",
+        "title": "Ten-Year Statin Adherence in Survivors of ST-Segment Elevation Myocardial Infarction",
+        "authors": "Huynh, T.",
+        "journal": "J Popul Ther Clin Pharmacol",
+        "publication_date": "2018"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "28079604",
+        "doi": "",
+        "title": "Prior Use of Calcium Channel Blockers Is Associated With Decreased Mortality in Critically Ill Patients With Sepsis: A Prospective Observational Study.",
+        "authors": "Wiewel Maryse A, van Vught Lonneke A, Scicluna Brendon P",
+        "journal": "Critical care medicine",
+        "publication_date": "2017-Mar"
+      },
+      "manual_info": {
+        "pmid": "28079604",
+        "doi": "10.1097/ccm.0000000000002236",
+        "title": "Prior Use of Calcium Channel Blockers Is Associated With Decreased Mortality in Critically Ill Patients With Sepsis: A Prospective Observational Study",
+        "authors": "Wiewel, M. A.",
+        "journal": "Crit Care Med",
+        "publication_date": "2017"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "28617537",
+        "doi": "",
+        "title": "Spirulina maxima improves insulin sensitivity, lipid profile, and total antioxidant status in obese patients with well-treated hypertension: a randomized double-blind placebo-controlled study.",
+        "authors": "Szulinska M, Gibas-Dorna M, Miller-Kasprzak E",
+        "journal": "European review for medical and pharmacological sciences",
+        "publication_date": "2017-May"
+      },
+      "manual_info": {
+        "pmid": "28617537",
+        "doi": "",
+        "title": "Spirulina maxima improves insulin sensitivity, lipid profile, and total antioxidant status in obese patients with well-treated hypertension: a randomized double-blind placebo-controlled study",
+        "authors": "Szulinska, M.",
+        "journal": "Eur Rev Med Pharmacol Sci",
+        "publication_date": "2017"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "26683986",
+        "doi": "",
+        "title": "Effect of Lactotripeptides (Isoleucine-Proline-Proline/Valine-Proline-Proline) on Blood Pressure and Arterial Stiffness Changes in Subjects with Suboptimal Blood Pressure Control and Metabolic Syndrome: A Double-Blind, Randomized, Crossover Clinical Trial.",
+        "authors": "Cicero Arrigo F G, Colletti Alessandro, Rosticci Martina",
+        "journal": "Metabolic syndrome and related disorders",
+        "publication_date": "2016-Apr"
+      },
+      "manual_info": {
+        "pmid": "26683986",
+        "doi": "10.1089/met.2015.0093",
+        "title": "Effect of Lactotripeptides (Isoleucine-Proline-Proline/Valine-Proline-Proline) on Blood Pressure and Arterial Stiffness Changes in Subjects with Suboptimal Blood Pressure Control and Metabolic Syndrome: A Double-Blind, Randomized, Crossover Clinical Trial",
+        "authors": "Cicero, A. F.",
+        "journal": "Metab Syndr Relat Disord",
+        "publication_date": "2016"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "28106665",
+        "doi": "",
+        "title": "Effects of multielectrode renal denervation on elevated sympathetic nerve activity and insulin resistance in metabolic syndrome.",
+        "authors": "Tsioufis Costas, Dimitriadis Kyriakos, Kasiakogias Alexandros",
+        "journal": "Journal of hypertension",
+        "publication_date": "2017-May"
+      },
+      "manual_info": {
+        "pmid": "28106665",
+        "doi": "10.1097/hjh.0000000000001262",
+        "title": "Effects of multielectrode renal denervation on elevated sympathetic nerve activity and insulin resistance in metabolic syndrome",
+        "authors": "Tsioufis, C.",
+        "journal": "J Hypertens",
+        "publication_date": "2017"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "27316489",
+        "doi": "",
+        "title": "The effect of magnesium sulfate on post off-pump coronary artery bypass grafting bleeding.",
+        "authors": "Sabzi Feridoun, Faraji Reza",
+        "journal": "Indian heart journal",
+        "publication_date": "2016"
+      },
+      "manual_info": {
+        "pmid": "27316489",
+        "doi": "10.1016/j.ihj.2015.08.023",
+        "title": "The effect of magnesium sulfate on post off-pump coronary artery bypass grafting bleeding",
+        "authors": "Sabzi, F.",
+        "journal": "Indian Heart J",
+        "publication_date": "2016"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "28041700",
+        "doi": "",
+        "title": "A comparison study of the echocardiographic changes in hypertensive patients treated with telmisartan vs. enalapril.",
+        "authors": "Hadi Najah R, Abdulzahra Mohammad S, Al-Huseini Laith M",
+        "journal": "International journal of cardiology",
+        "publication_date": "2017-Mar"
+      },
+      "manual_info": {
+        "pmid": "28041700",
+        "doi": "10.1016/j.ijcard.2016.12.127",
+        "title": "A comparison study of the echocardiographic changes in hypertensive patients treated with telmisartan vs. enalapril",
+        "authors": "Hadi, N. R.",
+        "journal": "Int J Cardiol",
+        "publication_date": "2017"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "32174239",
+        "doi": "",
+        "title": "Factors associated with renal impairment in Chinese patients with non-valvular AF and without an established renal disease: a cross-sectional study.",
+        "authors": "Shen Youmei, Wang Jing, Chen Hongwu",
+        "journal": "Postgraduate medicine",
+        "publication_date": "2020-Jun"
+      },
+      "manual_info": {
+        "pmid": "32174239",
+        "doi": "10.1080/00325481.2020.1739914",
+        "title": "Factors associated with renal impairment in Chinese patients with non-valvular AF and without an established renal disease: a cross-sectional study",
+        "authors": "Shen, Y.",
+        "journal": "Postgrad Med",
+        "publication_date": "2020"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "31004346",
+        "doi": "",
+        "title": "First-in-man study of ACT-709478, a novel selective triple T-type calcium channel blocker.",
+        "authors": "Richard Muriel, Kaufmann Priska, Kornberger Rüdiger",
+        "journal": "Epilepsia",
+        "publication_date": "2019-May"
+      },
+      "manual_info": {
+        "pmid": "31004346",
+        "doi": "10.1111/epi.14732",
+        "title": "First-in-man study of ACT-709478, a novel selective triple T-type calcium channel blocker",
+        "authors": "Richard, M.",
+        "journal": "Epilepsia",
+        "publication_date": "2019"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "30738978",
+        "doi": "",
+        "title": "Target Doses of Heart Failure Medical Therapy and Blood Pressure: Insights From the CHAMP-HF Registry.",
+        "authors": "Peri-Okonny Poghni A, Mi Xiaojuan, Khariton Yevgeniy",
+        "journal": "JACC. Heart failure",
+        "publication_date": "2019-Apr"
+      },
+      "manual_info": {
+        "pmid": "30738978",
+        "doi": "10.1016/j.jchf.2018.11.011",
+        "title": "Target Doses of Heart Failure Medical Therapy and Blood Pressure: Insights From the CHAMP-HF Registry",
+        "authors": "Peri-Okonny, P. A.",
+        "journal": "JACC Heart Fail",
+        "publication_date": "2019"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "30338883",
+        "doi": "",
+        "title": "Heart failure in the outpatient versus inpatient setting: findings from the BIOSTAT-CHF study.",
+        "authors": "Ferreira João Pedro, Metra Marco, Mordi Ify",
+        "journal": "European journal of heart failure",
+        "publication_date": "2019-Jan"
+      },
+      "manual_info": {
+        "pmid": "30338883",
+        "doi": "10.1002/ejhf.1323",
+        "title": "Heart failure in the outpatient versus inpatient setting: findings from the BIOSTAT-CHF study",
+        "authors": "Ferreira, J. P.",
+        "journal": "Eur J Heart Fail",
+        "publication_date": "2019"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "28298230",
+        "doi": "",
+        "title": "Left Ventricular global longitudinal strain predicts heart failure readmission in acute decompensated heart failure.",
+        "authors": "Romano Simone, Mansour Ibrahim N, Kansal Mayank",
+        "journal": "Cardiovascular ultrasound",
+        "publication_date": "2017-Mar"
+      },
+      "manual_info": {
+        "pmid": "28298230",
+        "doi": "10.1186/s12947-017-0098-3",
+        "title": "Left Ventricular global longitudinal strain predicts heart failure readmission in acute decompensated heart failure",
+        "authors": "Romano, S.",
+        "journal": "Cardiovasc Ultrasound",
+        "publication_date": "2017"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "29185253",
+        "doi": "",
+        "title": "Cost-effectiveness of sacubitril/valsartan in chronic heart-failure patients with reduced ejection fraction.",
+        "authors": "Ademi Zanfina, Pfeil Alena M, Hancock Elizabeth",
+        "journal": "Swiss medical weekly",
+        "publication_date": "2017"
+      },
+      "manual_info": {
+        "pmid": "29185253",
+        "doi": "10.4414/smw.2017.14533",
+        "title": "Cost-effectiveness of sacubitril/valsartan in chronic heart-failure patients with reduced ejection fraction",
+        "authors": "Ademi, Z.",
+        "journal": "Swiss Med Wkly",
+        "publication_date": "2017"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "29069937",
+        "doi": "",
+        "title": "The safety of high-dose insulin euglycaemia therapy in toxin-induced cardiac toxicity.",
+        "authors": "Page Colin B, Ryan Nicole M, Isbister Geoffrey K",
+        "journal": "Clinical toxicology (Philadelphia, Pa.)",
+        "publication_date": "2018-Jun"
+      },
+      "manual_info": {
+        "pmid": "29069937",
+        "doi": "10.1080/15563650.2017.1391391",
+        "title": "The safety of high-dose insulin euglycaemia therapy in toxin-induced cardiac toxicity",
+        "authors": "Page, C. B.",
+        "journal": "Clin Toxicol (Phila)",
+        "publication_date": "2018"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "28830083",
+        "doi": "",
+        "title": "Metoprolol Increases Uric Acid and Risk of Gout in African Americans With Chronic Kidney Disease Attributed to Hypertension.",
+        "authors": "Juraschek Stephen P, Appel Lawrence J, Miller Edgar R",
+        "journal": "American journal of hypertension",
+        "publication_date": "2017-Sep"
+      },
+      "manual_info": {
+        "pmid": "28830083",
+        "doi": "10.1093/ajh/hpx113",
+        "title": "Metoprolol Increases Uric Acid and Risk of Gout in African Americans With Chronic Kidney Disease Attributed to Hypertension",
+        "authors": "Juraschek, S. P.",
+        "journal": "Am J Hypertens",
+        "publication_date": "2017"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "29431251",
+        "doi": "",
+        "title": "Effect of sacubitril/valsartan on recurrent events in the Prospective comparison of ARNI with ACEI to Determine Impact on Global Mortality and morbidity in Heart Failure trial (PARADIGM-HF).",
+        "authors": "Mogensen Ulrik M, Gong Jianjian, Jhund Pardeep S",
+        "journal": "European journal of heart failure",
+        "publication_date": "2018-Apr"
+      },
+      "manual_info": {
+        "pmid": "29431251",
+        "doi": "10.1002/ejhf.1139",
+        "title": "Effect of sacubitril/valsartan on recurrent events in the Prospective comparison of ARNI with ACEI to Determine Impact on Global Mortality and morbidity in Heart Failure trial (PARADIGM-HF)",
+        "authors": "Mogensen, U. M.",
+        "journal": "Eur J Heart Fail",
+        "publication_date": "2018"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "34632983",
+        "doi": "",
+        "title": "Association between ethnicity and degree of improvement in cardiac function following initiation of sacubitril/valsartan.",
+        "authors": "Holm Niels, Bromage Daniel I, Cannata Antonio",
+        "journal": "Journal of cardiovascular medicine (Hagerstown, Md.)",
+        "publication_date": "2022-Jan"
+      },
+      "manual_info": {
+        "pmid": "34632983",
+        "doi": "10.2459/jcm.0000000000001268",
+        "title": "Association between ethnicity and degree of improvement in cardiac function following initiation of sacubitril/valsartan",
+        "authors": "Holm, N.",
+        "journal": "J Cardiovasc Med (Hagerstown)",
+        "publication_date": "2022"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "31797221",
+        "doi": "",
+        "title": "Antihypertensive Prescribing Pattern in Older Adults: Implications of Age and the Use of Dual Single-Pill Combinations.",
+        "authors": "Al Khaja Khalid A J, James Henry, Veeramuthu Sindhan",
+        "journal": "High blood pressure & cardiovascular prevention : the official journal of the Italian Society of Hypertension",
+        "publication_date": "2019-Dec"
+      },
+      "manual_info": {
+        "pmid": "31797221",
+        "doi": "10.1007/s40292-019-00353-1",
+        "title": "Antihypertensive Prescribing Pattern in Older Adults: Implications of Age and the Use of Dual Single-Pill Combinations",
+        "authors": "Al Khaja, K. A. J.",
+        "journal": "High Blood Press Cardiovasc Prev",
+        "publication_date": "2019"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "27169837",
+        "doi": "",
+        "title": "Acute effects of quercetin-3-O-glucoside on endothelial function and blood pressure: a randomized dose-response study.",
+        "authors": "Bondonno Nicola P, Bondonno Catherine P, Rich Lisa",
+        "journal": "The American journal of clinical nutrition",
+        "publication_date": "2016-Jul"
+      },
+      "manual_info": {
+        "pmid": "27169837",
+        "doi": "10.3945/ajcn.116.131268",
+        "title": "Acute effects of quercetin-3-O-glucoside on endothelial function and blood pressure: a randomized dose-response study",
+        "authors": "Bondonno, N. P.",
+        "journal": "Am J Clin Nutr",
+        "publication_date": "2016"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "26663387",
+        "doi": "",
+        "title": "The effect of LCZ696 (sacubitril/valsartan) on amyloid-β concentrations in cerebrospinal fluid in healthy subjects.",
+        "authors": "Langenickel Thomas H, Tsubouchi Chiaki, Ayalasomayajula Surya",
+        "journal": "British journal of clinical pharmacology",
+        "publication_date": "2016-May"
+      },
+      "manual_info": {
+        "pmid": "26663387",
+        "doi": "10.1111/bcp.12861",
+        "title": "The effect of LCZ696 (sacubitril/valsartan) on amyloid-β concentrations in cerebrospinal fluid in healthy subjects",
+        "authors": "Langenickel, T. H.",
+        "journal": "Br J Clin Pharmacol",
+        "publication_date": "2016"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "34472787",
+        "doi": "",
+        "title": "Retrospective, Observational Study to Determine the Choice of Antihypertensive agent According to Stage of Hypertension, Risk factors and Co-morbidities in Real World Setting in India: A Report of Baseline Data.",
+        "authors": "Khan Mohammed Yunus, Pandit Sucheta, Dalal Jamshed",
+        "journal": "The Journal of the Association of Physicians of India",
+        "publication_date": "2021-Jun"
+      },
+      "manual_info": {
+        "pmid": "34472787",
+        "doi": "",
+        "title": "Retrospective, Observational Study to Determine the Choice of Antihypertensive agent According to Stage of Hypertension, Risk factors and Co-morbidities in Real World Setting in India: A Report of Baseline Data",
+        "authors": "Khan, M. Y.",
+        "journal": "J Assoc Physicians India",
+        "publication_date": "2021"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "34610282",
+        "doi": "",
+        "title": "Stopping renin-angiotensin system inhibitors after hyperkalemia and risk of adverse outcomes.",
+        "authors": "Xu Yang, Fu Edouard L, Trevisan Marco",
+        "journal": "American heart journal",
+        "publication_date": "2022-Jan"
+      },
+      "manual_info": {
+        "pmid": "34610282",
+        "doi": "10.1016/j.ahj.2021.09.014",
+        "title": "Stopping renin-angiotensin system inhibitors after hyperkalemia and risk of adverse outcomes",
+        "authors": "Xu, Y.",
+        "journal": "Am Heart J",
+        "publication_date": "2022"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "28093841",
+        "doi": "",
+        "title": "Effect of valsartan on kidney outcomes in people with impaired glucose tolerance.",
+        "authors": "Currie Gemma, Bethel M Angelyn, Holzhauer Björn",
+        "journal": "Diabetes, obesity & metabolism",
+        "publication_date": "2017-Jun"
+      },
+      "manual_info": {
+        "pmid": "28093841",
+        "doi": "10.1111/dom.12877",
+        "title": "Effect of valsartan on kidney outcomes in people with impaired glucose tolerance",
+        "authors": "Currie, G.",
+        "journal": "Diabetes Obes Metab",
+        "publication_date": "2017"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "29850782",
+        "doi": "",
+        "title": "Association Between Change in Central Nocturnal Blood Pressure and Urine Albumin-Creatinine Ratio by a Valsartan/Amlodipine Combination: A CPET Study.",
+        "authors": "Fujiwara Takeshi, Yano Yuichiro, Hoshide Satoshi",
+        "journal": "American journal of hypertension",
+        "publication_date": "2018-Aug"
+      },
+      "manual_info": {
+        "pmid": "29850782",
+        "doi": "10.1093/ajh/hpy078",
+        "title": "Association Between Change in Central Nocturnal Blood Pressure and Urine Albumin-Creatinine Ratio by a Valsartan/Amlodipine Combination: A CPET Study",
+        "authors": "Fujiwara, T.",
+        "journal": "Am J Hypertens",
+        "publication_date": "2018"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "26093482",
+        "doi": "",
+        "title": "Current Antiarrhythmic Therapy for Nonvalvular Atrial Fibrillation in Spain. Data From the FANTASIIA Registry.",
+        "authors": "Roldán Rabadán Inmaculada, Anguita Sánchez Manuel, Marín Francisco",
+        "journal": "Revista espanola de cardiologia (English ed.)",
+        "publication_date": "2016-Jan"
+      },
+      "manual_info": {
+        "pmid": "26093482",
+        "doi": "10.1016/j.rec.2015.03.004",
+        "title": "Current Antiarrhythmic Therapy for Nonvalvular Atrial Fibrillation in Spain. Data From the FANTASIIA Registry",
+        "authors": "Roldán Rabadán, I.",
+        "journal": "Rev Esp Cardiol (Engl Ed)",
+        "publication_date": "2016"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "26620389",
+        "doi": "",
+        "title": "Diabetes self-management education improves medication utilization and retinopathy screening in the elderly.",
+        "authors": "Murray Cathy M, Shah Baiju R",
+        "journal": "Primary care diabetes",
+        "publication_date": "2016-Jun"
+      },
+      "manual_info": {
+        "pmid": "26620389",
+        "doi": "10.1016/j.pcd.2015.10.007",
+        "title": "Diabetes self-management education improves medication utilization and retinopathy screening in the elderly",
+        "authors": "Murray, C. M.",
+        "journal": "Prim Care Diabetes",
+        "publication_date": "2016"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "29305071",
+        "doi": "",
+        "title": "Effectiveness of guideline-consistent heart failure drug prescriptions at hospital discharge on 1-year mortality: Results from the EPICAL2 cohort study.",
+        "authors": "Busson Amandine, Thilly Nathalie, Laborde-Castérot Hervé",
+        "journal": "European journal of internal medicine",
+        "publication_date": "2018-May"
+      },
+      "manual_info": {
+        "pmid": "29305071",
+        "doi": "10.1016/j.ejim.2017.12.005",
+        "title": "Effectiveness of guideline-consistent heart failure drug prescriptions at hospital discharge on 1-year mortality: Results from the EPICAL2 cohort study",
+        "authors": "Busson, A.",
+        "journal": "Eur J Intern Med",
+        "publication_date": "2018"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "30014184",
+        "doi": "",
+        "title": "Clinical Trial Protocol: Phase 3, Multicenter, Randomized, Double-Blind, Placebo-Controlled, Parallel-Group, Efficacy, and Safety Study Comparing EG-1962 to Standard of Care Oral Nimodipine in Adults with Aneurysmal Subarachnoid Hemorrhage [NEWTON-2 (Nimodipine Microparticles to Enhance Recovery While Reducing TOxicity After SubarachNoid Hemorrhage)].",
+        "authors": "Hänggi Daniel, Etminan Nima, Mayer Stephan A",
+        "journal": "Neurocritical care",
+        "publication_date": "2019-Feb"
+      },
+      "manual_info": {
+        "pmid": "30014184",
+        "doi": "10.1007/s12028-018-0575-z",
+        "title": "Clinical Trial Protocol: Phase 3, Multicenter, Randomized, Double-Blind, Placebo-Controlled, Parallel-Group, Efficacy, and Safety Study Comparing EG-1962 to Standard of Care Oral Nimodipine in Adults with Aneurysmal Subarachnoid Hemorrhage [NEWTON-2 (Nimodipine Microparticles to Enhance Recovery While Reducing TOxicity After SubarachNoid Hemorrhage)]",
+        "authors": "Hänggi, D.",
+        "journal": "Neurocrit Care",
+        "publication_date": "2019"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "28711446",
+        "doi": "",
+        "title": "Clinical Effectiveness of Hydralazine-Isosorbide Dinitrate in African-American Patients With Heart Failure.",
+        "authors": "Ziaeian Boback, Fonarow Gregg C, Heidenreich Paul A",
+        "journal": "JACC. Heart failure",
+        "publication_date": "2017-Sep"
+      },
+      "manual_info": {
+        "pmid": "28711446",
+        "doi": "10.1016/j.jchf.2017.04.008",
+        "title": "Clinical Effectiveness of Hydralazine-Isosorbide Dinitrate in African-American Patients With Heart Failure",
+        "authors": "Ziaeian, B.",
+        "journal": "JACC Heart Fail",
+        "publication_date": "2017"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "32731928",
+        "doi": "",
+        "title": "Effect of Sacubitril/Valsartan on Biomarkers of Extracellular Matrix Regulation in Patients With HFpEF.",
+        "authors": "Cunningham Jonathan W, Claggett Brian L, O'Meara Eileen",
+        "journal": "Journal of the American College of Cardiology",
+        "publication_date": "2020-Aug"
+      },
+      "manual_info": {
+        "pmid": "32731928",
+        "doi": "10.1016/j.jacc.2020.05.072",
+        "title": "Effect of Sacubitril/Valsartan on Biomarkers of Extracellular Matrix Regulation in Patients With HFpEF",
+        "authors": "Cunningham, J. W.",
+        "journal": "J Am Coll Cardiol",
+        "publication_date": "2020"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "33246024",
+        "doi": "",
+        "title": "Comparative Effectiveness of Renin-Angiotensin System Inhibitors and Calcium Channel Blockers in Individuals With Advanced CKD: A Nationwide Observational Cohort Study.",
+        "authors": "Fu Edouard L, Clase Catherine M, Evans Marie",
+        "journal": "American journal of kidney diseases : the official journal of the National Kidney Foundation",
+        "publication_date": "2021-May"
+      },
+      "manual_info": {
+        "pmid": "33246024",
+        "doi": "10.1053/j.ajkd.2020.10.006",
+        "title": "Comparative Effectiveness of Renin-Angiotensin System Inhibitors and Calcium Channel Blockers in Individuals With Advanced CKD: A Nationwide Observational Cohort Study",
+        "authors": "Fu, E. L.",
+        "journal": "Am J Kidney Dis",
+        "publication_date": "2021"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "27936999",
+        "doi": "",
+        "title": "Effect of single-pill irbesartan/amlodipine combination-based therapy on clinic and home blood pressure profiles in hypertension with chronic kidney diseases.",
+        "authors": "Kobayashi Ryu, Tamura Kouichi, Wakui Hiromichi",
+        "journal": "Clinical and experimental hypertension (New York, N.Y. : 1993)",
+        "publication_date": "2016"
+      },
+      "manual_info": {
+        "pmid": "27936999",
+        "doi": "10.1080/10641963.2016.1200063",
+        "title": "Effect of single-pill irbesartan/amlodipine combination-based therapy on clinic and home blood pressure profiles in hypertension with chronic kidney diseases",
+        "authors": "Kobayashi, R.",
+        "journal": "Clin Exp Hypertens",
+        "publication_date": "2016"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "29677050",
+        "doi": "",
+        "title": "Changes in albuminuria and renal outcome in patients with type 2 diabetes and hypertension: a real-life observational study.",
+        "authors": "Viazzi Francesca, Ceriello Antonio, Fioretto Paola",
+        "journal": "Journal of hypertension",
+        "publication_date": "2018-Aug"
+      },
+      "manual_info": {
+        "pmid": "29677050",
+        "doi": "10.1097/hjh.0000000000001749",
+        "title": "Changes in albuminuria and renal outcome in patients with type 2 diabetes and hypertension: a real-life observational study",
+        "authors": "Viazzi, F.",
+        "journal": "J Hypertens",
+        "publication_date": "2018"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "28131423",
+        "doi": "",
+        "title": "Angiotensin Receptor Blockade Improves Cardiac Surgical Outcomes in Patients With Metabolic Syndrome.",
+        "authors": "Manning Michael W, Cooter Mary, Mathew Joseph",
+        "journal": "The Annals of thoracic surgery",
+        "publication_date": "2017-Jul"
+      },
+      "manual_info": {
+        "pmid": "28131423",
+        "doi": "10.1016/j.athoracsur.2016.10.021",
+        "title": "Angiotensin Receptor Blockade Improves Cardiac Surgical Outcomes in Patients With Metabolic Syndrome",
+        "authors": "Manning, M. W.",
+        "journal": "Ann Thorac Surg",
+        "publication_date": "2017"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "26630142",
+        "doi": "",
+        "title": "Intensive Supportive Care plus Immunosuppression in IgA Nephropathy.",
+        "authors": "Rauen Thomas, Eitner Frank, Fitzner Christina",
+        "journal": "The New England journal of medicine",
+        "publication_date": "2015-Dec"
+      },
+      "manual_info": {
+        "pmid": "26630142",
+        "doi": "10.1056/NEJMoa1415463",
+        "title": "Intensive Supportive Care plus Immunosuppression in IgA Nephropathy",
+        "authors": "Rauen, T.",
+        "journal": "N Engl J Med",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "26754527",
+        "doi": "",
+        "title": "The real-world evidence of heart failure: findings from 41 413 patients of the ARNO database.",
+        "authors": "Maggioni Aldo P, Orso Francesco, Calabria Silvia",
+        "journal": "European journal of heart failure",
+        "publication_date": "2016-Apr"
+      },
+      "manual_info": {
+        "pmid": "26754527",
+        "doi": "10.1002/ejhf.471",
+        "title": "The real-world evidence of heart failure: findings from 41 413 patients of the ARNO database",
+        "authors": "Maggioni, A. P.",
+        "journal": "Eur J Heart Fail",
+        "publication_date": "2016"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "26429974",
+        "doi": "",
+        "title": "Multicentre randomized controlled trial of angiotensin-converting enzyme inhibitor/angiotensin receptor blocker withdrawal in advanced renal disease: the STOP-ACEi trial.",
+        "authors": "Bhandari Sunil, Ives Natalie, Brettell Elizabeth A",
+        "journal": "Nephrology, dialysis, transplantation : official publication of the European Dialysis and Transplant Association - European Renal Association",
+        "publication_date": "2016-Feb"
+      },
+      "manual_info": {
+        "pmid": "26429974",
+        "doi": "10.1093/ndt/gfv346",
+        "title": "Multicentre randomized controlled trial of angiotensin-converting enzyme inhibitor/angiotensin receptor blocker withdrawal in advanced renal disease: the STOP-ACEi trial",
+        "authors": "Bhandari, S.",
+        "journal": "Nephrol Dial Transplant",
+        "publication_date": "2016"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "29574489",
+        "doi": "",
+        "title": "Pregnancy outcome after first trimester use of angiotensin AT1 receptor blockers: an observational cohort study.",
+        "authors": "Hoeltzenbein Maria, Tissen-Diabaté Tatjana, Fietz Anne-Katrin",
+        "journal": "Clinical research in cardiology : official journal of the German Cardiac Society",
+        "publication_date": "2018-Aug"
+      },
+      "manual_info": {
+        "pmid": "29574489",
+        "doi": "10.1007/s00392-018-1234-2",
+        "title": "Pregnancy outcome after first trimester use of angiotensin AT1 receptor blockers: an observational cohort study",
+        "authors": "Hoeltzenbein, M.",
+        "journal": "Clin Res Cardiol",
+        "publication_date": "2018"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "27436668",
+        "doi": "",
+        "title": "European multicentre double-blind placebo-controlled trial of Nilvadipine in mild-to-moderate Alzheimer's disease-the substudy protocols: NILVAD frailty; NILVAD blood and genetic biomarkers; NILVAD cerebrospinal fluid biomarkers; NILVAD cerebral blood flow.",
+        "authors": "Meulenbroek Olga, O'Dwyer Sarah, de Jong Daan",
+        "journal": "BMJ open",
+        "publication_date": "2016-Jul"
+      },
+      "manual_info": {
+        "pmid": "27436668",
+        "doi": "10.1136/bmjopen-2016-011584",
+        "title": "European multicentre double-blind placebo-controlled trial of Nilvadipine in mild-to-moderate Alzheimer's disease-the substudy protocols: NILVAD frailty; NILVAD blood and genetic biomarkers; NILVAD cerebrospinal fluid biomarkers; NILVAD cerebral blood flow",
+        "authors": "Meulenbroek, O.",
+        "journal": "BMJ Open",
+        "publication_date": "2016"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "32600991",
+        "doi": "",
+        "title": "Impact of angiotensin-converting enzyme inhibitors and angiotensin receptor blockers on COVID-19 in a western population. CARDIOVID registry.",
+        "authors": "López-Otero Diego, López-Pais Javier, Cacho-Antonio Carla Eugenia",
+        "journal": "Revista espanola de cardiologia (English ed.)",
+        "publication_date": "2021-Feb"
+      },
+      "manual_info": {
+        "pmid": "32600991",
+        "doi": "10.1016/j.rec.2020.05.018",
+        "title": "Impact of angiotensin-converting enzyme inhibitors and angiotensin receptor blockers on COVID-19 in a western population. CARDIOVID registry",
+        "authors": "López-Otero, D.",
+        "journal": "Rev Esp Cardiol (Engl Ed)",
+        "publication_date": "2021"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "26541915",
+        "doi": "",
+        "title": "Comparing LCZ696 with enalapril according to baseline risk using the MAGGIC and EMPHASIS-HF risk scores: an analysis of mortality and morbidity in PARADIGM-HF.",
+        "authors": "Simpson Joanne, Jhund Pardeep S, Silva Cardoso Jose",
+        "journal": "Journal of the American College of Cardiology",
+        "publication_date": "2015-Nov"
+      },
+      "manual_info": {
+        "pmid": "26541915",
+        "doi": "10.1016/j.jacc.2015.08.878",
+        "title": "Comparing LCZ696 with enalapril according to baseline risk using the MAGGIC and EMPHASIS-HF risk scores: an analysis of mortality and morbidity in PARADIGM-HF",
+        "authors": "Simpson, J.",
+        "journal": "J Am Coll Cardiol",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "37753718",
+        "doi": "",
+        "title": "Etripamil Nasal Spray for Conversion of Repeated Spontaneous Episodes of Paroxysmal Supraventricular Tachycardia During Long-Term Follow-Up: Results From the NODE-302 Study.",
+        "authors": "Ip James E, Coutu Benoit, Bennett Matthew T",
+        "journal": "Journal of the American Heart Association",
+        "publication_date": "2023-Oct"
+      },
+      "manual_info": {
+        "pmid": "37753718",
+        "doi": "10.1161/jaha.122.028227",
+        "title": "Etripamil Nasal Spray for Conversion of Repeated Spontaneous Episodes of Paroxysmal Supraventricular Tachycardia During Long-Term Follow-Up: Results From the NODE-302 Study",
+        "authors": "Ip, J. E.",
+        "journal": "J Am Heart Assoc",
+        "publication_date": "2023"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "31804307",
+        "doi": "",
+        "title": "Lab monitoring and acute care utilization during initiation of renin angiotensin aldosterone inhibitors or diuretics in chronic kidney disease.",
+        "authors": "Garlo Katherine G, Bates David W, Seger Diane L",
+        "journal": "Medicine",
+        "publication_date": "2019-Dec"
+      },
+      "manual_info": {
+        "pmid": "31804307",
+        "doi": "10.1097/md.0000000000017963",
+        "title": "Lab monitoring and acute care utilization during initiation of renin angiotensin aldosterone inhibitors or diuretics in chronic kidney disease",
+        "authors": "Garlo, K. G.",
+        "journal": "Medicine (Baltimore)",
+        "publication_date": "2019"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "29980595",
+        "doi": "",
+        "title": "Baseline Characteristics of Patients With Heart Failure and Preserved Ejection Fraction in the PARAGON-HF Trial.",
+        "authors": "Solomon Scott D, Rizkala Adel R, Lefkowitz Martin P",
+        "journal": "Circulation. Heart failure",
+        "publication_date": "2018-Jul"
+      },
+      "manual_info": {
+        "pmid": "29980595",
+        "doi": "10.1161/circheartfailure.118.004962",
+        "title": "Baseline Characteristics of Patients With Heart Failure and Preserved Ejection Fraction in the PARAGON-HF Trial",
+        "authors": "Solomon, S. D.",
+        "journal": "Circ Heart Fail",
+        "publication_date": "2018"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "29089151",
+        "doi": "",
+        "title": "Total Serum Cholesterol Increases Risk for Development and Progression of Nonproliferative Retinopathy in Patients with Type 1 Diabetes Without Therapeutic Intervention: Prospective, Observational Study.",
+        "authors": "Bulum Tomislav, Tomić Martina, Duvnjak Lea",
+        "journal": "Archives of medical research",
+        "publication_date": "2017-Jul"
+      },
+      "manual_info": {
+        "pmid": "29089151",
+        "doi": "10.1016/j.arcmed.2017.10.003",
+        "title": "Total Serum Cholesterol Increases Risk for Development and Progression of Nonproliferative Retinopathy in Patients with Type 1 Diabetes Without Therapeutic Intervention: Prospective, Observational Study",
+        "authors": "Bulum, T.",
+        "journal": "Arch Med Res",
+        "publication_date": "2017"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "32387067",
+        "doi": "",
+        "title": "Myocardial Infarction in Heart Failure With Preserved Ejection Fraction: Pooled Analysis of 3 Clinical Trials.",
+        "authors": "Cunningham Jonathan W, Vaduganathan Muthiah, Claggett Brian L",
+        "journal": "JACC. Heart failure",
+        "publication_date": "2020-Aug"
+      },
+      "manual_info": {
+        "pmid": "32387067",
+        "doi": "10.1016/j.jchf.2020.02.007",
+        "title": "Myocardial Infarction in Heart Failure With Preserved Ejection Fraction: Pooled Analysis of 3 Clinical Trials",
+        "authors": "Cunningham, J. W.",
+        "journal": "JACC Heart Fail",
+        "publication_date": "2020"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "30582281",
+        "doi": "",
+        "title": "Comparison of the effects of standard vs low-dose prolonged-release tacrolimus with or without ACEi/ARB on the histology and function of renal allografts.",
+        "authors": "Cockfield Sandra M, Wilson Sam, Campbell Patricia M",
+        "journal": "American journal of transplantation : official journal of the American Society of Transplantation and the American Society of Transplant Surgeons",
+        "publication_date": "2019-Jun"
+      },
+      "manual_info": {
+        "pmid": "30582281",
+        "doi": "10.1111/ajt.15225",
+        "title": "Comparison of the effects of standard vs low-dose prolonged-release tacrolimus with or without ACEi/ARB on the histology and function of renal allografts",
+        "authors": "Cockfield, S. M.",
+        "journal": "Am J Transplant",
+        "publication_date": "2019"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "27716064",
+        "doi": "",
+        "title": "Changes in selected metabolic parameters in patients over 65 receiving hydrochlorothiazide plus amiloride, atenolol or placebo in the MRC elderly trial.",
+        "authors": "Damian Damian J, McNamee Roseanne, Carr Matthew",
+        "journal": "BMC cardiovascular disorders",
+        "publication_date": "2016-Oct"
+      },
+      "manual_info": {
+        "pmid": "27716064",
+        "doi": "10.1186/s12872-016-0368-2",
+        "title": "Changes in selected metabolic parameters in patients over 65 receiving hydrochlorothiazide plus amiloride, atenolol or placebo in the MRC elderly trial",
+        "authors": "Damian, D. J.",
+        "journal": "BMC Cardiovasc Disord",
+        "publication_date": "2016"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "28158516",
+        "doi": "",
+        "title": "Short-term mortality risk of serum potassium levels in hypertension: a retrospective analysis of nationwide registry data.",
+        "authors": "Krogager Maria Lukács, Torp-Pedersen Christian, Mortensen Rikke Nørmark",
+        "journal": "European heart journal",
+        "publication_date": "2017-Jan"
+      },
+      "manual_info": {
+        "pmid": "28158516",
+        "doi": "10.1093/eurheartj/ehw129",
+        "title": "Short-term mortality risk of serum potassium levels in hypertension: a retrospective analysis of nationwide registry data",
+        "authors": "Krogager, M. L.",
+        "journal": "Eur Heart J",
+        "publication_date": "2017"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "28599060",
+        "doi": "",
+        "title": "Evaluation of Pharmacokinetic and Pharmacodynamic Drug-Drug Interaction of Sacubitril/Valsartan (LCZ696) and Sildenafil in Patients With Mild-to-Moderate Hypertension.",
+        "authors": "Hsiao H-L, Langenickel T H, Petruck J",
+        "journal": "Clinical pharmacology and therapeutics",
+        "publication_date": "2018-Mar"
+      },
+      "manual_info": {
+        "pmid": "28599060",
+        "doi": "10.1002/cpt.759",
+        "title": "Evaluation of Pharmacokinetic and Pharmacodynamic Drug-Drug Interaction of Sacubitril/Valsartan (LCZ696) and Sildenafil in Patients With Mild-to-Moderate Hypertension",
+        "authors": "Hsiao, H. L.",
+        "journal": "Clin Pharmacol Ther",
+        "publication_date": "2018"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "32978755",
+        "doi": "",
+        "title": "The AWAKE-HF Study: Sacubitril/Valsartan Impact on Daily Physical Activity and Sleep in Heart Failure.",
+        "authors": "Khandwalla Raj M, Grant Daniel, Birkeland Kade",
+        "journal": "American journal of cardiovascular drugs : drugs, devices, and other interventions",
+        "publication_date": "2021-Mar"
+      },
+      "manual_info": {
+        "pmid": "32978755",
+        "doi": "10.1007/s40256-020-00440-y",
+        "title": "The AWAKE-HF Study: Sacubitril/Valsartan Impact on Daily Physical Activity and Sleep in Heart Failure",
+        "authors": "Khandwalla, R. M.",
+        "journal": "Am J Cardiovasc Drugs",
+        "publication_date": "2021"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "33609066",
+        "doi": "",
+        "title": "Serum potassium and outcomes in heart failure with preserved ejection fraction: a post-hoc analysis of the PARAGON-HF trial.",
+        "authors": "Ferreira João Pedro, Claggett Brian L, Liu Jiankang",
+        "journal": "European journal of heart failure",
+        "publication_date": "2021-May"
+      },
+      "manual_info": {
+        "pmid": "33609066",
+        "doi": "10.1002/ejhf.2134",
+        "title": "Serum potassium and outcomes in heart failure with preserved ejection fraction: a post-hoc analysis of the PARAGON-HF trial",
+        "authors": "Ferreira, J. P.",
+        "journal": "Eur J Heart Fail",
+        "publication_date": "2021"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "31463886",
+        "doi": "",
+        "title": "Treatment with Free Triple Combination Therapy of Atorvastatin, Perindopril, Amlodipine in Hypertensive Patients: A Real-World Population Study in Italy.",
+        "authors": "Perrone Valentina, Veronesi Chiara, Gambera Marco",
+        "journal": "High blood pressure & cardiovascular prevention : the official journal of the Italian Society of Hypertension",
+        "publication_date": "2019-Oct"
+      },
+      "manual_info": {
+        "pmid": "31463886",
+        "doi": "10.1007/s40292-019-00336-2",
+        "title": "Treatment with Free Triple Combination Therapy of Atorvastatin, Perindopril, Amlodipine in Hypertensive Patients: A Real-World Population Study in Italy",
+        "authors": "Perrone, V.",
+        "journal": "High Blood Press Cardiovasc Prev",
+        "publication_date": "2019"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "31178359",
+        "doi": "",
+        "title": "Effects of Candesartan in the Acute Phase of Intracerebral Hemorrhage.",
+        "authors": "Jusufovic Mirza, Berge Trude Elisabeth, Guo Rui",
+        "journal": "Journal of stroke and cerebrovascular diseases : the official journal of National Stroke Association",
+        "publication_date": "2019-Aug"
+      },
+      "manual_info": {
+        "pmid": "31178359",
+        "doi": "10.1016/j.jstrokecerebrovasdis.2019.05.010",
+        "title": "Effects of Candesartan in the Acute Phase of Intracerebral Hemorrhage",
+        "authors": "Jusufovic, M.",
+        "journal": "J Stroke Cerebrovasc Dis",
+        "publication_date": "2019"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "28158398",
+        "doi": "",
+        "title": "Systolic blood pressure, cardiovascular outcomes and efficacy and safety of sacubitril/valsartan (LCZ696) in patients with chronic heart failure and reduced ejection fraction: results from PARADIGM-HF.",
+        "authors": "Böhm Michael, Young Robin, Jhund Pardeep S",
+        "journal": "European heart journal",
+        "publication_date": "2017-Apr"
+      },
+      "manual_info": {
+        "pmid": "28158398",
+        "doi": "10.1093/eurheartj/ehw570",
+        "title": "Systolic blood pressure, cardiovascular outcomes and efficacy and safety of sacubitril/valsartan (LCZ696) in patients with chronic heart failure and reduced ejection fraction: results from PARADIGM-HF",
+        "authors": "Böhm, M.",
+        "journal": "Eur Heart J",
+        "publication_date": "2017"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "27743577",
+        "doi": "",
+        "title": "Decade-Long Trends (2001 to 2011) in the Use of Evidence-Based Medical Therapies at the Time of Hospital Discharge for Patients Surviving Acute Myocardial Infarction.",
+        "authors": "Makam Raghavendra Charan P, Erskine Nathaniel, McManus David D",
+        "journal": "The American journal of cardiology",
+        "publication_date": "2016-Dec"
+      },
+      "manual_info": {
+        "pmid": "27743577",
+        "doi": "10.1016/j.amjcard.2016.08.065",
+        "title": "Decade-Long Trends (2001 to 2011) in the Use of Evidence-Based Medical Therapies at the Time of Hospital Discharge for Patients Surviving Acute Myocardial Infarction",
+        "authors": "Makam, R. C.",
+        "journal": "Am J Cardiol",
+        "publication_date": "2016"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "35074611",
+        "doi": "",
+        "title": "Differential effects of renin-angiotensine-aldosteron system inhibition, sympathoinhibition and low sodium diet on blood pressure in women with a history of preeclampsia: A double-blind, placebo-controlled cross-over trial (the PALM study).",
+        "authors": "Zoet Gerbrand A, Paauw Nina D, Veerbeek Jan H W",
+        "journal": "Pregnancy hypertension",
+        "publication_date": "2022-Mar"
+      },
+      "manual_info": {
+        "pmid": "35074611",
+        "doi": "10.1016/j.preghy.2021.12.016",
+        "title": "Differential effects of renin-angiotensine-aldosteron system inhibition, sympathoinhibition and low sodium diet on blood pressure in women with a history of preeclampsia: A double-blind, placebo-controlled cross-over trial (the PALM study)",
+        "authors": "Zoet, G. A.",
+        "journal": "Pregnancy Hypertens",
+        "publication_date": "2022"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "32946859",
+        "doi": "",
+        "title": "Relation of Statin Use Prior to Admission to Severity and Recovery Among COVID-19 Inpatients.",
+        "authors": "Daniels Lori B, Sitapati Amy M, Zhang Jing",
+        "journal": "The American journal of cardiology",
+        "publication_date": "2020-Dec"
+      },
+      "manual_info": {
+        "pmid": "32946859",
+        "doi": "10.1016/j.amjcard.2020.09.012",
+        "title": "Relation of Statin Use Prior to Admission to Severity and Recovery Among COVID-19 Inpatients",
+        "authors": "Daniels, L. B.",
+        "journal": "Am J Cardiol",
+        "publication_date": "2020"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "35792108",
+        "doi": "",
+        "title": "Actual impact of angiotensin II receptor blocker or calcium channel blocker monotherapy on renal function in real-world patients.",
+        "authors": "Satoh Michihiro, Hirose Takuo, Satoh Hironori",
+        "journal": "Journal of hypertension",
+        "publication_date": "2022-Aug"
+      },
+      "manual_info": {
+        "pmid": "35792108",
+        "doi": "10.1097/hjh.0000000000003186",
+        "title": "Actual impact of angiotensin II receptor blocker or calcium channel blocker monotherapy on renal function in real-world patients",
+        "authors": "Satoh, M.",
+        "journal": "J Hypertens",
+        "publication_date": "2022"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "27481881",
+        "doi": "",
+        "title": "Coffee-Antihypertensive Drug Interaction: A Hemodynamic and Pharmacokinetic Study With Felodipine.",
+        "authors": "Bailey David G, Dresser George K, Urquhart Brad L",
+        "journal": "American journal of hypertension",
+        "publication_date": "2016-Dec"
+      },
+      "manual_info": {
+        "pmid": "27481881",
+        "doi": "10.1093/ajh/hpw081",
+        "title": "Coffee-Antihypertensive Drug Interaction: A Hemodynamic and Pharmacokinetic Study With Felodipine",
+        "authors": "Bailey, D. G.",
+        "journal": "Am J Hypertens",
+        "publication_date": "2016"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "30361325",
+        "doi": "",
+        "title": "DUET: A Phase 2 Study Evaluating the Efficacy and Safety of Sparsentan in Patients with FSGS.",
+        "authors": "Trachtman Howard, Nelson Peter, Adler Sharon",
+        "journal": "Journal of the American Society of Nephrology : JASN",
+        "publication_date": "2018-Nov"
+      },
+      "manual_info": {
+        "pmid": "30361325",
+        "doi": "10.1681/asn.2018010091",
+        "title": "DUET: A Phase 2 Study Evaluating the Efficacy and Safety of Sparsentan in Patients with FSGS",
+        "authors": "Trachtman, H.",
+        "journal": "J Am Soc Nephrol",
+        "publication_date": "2018"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "28651510",
+        "doi": "",
+        "title": "Pharmacodynamics of intravenous frusemide bolus in critically ill patients.",
+        "authors": "Huang Agnes, Luethi Nora, Mårtensson Johan",
+        "journal": "Critical care and resuscitation : journal of the Australasian Academy of Critical Care Medicine",
+        "publication_date": "2017-Jun"
+      },
+      "manual_info": {
+        "pmid": "28651510",
+        "doi": "",
+        "title": "Pharmacodynamics of intravenous frusemide bolus in critically ill patients",
+        "authors": "Huang, A.",
+        "journal": "Crit Care Resusc",
+        "publication_date": "2017"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "28209359",
+        "doi": "",
+        "title": "Safety and efficacy of fimasartan in Mexican patients with grade 1-2 essential hypertension.",
+        "authors": "Cardona-Muñoz Ernesto G, López-Alvarado Agustín, Conde-Carmona Ignacio",
+        "journal": "Archivos de cardiologia de Mexico",
+        "publication_date": "2017"
+      },
+      "manual_info": {
+        "pmid": "28209359",
+        "doi": "10.1016/j.acmx.2017.01.001",
+        "title": "Safety and efficacy of fimasartan in Mexican patients with grade 1-2 essential hypertension",
+        "authors": "Cardona-Muñoz, E. G.",
+        "journal": "Arch Cardiol Mex",
+        "publication_date": "2017"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "29327797",
+        "doi": "",
+        "title": "Potassium and the use of renin-angiotensin-aldosterone system inhibitors in heart failure with reduced ejection fraction: data from BIOSTAT-CHF.",
+        "authors": "Beusekamp Joost C, Tromp Jasper, van der Wal Haye H",
+        "journal": "European journal of heart failure",
+        "publication_date": "2018-May"
+      },
+      "manual_info": {
+        "pmid": "29327797",
+        "doi": "10.1002/ejhf.1079",
+        "title": "Potassium and the use of renin-angiotensin-aldosterone system inhibitors in heart failure with reduced ejection fraction: data from BIOSTAT-CHF",
+        "authors": "Beusekamp, J. C.",
+        "journal": "Eur J Heart Fail",
+        "publication_date": "2018"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "33284169",
+        "doi": "",
+        "title": "Effect of Secondary Prevention Medication on the Prognosis in Patients With Myocardial Infarction With Nonobstructive Coronary Artery Disease.",
+        "authors": "Abdu Fuad A, Liu Lu, Mohammed Abdul-Quddus",
+        "journal": "Journal of cardiovascular pharmacology",
+        "publication_date": "2020-Dec"
+      },
+      "manual_info": {
+        "pmid": "33284169",
+        "doi": "10.1097/fjc.0000000000000918",
+        "title": "Effect of Secondary Prevention Medication on the Prognosis in Patients With Myocardial Infarction With Nonobstructive Coronary Artery Disease",
+        "authors": "Abdu, F. A.",
+        "journal": "J Cardiovasc Pharmacol",
+        "publication_date": "2020"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "28150140",
+        "doi": "",
+        "title": "Impact of Statin Therapy on the Blood Pressure-Lowering Efficacy of a Single-Pill Perindopril/Amlodipine Combination in Hypertensive Patients with Hypercholesterolemia.",
+        "authors": "Sirenko Yuriy, Radchenko Ganna",
+        "journal": "High blood pressure & cardiovascular prevention : the official journal of the Italian Society of Hypertension",
+        "publication_date": "2017-Mar"
+      },
+      "manual_info": {
+        "pmid": "28150140",
+        "doi": "10.1007/s40292-017-0184-5",
+        "title": "Impact of Statin Therapy on the Blood Pressure-Lowering Efficacy of a Single-Pill Perindopril/Amlodipine Combination in Hypertensive Patients with Hypercholesterolemia",
+        "authors": "Sirenko, Y.",
+        "journal": "High Blood Press Cardiovasc Prev",
+        "publication_date": "2017"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "29087880",
+        "doi": "",
+        "title": "Perioperative Gabapentin Improves Patient-Centered Outcomes After Inguinal Hernia Repair.",
+        "authors": "Quail Jacob, Spence Dennis, Hannon Matthew",
+        "journal": "Military medicine",
+        "publication_date": "2017-Nov"
+      },
+      "manual_info": {
+        "pmid": "29087880",
+        "doi": "10.7205/milmed-d-17-00107",
+        "title": "Perioperative Gabapentin Improves Patient-Centered Outcomes After Inguinal Hernia Repair",
+        "authors": "Quail, J.",
+        "journal": "Mil Med",
+        "publication_date": "2017"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "27312348",
+        "doi": "",
+        "title": "Determinants of Evolution of Glomerular Filtration Rate After Bariatric Surgery: a 1-Year Observational Study.",
+        "authors": "Coupaye Muriel, Flamant Martin, Sami Ouidad",
+        "journal": "Obesity surgery",
+        "publication_date": "2017-Jan"
+      },
+      "manual_info": {
+        "pmid": "27312348",
+        "doi": "10.1007/s11695-016-2260-7",
+        "title": "Determinants of Evolution of Glomerular Filtration Rate After Bariatric Surgery: a 1-Year Observational Study",
+        "authors": "Coupaye, M.",
+        "journal": "Obes Surg",
+        "publication_date": "2017"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "31420703",
+        "doi": "",
+        "title": "Cinnarizine/betahistine combination vs. the respective monotherapies in acute peripheral vertigo: a randomized triple-blind placebo-controlled trial.",
+        "authors": "Asadi Payman, Zia Ziabari Seyyed Mahdi, Majdi Alireza",
+        "journal": "European journal of clinical pharmacology",
+        "publication_date": "2019-Nov"
+      },
+      "manual_info": {
+        "pmid": "31420703",
+        "doi": "10.1007/s00228-019-02741-x",
+        "title": "Cinnarizine/betahistine combination vs. the respective monotherapies in acute peripheral vertigo: a randomized triple-blind placebo-controlled trial",
+        "authors": "Asadi, P.",
+        "journal": "Eur J Clin Pharmacol",
+        "publication_date": "2019"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "31520895",
+        "doi": "",
+        "title": "Comparison of the Cardiovascular Benefits of Resistance, Aerobic, and Combined Exercise (CardioRACE): Rationale, design, and methods.",
+        "authors": "Brellenthin Angelique G, Lanningham-Foster Lorraine M, Kohut Marian L",
+        "journal": "American heart journal",
+        "publication_date": "2019-Nov"
+      },
+      "manual_info": {
+        "pmid": "31520895",
+        "doi": "10.1016/j.ahj.2019.08.008",
+        "title": "Comparison of the Cardiovascular Benefits of Resistance, Aerobic, and Combined Exercise (CardioRACE): Rationale, design, and methods",
+        "authors": "Brellenthin, A. G.",
+        "journal": "Am Heart J",
+        "publication_date": "2019"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "29983264",
+        "doi": "",
+        "title": "Preventive Effects of Renin-angiotensin System Inhibitors on Oxaliplatin-induced Peripheral Neuropathy: A Retrospective Observational Study.",
+        "authors": "Uchida Mami, Kawazoe Hitoshi, Takatori Shingo",
+        "journal": "Clinical therapeutics",
+        "publication_date": "2018-Jul"
+      },
+      "manual_info": {
+        "pmid": "29983264",
+        "doi": "10.1016/j.clinthera.2018.05.011",
+        "title": "Preventive Effects of Renin-angiotensin System Inhibitors on Oxaliplatin-induced Peripheral Neuropathy: A Retrospective Observational Study",
+        "authors": "Uchida, M.",
+        "journal": "Clin Ther",
+        "publication_date": "2018"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "29766461",
+        "doi": "",
+        "title": "The Effectiveness of Trimetazidine Treatment in Patients with Stable Angina Pectoris of Various Durations: Results from the CHOICE-2 Study.",
+        "authors": "Glezer Maria",
+        "journal": "Advances in therapy",
+        "publication_date": "2018-Jul"
+      },
+      "manual_info": {
+        "pmid": "29766461",
+        "doi": "10.1007/s12325-018-0674-4",
+        "title": "The Effectiveness of Trimetazidine Treatment in Patients with Stable Angina Pectoris of Various Durations: Results from the CHOICE-2 Study",
+        "authors": "Glezer, M.",
+        "journal": "Adv Ther",
+        "publication_date": "2018"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "27105868",
+        "doi": "",
+        "title": "Low dose resveratrol improves cerebrovascular function in type 2 diabetes mellitus.",
+        "authors": "Wong R H X, Nealon R S, Scholey A",
+        "journal": "Nutrition, metabolism, and cardiovascular diseases : NMCD",
+        "publication_date": "2016-May"
+      },
+      "manual_info": {
+        "pmid": "27105868",
+        "doi": "10.1016/j.numecd.2016.03.003",
+        "title": "Low dose resveratrol improves cerebrovascular function in type 2 diabetes mellitus",
+        "authors": "Wong, R. H.",
+        "journal": "Nutr Metab Cardiovasc Dis",
+        "publication_date": "2016"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "34836856",
+        "doi": "",
+        "title": "Effect of nebivolol beneficial on lipid profile and glycemic control in comparison with Atenolol in patients with type 2 DM with concomitant hypertension.",
+        "authors": "Majid Abdul, Javed Amir, Hussain Mazhar",
+        "journal": "Pakistan journal of pharmaceutical sciences",
+        "publication_date": "2021-Sep"
+      },
+      "manual_info": {
+        "pmid": "34836856",
+        "doi": "",
+        "title": "Effect of nebivolol beneficial on lipid profile and glycemic control in comparison with Atenolol in patients with type 2 DM with concomitant hypertension",
+        "authors": "Majid, A.",
+        "journal": "Pak J Pharm Sci",
+        "publication_date": "2021"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "33017071",
+        "doi": "",
+        "title": "Angiotensin-converting enzyme inhibitor/angiotensin II receptor blocker treatment and haemodynamic factors are associated with increased cardiac mRNA expression of angiotensin-converting enzyme 2 in patients with cardiovascular disease.",
+        "authors": "Lebek Simon, Tafelmeier Maria, Messmann Rebecca",
+        "journal": "European journal of heart failure",
+        "publication_date": "2020-Dec"
+      },
+      "manual_info": {
+        "pmid": "33017071",
+        "doi": "10.1002/ejhf.2020",
+        "title": "Angiotensin-converting enzyme inhibitor/angiotensin II receptor blocker treatment and haemodynamic factors are associated with increased cardiac mRNA expression of angiotensin-converting enzyme 2 in patients with cardiovascular disease",
+        "authors": "Lebek, S.",
+        "journal": "Eur J Heart Fail",
+        "publication_date": "2020"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "26370323",
+        "doi": "",
+        "title": "U-shaped relationship between uric acid and residual renal function decline in continuous ambulatory peritoneal dialysis patients.",
+        "authors": "Hsieh Yao-Peng, Yang Yu, Chang Chia-Chu",
+        "journal": "Nephrology (Carlton, Vic.)",
+        "publication_date": "2017-Jun"
+      },
+      "manual_info": {
+        "pmid": "26370323",
+        "doi": "10.1111/nep.12613",
+        "title": "U-shaped relationship between uric acid and residual renal function decline in continuous ambulatory peritoneal dialysis patients",
+        "authors": "Hsieh, Y. P.",
+        "journal": "Nephrology (Carlton)",
+        "publication_date": "2017"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "29712745",
+        "doi": "",
+        "title": "Impact of Intensive Versus Standard Blood Pressure Management by Tertiles of Blood Pressure in SPRINT (Systolic Blood Pressure Intervention Trial).",
+        "authors": "Shapiro Brian P, Ambrosius Walter T, Blackshear Joseph L",
+        "journal": "Hypertension (Dallas, Tex. : 1979)",
+        "publication_date": "2018-Jun"
+      },
+      "manual_info": {
+        "pmid": "29712745",
+        "doi": "10.1161/hypertensionaha.117.10646",
+        "title": "Impact of Intensive Versus Standard Blood Pressure Management by Tertiles of Blood Pressure in SPRINT (Systolic Blood Pressure Intervention Trial)",
+        "authors": "Shapiro, B. P.",
+        "journal": "Hypertension",
+        "publication_date": "2018"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "28032630",
+        "doi": "",
+        "title": "Preventive effect of renin-angiotensin system inhibitors on new-onset atrial fibrillation in hypertensive patients: a propensity score matching analysis.",
+        "authors": "Horio T, Akiyama M, Iwashima Y",
+        "journal": "Journal of human hypertension",
+        "publication_date": "2017-Jul"
+      },
+      "manual_info": {
+        "pmid": "28032630",
+        "doi": "10.1038/jhh.2016.95",
+        "title": "Preventive effect of renin-angiotensin system inhibitors on new-onset atrial fibrillation in hypertensive patients: a propensity score matching analysis",
+        "authors": "Horio, T.",
+        "journal": "J Hum Hypertens",
+        "publication_date": "2017"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "27475811",
+        "doi": "",
+        "title": "Short-Term Cardioprotective Effects of the Original Perindopril/Amlodipine Fixed-Dose Combination in Patients with Stable Coronary Artery Disease: Results of the PAPA-CAD Study.",
+        "authors": "Forster Tamás, Dézsi Csaba András",
+        "journal": "Advances in therapy",
+        "publication_date": "2016-Oct"
+      },
+      "manual_info": {
+        "pmid": "27475811",
+        "doi": "10.1007/s12325-016-0392-8",
+        "title": "Short-Term Cardioprotective Effects of the Original Perindopril/Amlodipine Fixed-Dose Combination in Patients with Stable Coronary Artery Disease: Results of the PAPA-CAD Study",
+        "authors": "Forster, T.",
+        "journal": "Adv Ther",
+        "publication_date": "2016"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "29733445",
+        "doi": "",
+        "title": "Effects of treatment with an angiotensin 2 receptor blocker and/or vitamin D3 on parathyroid hormone and aldosterone: A randomized, placebo-controlled trial.",
+        "authors": "Bislev Lise Sofie, Langagergaard Rødbro Lene, Nørgaard Bech Jesper",
+        "journal": "Clinical endocrinology",
+        "publication_date": "2018-Nov"
+      },
+      "manual_info": {
+        "pmid": "29733445",
+        "doi": "10.1111/cen.13734",
+        "title": "Effects of treatment with an angiotensin 2 receptor blocker and/or vitamin D3 on parathyroid hormone and aldosterone: A randomized, placebo-controlled trial",
+        "authors": "Bislev, L. S.",
+        "journal": "Clin Endocrinol (Oxf)",
+        "publication_date": "2018"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "31834125",
+        "doi": "",
+        "title": "Association of visit-to-visit variability in blood pressure and first stroke risk in hypertensive patients with chronic kidney disease.",
+        "authors": "Li Youbao, Zhou Huamin, Liu Mengyi",
+        "journal": "Journal of hypertension",
+        "publication_date": "2020-Apr"
+      },
+      "manual_info": {
+        "pmid": "31834125",
+        "doi": "10.1097/hjh.0000000000002306",
+        "title": "Association of visit-to-visit variability in blood pressure and first stroke risk in hypertensive patients with chronic kidney disease",
+        "authors": "Li, Y.",
+        "journal": "J Hypertens",
+        "publication_date": "2020"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "31606364",
+        "doi": "",
+        "title": "Hyperkalemia and Treatment With RAAS Inhibitors During Acute Heart Failure Hospitalizations and Their Association With Mortality.",
+        "authors": "Beusekamp Joost C, Tromp Jasper, Cleland John G F",
+        "journal": "JACC. Heart failure",
+        "publication_date": "2019-Nov"
+      },
+      "manual_info": {
+        "pmid": "31606364",
+        "doi": "10.1016/j.jchf.2019.07.010",
+        "title": "Hyperkalemia and Treatment With RAAS Inhibitors During Acute Heart Failure Hospitalizations and Their Association With Mortality",
+        "authors": "Beusekamp, J. C.",
+        "journal": "JACC Heart Fail",
+        "publication_date": "2019"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "26368836",
+        "doi": "",
+        "title": "Symptom-Based Treatment of Neuropathic Pain in Spinal Cord-Injured Patients: A Randomized Crossover Clinical Trial.",
+        "authors": "Min Kyunghoon, Oh Yoongul, Lee Sang-Hyuk",
+        "journal": "American journal of physical medicine & rehabilitation",
+        "publication_date": "2016-May"
+      },
+      "manual_info": {
+        "pmid": "26368836",
+        "doi": "10.1097/phm.0000000000000382",
+        "title": "Symptom-Based Treatment of Neuropathic Pain in Spinal Cord-Injured Patients: A Randomized Crossover Clinical Trial",
+        "authors": "Min, K.",
+        "journal": "Am J Phys Med Rehabil",
+        "publication_date": "2016"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "27488944",
+        "doi": "",
+        "title": "An evaluation of the effect of an angiotensin-converting enzyme inhibitor on the growth rate of small abdominal aortic aneurysms: a randomised placebo-controlled trial (AARDVARK).",
+        "authors": "Kiru Gaia, Bicknell Colin, Falaschetti Emanuela",
+        "journal": "Health technology assessment (Winchester, England)",
+        "publication_date": "2016-Jul"
+      },
+      "manual_info": {
+        "pmid": "27488944",
+        "doi": "10.3310/hta20590",
+        "title": "An evaluation of the effect of an angiotensin-converting enzyme inhibitor on the growth rate of small abdominal aortic aneurysms: a randomised placebo-controlled trial (AARDVARK)",
+        "authors": "Kiru, G.",
+        "journal": "Health Technol Assess",
+        "publication_date": "2016"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "27220840",
+        "doi": "",
+        "title": "Comparative Study of the Efficacy of Olmesartan/Amlodipine vs. Perindopril/Amlodipine in Peripheral and Central Blood Pressure Parameters After Missed Dose in Type 2 Diabetes.",
+        "authors": "Redon Josep, Pichler Gernot",
+        "journal": "American journal of hypertension",
+        "publication_date": "2016-Sep"
+      },
+      "manual_info": {
+        "pmid": "27220840",
+        "doi": "10.1093/ajh/hpw033",
+        "title": "Comparative Study of the Efficacy of Olmesartan/Amlodipine vs. Perindopril/Amlodipine in Peripheral and Central Blood Pressure Parameters After Missed Dose in Type 2 Diabetes",
+        "authors": "Redon, J.",
+        "journal": "Am J Hypertens",
+        "publication_date": "2016"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "28623899",
+        "doi": "",
+        "title": "Renin-angiotensin system blockers and residual kidney function loss in patients initiating peritoneal dialysis: an observational cohort study.",
+        "authors": "Shen Jenny I, Saxena Anjali B, Vangala Sitaram",
+        "journal": "BMC nephrology",
+        "publication_date": "2017-Jun"
+      },
+      "manual_info": {
+        "pmid": "28623899",
+        "doi": "10.1186/s12882-017-0616-4",
+        "title": "Renin-angiotensin system blockers and residual kidney function loss in patients initiating peritoneal dialysis: an observational cohort study",
+        "authors": "Shen, J. I.",
+        "journal": "BMC Nephrol",
+        "publication_date": "2017"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "27514506",
+        "doi": "",
+        "title": "Effects of Food Intake on the Pharmacokinetics of Azilsartan Medoxomil and Chlorthalidone Alone and in Fixed-Dose Combination in Healthy Adults.",
+        "authors": "Dudkowski Caroline, Karim Aziz, Munsaka Melvin",
+        "journal": "Clinical pharmacology in drug development",
+        "publication_date": "2016-Sep"
+      },
+      "manual_info": {
+        "pmid": "27514506",
+        "doi": "10.1002/cpdd.249",
+        "title": "Effects of Food Intake on the Pharmacokinetics of Azilsartan Medoxomil and Chlorthalidone Alone and in Fixed-Dose Combination in Healthy Adults",
+        "authors": "Dudkowski, C.",
+        "journal": "Clin Pharmacol Drug Dev",
+        "publication_date": "2016"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "27413037",
+        "doi": "",
+        "title": "Heart Failure With Improved Ejection Fraction: Clinical Characteristics, Correlates of Recovery, and Survival: Results From the Valsartan Heart Failure Trial.",
+        "authors": "Florea Viorel G, Rector Thomas S, Anand Inder S",
+        "journal": "Circulation. Heart failure",
+        "publication_date": "2016-Jul"
+      },
+      "manual_info": {
+        "pmid": "27413037",
+        "doi": "10.1161/circheartfailure.116.003123",
+        "title": "Heart Failure With Improved Ejection Fraction: Clinical Characteristics, Correlates of Recovery, and Survival: Results From the Valsartan Heart Failure Trial",
+        "authors": "Florea, V. G.",
+        "journal": "Circ Heart Fail",
+        "publication_date": "2016"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "26399404",
+        "doi": "",
+        "title": "Bedtime ingestion of hypertension medications reduces the risk of new-onset type 2 diabetes: a randomised controlled trial.",
+        "authors": "Hermida Ramón C, Ayala Diana E, Mojón Artemio",
+        "journal": "Diabetologia",
+        "publication_date": "2016-Feb"
+      },
+      "manual_info": {
+        "pmid": "26399404",
+        "doi": "10.1007/s00125-015-3749-7",
+        "title": "Bedtime ingestion of hypertension medications reduces the risk of new-onset type 2 diabetes: a randomised controlled trial",
+        "authors": "Hermida, R. C.",
+        "journal": "Diabetologia",
+        "publication_date": "2016"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "31327520",
+        "doi": "",
+        "title": "Association between reduced left ventricular ejection fraction following non-ST-segment elevation myocardial infarction and long-term mortality in patients of advanced age.",
+        "authors": "Siddiqui Anwar J, Holzmann Martin J",
+        "journal": "International journal of cardiology",
+        "publication_date": "2019-Dec"
+      },
+      "manual_info": {
+        "pmid": "31327520",
+        "doi": "10.1016/j.ijcard.2019.07.019",
+        "title": "Association between reduced left ventricular ejection fraction following non-ST-segment elevation myocardial infarction and long-term mortality in patients of advanced age",
+        "authors": "Siddiqui, A. J.",
+        "journal": "Int J Cardiol",
+        "publication_date": "2019"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "31088188",
+        "doi": "",
+        "title": "Blood Pressure Lowering With Nilvadipine in Patients With Mild-to-Moderate Alzheimer Disease Does Not Increase the Prevalence of Orthostatic Hypotension.",
+        "authors": "de Heus Rianne A A, Donders Rogier, Santoso Angelina M M",
+        "journal": "Journal of the American Heart Association",
+        "publication_date": "2019-May"
+      },
+      "manual_info": {
+        "pmid": "31088188",
+        "doi": "10.1161/jaha.119.011938",
+        "title": "Blood Pressure Lowering With Nilvadipine in Patients With Mild-to-Moderate Alzheimer Disease Does Not Increase the Prevalence of Orthostatic Hypotension",
+        "authors": "de Heus, R. A. A.",
+        "journal": "J Am Heart Assoc",
+        "publication_date": "2019"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "26289255",
+        "doi": "",
+        "title": "The Comparative Effectiveness of Angiotensin-Converting Enzyme Inhibitors and Angiotensin II Receptor Blockers in Patients With Diabetes.",
+        "authors": "Padwal Raj, Lin Mu, Eurich Dean T",
+        "journal": "Journal of clinical hypertension (Greenwich, Conn.)",
+        "publication_date": "2016-Mar"
+      },
+      "manual_info": {
+        "pmid": "26289255",
+        "doi": "10.1111/jch.12647",
+        "title": "The Comparative Effectiveness of Angiotensin-Converting Enzyme Inhibitors and Angiotensin II Receptor Blockers in Patients With Diabetes",
+        "authors": "Padwal, R.",
+        "journal": "J Clin Hypertens (Greenwich)",
+        "publication_date": "2016"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "32019405",
+        "doi": "",
+        "title": "Lifestyle Changes in Relation to Initiation of Antihypertensive and Lipid-Lowering Medication: A Cohort Study.",
+        "authors": "Korhonen Maarit J, Pentti Jaana, Hartikainen Juha",
+        "journal": "Journal of the American Heart Association",
+        "publication_date": "2020-Feb"
+      },
+      "manual_info": {
+        "pmid": "32019405",
+        "doi": "10.1161/jaha.119.014168",
+        "title": "Lifestyle Changes in Relation to Initiation of Antihypertensive and Lipid-Lowering Medication: A Cohort Study",
+        "authors": "Korhonen, M. J.",
+        "journal": "J Am Heart Assoc",
+        "publication_date": "2020"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "29577519",
+        "doi": "",
+        "title": "Efficacy and safety of a T-type calcium channel blocker in patients with neuropathic pain: A proof-of-concept, randomized, double-blind and controlled trial.",
+        "authors": "Kerckhove N, Pereira B, Soriot-Thomas S",
+        "journal": "European journal of pain (London, England)",
+        "publication_date": "2018-Aug"
+      },
+      "manual_info": {
+        "pmid": "29577519",
+        "doi": "10.1002/ejp.1221",
+        "title": "Efficacy and safety of a T-type calcium channel blocker in patients with neuropathic pain: A proof-of-concept, randomized, double-blind and controlled trial",
+        "authors": "Kerckhove, N.",
+        "journal": "Eur J Pain",
+        "publication_date": "2018"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "33647189",
+        "doi": "",
+        "title": "Pharmacokinetic Interaction Among Ezetimibe, Rosuvastatin, and Telmisartan.",
+        "authors": "Huh Ki Young, Lee Sang Won, Lee Si Beum",
+        "journal": "Clinical pharmacology in drug development",
+        "publication_date": "2021-Nov"
+      },
+      "manual_info": {
+        "pmid": "33647189",
+        "doi": "10.1002/cpdd.926",
+        "title": "Pharmacokinetic Interaction Among Ezetimibe, Rosuvastatin, and Telmisartan",
+        "authors": "Huh, K. Y.",
+        "journal": "Clin Pharmacol Drug Dev",
+        "publication_date": "2021"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "27653164",
+        "doi": "",
+        "title": "Fixed-dose combination of zofenopril plus hydrochlorothiazide vs. irbesartan plus hydrochlorothiazide in hypertensive patients with established metabolic syndrome uncontrolled by previous monotherapy. The ZAMES study (Zofenopril in Advanced MEtabolic Syndrome).",
+        "authors": "Napoli Claudio, Omboni Stefano, Borghi Claudio",
+        "journal": "Journal of hypertension",
+        "publication_date": "2016-Nov"
+      },
+      "manual_info": {
+        "pmid": "27653164",
+        "doi": "10.1097/hjh.0000000000001079",
+        "title": "Fixed-dose combination of zofenopril plus hydrochlorothiazide vs. irbesartan plus hydrochlorothiazide in hypertensive patients with established metabolic syndrome uncontrolled by previous monotherapy. The ZAMES study (Zofenopril in Advanced MEtabolic Syndrome)",
+        "authors": "Napoli, C.",
+        "journal": "J Hypertens",
+        "publication_date": "2016"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "28556581",
+        "doi": "",
+        "title": "Population Modeling of Selexipag Pharmacokinetics and Clinical Response Parameters in Patients With Pulmonary Arterial Hypertension.",
+        "authors": "Krause A, Machacek M, Lott D",
+        "journal": "CPT: pharmacometrics & systems pharmacology",
+        "publication_date": "2017-Jul"
+      },
+      "manual_info": {
+        "pmid": "28556581",
+        "doi": "10.1002/psp4.12202",
+        "title": "Population Modeling of Selexipag Pharmacokinetics and Clinical Response Parameters in Patients With Pulmonary Arterial Hypertension",
+        "authors": "Krause, A.",
+        "journal": "CPT Pharmacometrics Syst Pharmacol",
+        "publication_date": "2017"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "31209511",
+        "doi": "",
+        "title": "The renin-angiotensin aldosterone system and osteoporosis: findings from the Women's Health Initiative.",
+        "authors": "Carbone L D, Vasan S, Prentice R L",
+        "journal": "Osteoporosis international : a journal established as result of cooperation between the European Foundation for Osteoporosis and the National Osteoporosis Foundation of the USA",
+        "publication_date": "2019-Oct"
+      },
+      "manual_info": {
+        "pmid": "31209511",
+        "doi": "10.1007/s00198-019-05041-3",
+        "title": "The renin-angiotensin aldosterone system and osteoporosis: findings from the Women's Health Initiative",
+        "authors": "Carbone, L. D.",
+        "journal": "Osteoporos Int",
+        "publication_date": "2019"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "28025969",
+        "doi": "",
+        "title": "Quantitative analysis of valsartan by two-dimensional liquid chromatography (2D-HPLC) and its application in a bioequivalence study in Chinese volunteers .",
+        "authors": "Zhang Min, Deng Yang, Cai Hua-Lin",
+        "journal": "International journal of clinical pharmacology and therapeutics",
+        "publication_date": "2017-Apr"
+      },
+      "manual_info": {
+        "pmid": "28025969",
+        "doi": "10.5414/cp202762",
+        "title": "Quantitative analysis of valsartan by two-dimensional liquid chromatography (2D-HPLC) and its application in a bioequivalence study in Chinese volunteers",
+        "authors": "Zhang, M.",
+        "journal": "Int J Clin Pharmacol Ther",
+        "publication_date": "2017"
+      }
+    }
+  ],
+  "manual_only_sample": [
+    {
+      "manual_info": {
+        "pmid": "24445723",
+        "doi": "10.1097/mbp.0000000000000027",
+        "title": "Effects of combining azilsartan medoxomil with amlodipine in patients with stage 2 hypertension",
+        "authors": "Weber, M. A.",
+        "journal": "Blood Press Monit",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25678453",
+        "doi": "10.1007/s12028-015-0112-2",
+        "title": "NEWTON: Nimodipine Microparticles to Enhance Recovery While Reducing Toxicity After Subarachnoid Hemorrhage",
+        "authors": "Hänggi, D.",
+        "journal": "Neurocrit Care",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "26418019",
+        "doi": "10.1161/hypertensionaha.114.05582",
+        "title": "Left Ventricular Wall Stress-Mass-Heart Rate Product and Cardiovascular Events in Treated Hypertensive Patients: LIFE Study",
+        "authors": "Devereux, R. B.",
+        "journal": "Hypertension",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25637602",
+        "doi": "10.1161/circgenetics.114.000767",
+        "title": "Therapeutic Molecular Phenotype of β-Blocker-Associated Reverse-Remodeling in Nonischemic Dilated Cardiomyopathy",
+        "authors": "Kao, D. P.",
+        "journal": "Circ Cardiovasc Genet",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25415805",
+        "doi": "10.1056/NEJMoa1410853",
+        "title": "Patiromer in patients with kidney disease and hyperkalemia receiving RAAS inhibitors",
+        "authors": "Weir, M. R.",
+        "journal": "N Engl J Med",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "23838790",
+        "doi": "10.1007/s00592-013-0503-9",
+        "title": "Resting heart rate predicts metabolic syndrome in apparently healthy non-obese Japanese men",
+        "authors": "Oda, E.",
+        "journal": "Acta Diabetol",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25413133",
+        "doi": "10.1007/s00408-014-9667-5",
+        "title": "Effects of exercise and vasodilators on cerebral tissue oxygenation in pulmonary hypertension",
+        "authors": "Müller-Mottet, S.",
+        "journal": "Lung",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "24699894",
+        "doi": "10.1007/s40620-014-0080-1",
+        "title": "Drug-drug interactions between sucroferric oxyhydroxide and losartan, furosemide, omeprazole, digoxin and warfarin in healthy subjects",
+        "authors": "Chong, E.",
+        "journal": "J Nephrol",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "31119692",
+        "doi": "10.1007/s12325-019-00956-z",
+        "title": "Absolute Bioavailability of Esaxerenone and Food Effects on its Pharmacokinetics After a Single Oral Dose in Healthy Japanese Subjects: An Open-Label Crossover Study",
+        "authors": "Kurata, A.",
+        "journal": "Adv Ther",
+        "publication_date": "2019"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "27899298",
+        "doi": "10.1016/j.mvr.2016.11.008",
+        "title": "Mechanisms and time course of menthol-induced cutaneous vasodilation",
+        "authors": "Craighead, D. H.",
+        "journal": "Microvasc Res",
+        "publication_date": "2017"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "24108237",
+        "doi": "10.1038/hr.2013.141",
+        "title": "Comparative effects of telmisartan and valsartan as add-on agents for hypertensive patients with morning blood pressure insufficiently controlled by amlodipine monotherapy",
+        "authors": "Yoshida, H.",
+        "journal": "Hypertens Res",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "24482018",
+        "doi": "10.1007/s40261-014-0169-2",
+        "title": "Candesartan cilexetil 32 mg/hydrochlorothiazide 25 mg in unselected patients with high or very high cardiovascular risk: efficacy, safety, and metabolic impact",
+        "authors": "Bramlage, P.",
+        "journal": "Clin Drug Investig",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "26005802",
+        "doi": "10.1016/j.ijcard.2015.05.072",
+        "title": "Increased aortic tortuosity indicates a more severe aortic phenotype in adults with Marfan syndrome",
+        "authors": "Franken, R.",
+        "journal": "Int J Cardiol",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25336916",
+        "doi": "10.2147/dddt.S68784",
+        "title": "Effect of renal function on the pharmacokinetics of fimasartan: a single-dose, open-label, Phase I study",
+        "authors": "Kim, S.",
+        "journal": "Drug Des Devel Ther",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25628416",
+        "doi": "10.1093/ajh/hpu297",
+        "title": "Treatment of Hypertensive Patients With Diabetes and Microalbuminuria With Combination Indapamide SR/Amlodipine: Retrospective Analysis of NESTOR",
+        "authors": "Hanon, O.",
+        "journal": "Am J Hypertens",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "23848219",
+        "doi": "10.3109/10641963.2013.810227",
+        "title": "Angiotensin receptor blocker (ARB)-diuretic versus ARB-calcium channel blocker combination therapy for hypertension uncontrolled by ARB monotherapy",
+        "authors": "Oshikawa, J.",
+        "journal": "Clin Exp Hypertens",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25367150",
+        "doi": "10.1111/jce.12580",
+        "title": "Rate-control drugs affect variability and irregularity measures of RR intervals in patients with permanent atrial fibrillation",
+        "authors": "Corino, V. D.",
+        "journal": "J Cardiovasc Electrophysiol",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25646297",
+        "doi": "10.1161/hypertensionaha.114.04798",
+        "title": "Denervation of the renal arteries in metabolic syndrome: the DREAMS-study",
+        "authors": "Verloop, W. L.",
+        "journal": "Hypertension",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "24723314",
+        "doi": "10.1161/strokeaha.114.005293",
+        "title": "Relative contributions of sympathetic, cholinergic, and myogenic mechanisms to cerebral autoregulation",
+        "authors": "Hamner, J. W.",
+        "journal": "Stroke",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25572060",
+        "doi": "10.1007/s12013-014-0498-z",
+        "title": "The Use of Calcium Channel Blockers in the Treatment of Coronary Spasm and Atrioventricular Block",
+        "authors": "Gao, B.",
+        "journal": "Cell Biochem Biophys",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "24253615",
+        "doi": "10.1007/s10157-013-0914-5",
+        "title": "Effect of aliskiren in chronic kidney disease patients with refractory hypertension undergoing hemodialysis: a randomized controlled multicenter study",
+        "authors": "Kuriyama, S.",
+        "journal": "Clin Exp Nephrol",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "24324048",
+        "doi": "10.1161/hypertensionaha.113.02252",
+        "title": "Effects of combination of perindopril, indapamide, and calcium channel blockers in patients with type 2 diabetes mellitus: results from the Action In Diabetes and Vascular Disease: Preterax and Diamicron Controlled Evaluation (ADVANCE) trial",
+        "authors": "Chalmers, J.",
+        "journal": "Hypertension",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "24681657",
+        "doi": "10.1213/ane.0000000000000076",
+        "title": "The risk of hypertension after preoperative discontinuation of angiotensin-converting enzyme inhibitors or angiotensin receptor antagonists in ambulatory and same-day admission patients",
+        "authors": "Twersky, R. S.",
+        "journal": "Anesth Analg",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25591469",
+        "doi": "10.1159/000371497",
+        "title": "Rationale, design, and baseline characteristics of ARTS-DN: a randomized study to assess the safety and efficacy of finerenone in patients with type 2 diabetes mellitus and a clinical diagnosis of diabetic nephropathy",
+        "authors": "Ruilope, L. M.",
+        "journal": "Am J Nephrol",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25202885",
+        "doi": "10.1002/phar.1483",
+        "title": "Predictors for glucose change in hypertensive participants following short-term treatment with atenolol or hydrochlorothiazide",
+        "authors": "Moore, M. J.",
+        "journal": "Pharmacotherapy",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25147330",
+        "doi": "10.1161/strokeaha.114.005982",
+        "title": "Response of day-to-day home blood pressure variability by antihypertensive drug class after transient ischemic attack or nondisabling stroke",
+        "authors": "Webb, A. J.",
+        "journal": "Stroke",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "24777981",
+        "doi": "10.1161/hypertensionaha.114.03179",
+        "title": "Flaxseed consumption reduces blood pressure in patients with hypertension by altering circulating oxylipins via an α-linolenic acid-induced inhibition of soluble epoxide hydrolase",
+        "authors": "Caligiuri, S. P.",
+        "journal": "Hypertension",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "24452943",
+        "doi": "",
+        "title": "The influence of antihypertensive drugs on mineral status in hypertensive patients",
+        "authors": "Suliburska, J.",
+        "journal": "Eur Rev Med Pharmacol Sci",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "24622114",
+        "doi": "10.1016/j.jchf.2013.10.004",
+        "title": "Prognostic value of the physical examination in patients with heart failure and atrial fibrillation: insights from the AF-CHF trial (atrial fibrillation and chronic heart failure)",
+        "authors": "Caldentey, G.",
+        "journal": "JACC Heart Fail",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "24275841",
+        "doi": "10.1097/hjh.0000000000000032",
+        "title": "In prehypertension leukocytosis is associated with body mass index but not with blood pressure or incident hypertension",
+        "authors": "Julius, S.",
+        "journal": "J Hypertens",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "24366395",
+        "doi": "10.1007/s11606-013-2692-x",
+        "title": "Race/Ethnicity, disability, and medication adherence among medicare beneficiaries with heart failure",
+        "authors": "Zhang, Y.",
+        "journal": "J Gen Intern Med",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "24166742",
+        "doi": "10.1007/s00405-013-2786-4",
+        "title": "Flunarizine in the prophylaxis of migrainous vertigo: a randomized controlled trial",
+        "authors": "Lepcha, A.",
+        "journal": "Eur Arch Otorhinolaryngol",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25580869",
+        "doi": "10.1111/ijs.12446",
+        "title": "Modest blood pressure reduction with valsartan in acute ischemic stroke: a prospective, randomized, open-label, blinded-end-point trial",
+        "authors": "Oh, M. S.",
+        "journal": "Int J Stroke",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25105284",
+        "doi": "10.2459/jcm.0000000000000089",
+        "title": "Effect of multidisciplinary disease management for hospitalized heart failure under a national health insurance programme",
+        "authors": "Mao, C. T.",
+        "journal": "J Cardiovasc Med (Hagerstown)",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25317091",
+        "doi": "10.5664/jcsm.4110",
+        "title": "A randomized, double-blind, placebo-controlled, multicenter, 28-day, polysomnographic study of gabapentin in transient insomnia induced by sleep phase advance",
+        "authors": "Furey, S. A.",
+        "journal": "J Clin Sleep Med",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "26242715",
+        "doi": "10.1093/eurheartj/ehv347",
+        "title": "Cardiovascular risk in relation to body mass index and use of evidence-based preventive medications in patients with or at risk of atherothrombosis",
+        "authors": "Hansel, B.",
+        "journal": "Eur Heart J",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "26093871",
+        "doi": "10.1016/j.ahj.2015.04.019",
+        "title": "Effects of withdrawing vs continuing renin-angiotensin blockers on incidence of acute kidney injury in patients with renal insufficiency undergoing cardiac catheterization: Results from the Angiotensin Converting Enzyme Inhibitor/Angiotensin Receptor Blocker and Contrast Induced Nephropathy in Patients Receiving Cardiac Catheterization (CAPTAIN) trial",
+        "authors": "Bainey, K. R.",
+        "journal": "Am Heart J",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "26238113",
+        "doi": "10.2174/157340211102150731114920",
+        "title": "The effects of angiotensin II signaling blockade on platelet activity in subjects with hypertension",
+        "authors": "Ahmed, N.",
+        "journal": "Curr Hypertens Rev",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "37067785",
+        "doi": "10.1111/hdi.13076",
+        "title": "Incidence of hospital admissions in bioimpedance-guided fluid management among maintenance hemodialysis patients-Results of a randomized controlled trial",
+        "authors": "Stigger, K.",
+        "journal": "Hemodial Int",
+        "publication_date": "2023"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25694056",
+        "doi": "10.1177/1470320314566017",
+        "title": "Effect of angiotensin II receptor blockers, candesartan, on osteoprotegerin level in hypertensive patients: Link between bone and RAAS",
+        "authors": "Oz, H.",
+        "journal": "J Renin Angiotensin Aldosterone Syst",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "23688162",
+        "doi": "10.3109/09546634.2013.802759",
+        "title": "Confirmed efficacy of topical nifedipine in the treatment of facial wrinkles",
+        "authors": "Calabrò, G.",
+        "journal": "J Dermatolog Treat",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "27533993",
+        "doi": "10.1093/ehjcvp/pvv016",
+        "title": "Optimization of heart failure medication after cardiac resynchronization therapy and the impact on long-term survival",
+        "authors": "Witt, C. T.",
+        "journal": "Eur Heart J Cardiovasc Pharmacother",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25828348",
+        "doi": "10.1016/j.ijcard.2015.03.169",
+        "title": "Increased visit-to-visit blood pressure variability is associated with worse cardiovascular outcomes in low ejection fraction heart failure patients: Insights from the HEAAL study",
+        "authors": "Rossignol, P.",
+        "journal": "Int J Cardiol",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "24052362",
+        "doi": "10.1177/0284185113505276",
+        "title": "Single dose ivabradine versus intravenous metoprolol for heart rate reduction before coronary computed tomography angiography (CCTA) in patients receiving long-term calcium channel-blocker therapy",
+        "authors": "Celik, O.",
+        "journal": "Acta Radiol",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "24026142",
+        "doi": "10.5507/bp.2013.053",
+        "title": "Anti-hypertensive strategies in patients with MEtabolic parameters, DIabetes mellitus and/or NephropAthy (the M E D I N A study)",
+        "authors": "Spinar, J.",
+        "journal": "Biomed Pap Med Fac Univ Palacky Olomouc Czech Repub",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "24390146",
+        "doi": "10.1161/jaha.113.000609",
+        "title": "The effect of salsalate therapy on endothelial function in a broad range of subjects",
+        "authors": "Nohria, A.",
+        "journal": "J Am Heart Assoc",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25987260",
+        "doi": "10.1053/j.ajkd.2015.03.032",
+        "title": "Serum Bicarbonate and Kidney Disease Progression and Cardiovascular Outcome in Patients With Diabetic Nephropathy: A Post Hoc Analysis of the RENAAL (Reduction of End Points in Non-Insulin-Dependent Diabetes With the Angiotensin II Antagonist Losartan) Study and IDNT (Irbesartan Diabetic Nephropathy Trial)",
+        "authors": "Schutte, E.",
+        "journal": "Am J Kidney Dis",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25447626",
+        "doi": "10.1016/j.amjmed.2014.08.022",
+        "title": "Venous thromboembolism and cardiovascular risk: results from the NAVIGATOR trial",
+        "authors": "Katz, M.",
+        "journal": "Am J Med",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25655011",
+        "doi": "10.1002/ejhf.238",
+        "title": "Sex differences in clinical characteristics and outcomes after myocardial infarction: insights from the Valsartan in Acute Myocardial Infarction Trial (VALIANT)",
+        "authors": "Lam, C. S.",
+        "journal": "Eur J Heart Fail",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "26494370",
+        "doi": "10.1186/s12882-015-0162-x",
+        "title": "Angiotensin converting enzyme inhibition increases ADMA concentration in patients on maintenance hemodialysis--a randomized cross-over study",
+        "authors": "Gamboa, J. L.",
+        "journal": "BMC Nephrol",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "26325557",
+        "doi": "10.1001/jama.2015.10081",
+        "title": "Effect of Finerenone on Albuminuria in Patients With Diabetic Nephropathy: A Randomized Clinical Trial",
+        "authors": "Bakris, G. L.",
+        "journal": "Jama",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25002161",
+        "doi": "10.1007/s11606-014-2947-1",
+        "title": "Characteristics and long-term follow-up of participants with peripheral arterial disease during ALLHAT",
+        "authors": "Piller, L. B.",
+        "journal": "J Gen Intern Med",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "26109470",
+        "doi": "10.1002/dmrr.2669",
+        "title": "Effect of six years intensified multifactorial treatment on levels of hs-CRP and adiponectin in patients with screen detected type 2 diabetes: the ADDITION-Netherlands randomized trial",
+        "authors": "den Ouden, H.",
+        "journal": "Diabetes Metab Res Rev",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "24842388",
+        "doi": "10.1093/ajh/hpu086",
+        "title": "Urinary angiotensin-converting enzyme 2 in hypertensive patients may be increased by olmesartan, an angiotensin II receptor blocker",
+        "authors": "Furuhashi, M.",
+        "journal": "Am J Hypertens",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25040793",
+        "doi": "10.1111/jgs.12936",
+        "title": "The mini-mental state examination, clinical factors, and motor vehicle crash risk",
+        "authors": "Joseph, P. G.",
+        "journal": "J Am Geriatr Soc",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "26237554",
+        "doi": "10.1097/hjh.0000000000000653",
+        "title": "Antihypertensive drug use and risk of cognitive decline in the very old: an observational study - the Newcastle 85+ Study",
+        "authors": "Peters, R.",
+        "journal": "J Hypertens",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "24277678",
+        "doi": "10.1002/pds.3548",
+        "title": "Cardiovascular and mortality risk in elderly Medicare beneficiaries treated with olmesartan versus other angiotensin receptor blockers",
+        "authors": "Graham, D. J.",
+        "journal": "Pharmacoepidemiol Drug Saf",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "24428524",
+        "doi": "10.1111/bjd.12838",
+        "title": "Antihypertensive drugs and the risk of incident rosacea",
+        "authors": "Spoendlin, J.",
+        "journal": "Br J Dermatol",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25064674",
+        "doi": "10.1053/j.ajkd.2014.06.008",
+        "title": "Visit-to-visit variability in blood pressure and kidney and cardiovascular outcomes in patients with type 2 diabetes and nephropathy: a post hoc analysis from the RENAAL study and the Irbesartan Diabetic Nephropathy Trial",
+        "authors": "McMullan, C. J.",
+        "journal": "Am J Kidney Dis",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "26066644",
+        "doi": "10.1097/hjh.0000000000000668",
+        "title": "Preferable effects of olmesartan/calcium channel blocker to olmesartan/diuretic on blood pressure variability in very elderly hypertension: COLM study subanalysis",
+        "authors": "Rakugi, H.",
+        "journal": "J Hypertens",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25176015",
+        "doi": "10.1056/NEJMoa1409077",
+        "title": "Angiotensin-neprilysin inhibition versus enalapril in heart failure",
+        "authors": "McMurray, J. J.",
+        "journal": "N Engl J Med",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "24736279",
+        "doi": "10.1097/mbp.0000000000000045",
+        "title": "Blood pressure measurement reliability among different racial-ethnic groups in a stroke prevention study",
+        "authors": "Estol, C. J.",
+        "journal": "Blood Press Monit",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25012498",
+        "doi": "10.1016/j.ijcard.2014.06.013",
+        "title": "Renin-angiotensin system inhibition is not associated with increased sudden cardiac death, cardiovascular mortality or all-cause mortality in patients with aortic stenosis",
+        "authors": "Bang, C. N.",
+        "journal": "Int J Cardiol",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "26293760",
+        "doi": "10.1016/j.jacc.2015.06.1309",
+        "title": "Clinical Outcomes for Peripartum Cardiomyopathy in North America: Results of the IPAC Study (Investigations of Pregnancy-Associated Cardiomyopathy)",
+        "authors": "McNamara, D. M.",
+        "journal": "J Am Coll Cardiol",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25523182",
+        "doi": "10.1016/j.jcjd.2014.10.012",
+        "title": "Effectiveness of angiotensin II receptor antagonists in a cohort of Dutch patients with type 2 diabetes mellitus (ZODIAC-14)",
+        "authors": "van Hateren, K. J.",
+        "journal": "Can J Diabetes",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25277997",
+        "doi": "10.1161/circheartfailure.114.001427",
+        "title": "Elevation in high-sensitivity troponin T in heart failure and preserved ejection fraction and influence of treatment with the angiotensin receptor neprilysin inhibitor LCZ696",
+        "authors": "Jhund, P. S.",
+        "journal": "Circ Heart Fail",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "24906174",
+        "doi": "10.1097/hjh.0000000000000239",
+        "title": "Effects on office and home blood pressure of the lercanidipine-enalapril combination in patients with Stage 2 hypertension: a European randomized, controlled clinical trial",
+        "authors": "Mancia, G.",
+        "journal": "J Hypertens",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "26089641",
+        "doi": "10.2147/dddt.S86168",
+        "title": "Dose proportionality and pharmacokinetics of carvedilol sustained-release formulation: a single dose-ascending 10-sequence incomplete block study",
+        "authors": "Kim, Y. H.",
+        "journal": "Drug Des Devel Ther",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25936297",
+        "doi": "10.1016/j.atherosclerosissup.2015.02.001",
+        "title": "Different responses of the retinal and cutaneous microcirculation to transient dysmetabolic conditions",
+        "authors": "Reimann, M.",
+        "journal": "Atheroscler Suppl",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "24061546",
+        "doi": "10.1097/HJH.0b013e328365cd59",
+        "title": "Systolic and diastolic component of orthostatic hypotension and cardiovascular events in hypertensive patients: the Captopril Prevention Project",
+        "authors": "Fedorowski, A.",
+        "journal": "J Hypertens",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25354777",
+        "doi": "10.1038/hr.2014.156",
+        "title": "Effectiveness of olmesartan-based treatment on home and clinic blood pressure in elderly patients with masked and white coat hypertension",
+        "authors": "Kushiro, T.",
+        "journal": "Hypertens Res",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "24979531",
+        "doi": "10.1016/j.ijpharm.2014.06.048",
+        "title": "Design of lipotomes as a novel dual functioning nanocarrier for bioavailability enhancement of lacidipine: in-vitro and in-vivo characterization",
+        "authors": "ElKasabgy, N. A.",
+        "journal": "Int J Pharm",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25800548",
+        "doi": "10.1016/j.cardfail.2015.03.006",
+        "title": "Changes in Drug Utilization and Outcome With Cardiac Resynchronization Therapy: A MADIT-CRT Substudy",
+        "authors": "Penn, J.",
+        "journal": "J Card Fail",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "26304595",
+        "doi": "10.1016/j.nut.2015.05.004",
+        "title": "Effect of urine urea nitrogen and protein intake adjusted by using the estimated urine creatinine excretion rate on the antiproteinuric effect of angiotensin II type I receptor blockers",
+        "authors": "Chin, H. J.",
+        "journal": "Nutrition",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "23959544",
+        "doi": "10.1093/ajh/hpt138",
+        "title": "The effects of amlodipine and S(-)-amlodipine on vascular endothelial function in patients with hypertension",
+        "authors": "He, Y.",
+        "journal": "Am J Hypertens",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "24890531",
+        "doi": "10.1016/j.ahj.2014.01.017",
+        "title": "Aldosterone inhibition and coronary endothelial function in women without obstructive coronary artery disease: an ancillary study of the national heart, lung, and blood institute-sponsored women's ischemia syndrome evaluation",
+        "authors": "Bavry, A. A.",
+        "journal": "Am Heart J",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "23731019",
+        "doi": "10.3109/08037051.2013.791411",
+        "title": "Metabolic effects of telmisartan in subjects with abdominal obesity: a prospective randomized controlled trial",
+        "authors": "Chetty, V. T.",
+        "journal": "Blood Press",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25814183",
+        "doi": "10.1016/j.rec.2014.11.019",
+        "title": "Quality of Vitamin K Antagonist Anticoagulation in Spain: Prevalence of Poor Control and Associated Factors",
+        "authors": "Anguita Sánchez, M.",
+        "journal": "Rev Esp Cardiol (Engl Ed)",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25733639",
+        "doi": "10.3945/ajcn.114.092189",
+        "title": "Cocoa flavanol consumption improves cognitive function, blood pressure control, and metabolic profile in elderly subjects: the Cocoa, Cognition, and Aging (CoCoA) Study--a randomized controlled trial",
+        "authors": "Mastroiacovo, D.",
+        "journal": "Am J Clin Nutr",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25870186",
+        "doi": "10.1161/jaha.114.001615",
+        "title": "Comprehensive T wave morphology assessment in a randomized clinical study of dofetilide, quinidine, ranolazine, and verapamil",
+        "authors": "Vicente, J.",
+        "journal": "J Am Heart Assoc",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "24060523",
+        "doi": "10.1016/j.jjcc.2013.08.004",
+        "title": "Long-term effects of irbesartan on plasma aldosterone concentration and left atrial volume in hypertensive patients",
+        "authors": "Masaki, M.",
+        "journal": "J Cardiol",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "24919974",
+        "doi": "10.1007/s40266-014-0189-x",
+        "title": "Secondary prevention medication after myocardial infarction: persistence in elderly people over the course of 1 year",
+        "authors": "Al-Khadra, S.",
+        "journal": "Drugs Aging",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25591969",
+        "doi": "10.1177/0960327114565490",
+        "title": "Clinical safety assessment of oral higenamine supplementation in healthy, young men",
+        "authors": "Bloomer, R. J.",
+        "journal": "Hum Exp Toxicol",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25554404",
+        "doi": "10.1016/s1474-4422(14)70318-7",
+        "title": "Eplerenone for early cardiomyopathy in Duchenne muscular dystrophy: a randomised, double-blind, placebo-controlled trial",
+        "authors": "Raman, S. V.",
+        "journal": "Lancet Neurol",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25801761",
+        "doi": "10.1161/jaha.114.001624",
+        "title": "Plasma pro-endothelin-1 peptide concentrations rise in chronic kidney disease and following selective endothelin A receptor antagonism",
+        "authors": "Dhaun, N.",
+        "journal": "J Am Heart Assoc",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "24496699",
+        "doi": "10.1136/bmjopen-2013-004254",
+        "title": "Rationale and study design of the Prospective comparison of Angiotensin Receptor neprilysin inhibitor with Angiotensin receptor blocker MEasuring arterial sTiffness in the eldERly (PARAMETER) study",
+        "authors": "Williams, B.",
+        "journal": "BMJ Open",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "26115878",
+        "doi": "10.1016/j.cct.2015.06.019",
+        "title": "Multi-modal intervention to reduce cardiovascular risk among hypertensive older adults: Design of a randomized clinical trial",
+        "authors": "Buford, T. W.",
+        "journal": "Contemp Clin Trials",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "24433061",
+        "doi": "10.3109/10641963.2013.863323",
+        "title": "Effects of aliskiren on blood pressure and humoral factors in hypertensive hemodialysis patients previously on angiotensin II receptor antagonists",
+        "authors": "Ito, T.",
+        "journal": "Clin Exp Hypertens",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25795452",
+        "doi": "10.1177/1358863x15569868",
+        "title": "Distinct effects of losartan and atenolol on vascular stiffness in Marfan syndrome",
+        "authors": "Bhatt, A. B.",
+        "journal": "Vasc Med",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "23965645",
+        "doi": "10.2133/dmpk.dmpk-13-rg-053",
+        "title": "Development of a pharmacokinetic interaction model for co-administration of simvastatin and amlodipine",
+        "authors": "Son, H.",
+        "journal": "Drug Metab Pharmacokinet",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "24613817",
+        "doi": "10.1016/j.pcd.2014.01.006",
+        "title": "Socioeconomic position and cardiovascular risk factors among people with screen-detected Type 2 DM: six-year follow-up of the ADDITION-Denmark trial",
+        "authors": "Dalsgaard, E. M.",
+        "journal": "Prim Care Diabetes",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25275251",
+        "doi": "10.1097/hjh.0000000000000313",
+        "title": "Prevention of electrocardiographic left ventricular remodeling by the angiotensin receptor blocker olmesartan in patients with type 2 diabetes",
+        "authors": "Raff, U.",
+        "journal": "J Hypertens",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "24008122",
+        "doi": "10.1093/ajh/hpt158",
+        "title": "Differential effects of aliskiren/amlodipine combination and high-dose amlodipine monotherapy on endothelial function in elderly hypertensive patients",
+        "authors": "Fukutomi, M.",
+        "journal": "Am J Hypertens",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "24622243",
+        "doi": "10.1161/circheartfailure.113.001036",
+        "title": "Prognostic value of soluble ST2 in the Valsartan Heart Failure Trial",
+        "authors": "Anand, I. S.",
+        "journal": "Circ Heart Fail",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25816110",
+        "doi": "10.3109/10641963.2015.1013118",
+        "title": "Benefit of losartan/hydrochlorothiazide-fixed dose combination treatment for isolated morning hypertension: The MAPPY study",
+        "authors": "Kai, H.",
+        "journal": "Clin Exp Hypertens",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25307535",
+        "doi": "10.1016/j.cjca.2014.07.008",
+        "title": "Cholesterol end points predict outcome in patients with coronary disease: quality improvement metrics from the enhancing secondary prevention in coronary artery disease (ESP-CAD) trial",
+        "authors": "McAlister, F. A.",
+        "journal": "Can J Cardiol",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "24337978",
+        "doi": "10.1007/s40262-013-0125-y",
+        "title": "Randomised, double-blind, placebo-controlled, dose-escalating phase I study of QGC001, a centrally acting aminopeptidase a inhibitor prodrug",
+        "authors": "Balavoine, F.",
+        "journal": "Clin Pharmacokinet",
+        "publication_date": "2014"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25475196",
+        "doi": "10.1007/s11255-014-0890-z",
+        "title": "Intravenous magnesium sulfate: new method in prevention of contrast-induced nephropathy in primary percutaneous coronary intervention",
+        "authors": "Firouzi, A.",
+        "journal": "Int Urol Nephrol",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "25646296",
+        "doi": "10.1161/hypertensionaha.114.04935",
+        "title": "Age-related difference in the sleep pressure-lowering effect between an angiotensin II receptor blocker and a calcium channel blocker in Asian hypertensives: the ACS1 Study",
+        "authors": "Kario, K.",
+        "journal": "Hypertension",
+        "publication_date": "2015"
+      }
+    },
+    {
+      "manual_info": {
+        "pmid": "23713902",
+        "doi": "10.3109/10641963.2013.783052",
+        "title": "Diuretics enhance effects of increased dose of candesartan on ambulatory blood pressure reduction in Japanese patients with uncontrolled hypertension treated with medium-dose angiotensin II receptor blockers",
+        "authors": "Sakima, A.",
+        "journal": "Clin Exp Hypertens",
+        "publication_date": "2014"
+      }
+    }
+  ],
+  "llm_only_sample": [
+    {
+      "llm_info": {
+        "pmid": "30718148",
+        "doi": "",
+        "title": "Circulating Levels of Soluble Klotho and Fibroblast Growth Factor 23 in Diabetic Patients and Its Association with Early Nephropathy.",
+        "authors": "Farías-Basulto Alfonso, Martínez-Ramírez Héctor Ramón, Gómez-García Erika Fabiola",
+        "journal": "Archives of medical research",
+        "publication_date": "2018-Oct"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "33660934",
+        "doi": "",
+        "title": "Impact of carboxylesterase 1 genetic polymorphism on trandolapril activation in human liver and the pharmacokinetics and pharmacodynamics in healthy volunteers.",
+        "authors": "Wang Xinwen, Her Lucy, Xiao Jingcheng",
+        "journal": "Clinical and translational science",
+        "publication_date": "2021-Jul"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "36984599",
+        "doi": "",
+        "title": "Establishment of an Individual-Specific Nomogram for Predicting the Risk of Left Ventricular Hypertrophy in Chinese Postmenopausal Hypertensive Women.",
+        "authors": "Yuan Ruowen, Chen Jianshu, Zhang Shangyun",
+        "journal": "Medicina (Kaunas, Lithuania)",
+        "publication_date": "2023-Mar"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "37336337",
+        "doi": "",
+        "title": "Isolation of alkaloidal and glycosidal fractions from leaves of Trigonella foenum-graecum L. cv. Desi indigenous to Pakistan for antiprostaglandin evaluation as substitute of nonsteroidal anti-inflammatory drugs.",
+        "authors": "Shaukat Tahir Mahmood, Omer Muhammad Ovais, Javeed Aqeel",
+        "journal": "Journal of ethnopharmacology",
+        "publication_date": "2023-Dec"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "26906033",
+        "doi": "",
+        "title": "Effects of Blood Pressure Lowering With Different Antihypertensive Agents on Cognitive Function and Plasma Brain-derived Neurotrophic Factor Levels: A Comparative Study.",
+        "authors": "Demir Meral, Gürol Ali Osman, Özyiğit Raşit Tolga",
+        "journal": "Journal of cardiovascular pharmacology",
+        "publication_date": "2016-Jun"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "32738879",
+        "doi": "",
+        "title": "Clinical efficacy of various anti-hypertensive regimens in hypertensive women of Punjab; a longitudinal cohort study.",
+        "authors": "Umair Muhammad, Ahmad Mobasher, Saeed Hamid",
+        "journal": "BMC women's health",
+        "publication_date": "2020-Aug"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "33021511",
+        "doi": "",
+        "title": "Association between renin-angiotensin-aldosterone system blockers and outcome in coronavirus disease 2019: analysing in-hospital exposure generates a biased seemingly protective effect of treatment.",
+        "authors": "Lahens Alexandre, Mullaert Jimmy, Gressens Simon",
+        "journal": "Journal of hypertension",
+        "publication_date": "2021-Feb"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "26741496",
+        "doi": "",
+        "title": "Preserved Pressure Autoregulation but Disturbed Cyclo-Oxygenase and Nitric Oxide Effects on Retinal Arterioles during Acute Hypoxia in Diabetic Patients without Retinopathy.",
+        "authors": "Petersen Line, Bek Toke",
+        "journal": "Ophthalmologica. Journal international d'ophtalmologie. International journal of ophthalmology. Zeitschrift fur Augenheilkunde",
+        "publication_date": "2016"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "33028754",
+        "doi": "",
+        "title": "Differential Diagnosis of COVID-19: Importance of Measuring Blood Lymphocytes, Serum Electrolytes, and Olfactory and Taste Functions.",
+        "authors": "Nakanishi Hiroki, Suzuki Motohiko, Maeda Hiroyoshi",
+        "journal": "The Tohoku journal of experimental medicine",
+        "publication_date": "2020-Oct"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "38000538",
+        "doi": "",
+        "title": "Relevant adverse events and drug discontinuation of sacubitril/valsartan in a real-world Japanese cohort: REVIEW-HF registry.",
+        "authors": "Matsumoto Shingo, McMurray John J V, Nasu Takahito",
+        "journal": "Journal of cardiology",
+        "publication_date": "2024-Aug"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "31230034",
+        "doi": "",
+        "title": "Effects of combination drugs on antihypertensive medication adherence in a real-world setting: a Korean Nationwide Study.",
+        "authors": "Kim Seung Jae, Kwon Oh Deog, Cho BeLong",
+        "journal": "BMJ open",
+        "publication_date": "2019-Jun"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "28631191",
+        "doi": "",
+        "title": "Effect of angiotensin system inhibitors on survival in newly diagnosed glioma patients and recurrent glioblastoma patients receiving chemotherapy and/or bevacizumab.",
+        "authors": "Levin Victor A, Chan James, Datta Meenal",
+        "journal": "Journal of neuro-oncology",
+        "publication_date": "2017-Sep"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "35851740",
+        "doi": "",
+        "title": "Use of guideline-recommended medical therapy in patients with heart failure and chronic kidney disease: from physician's prescriptions to patient's dispensations, medication adherence and persistence.",
+        "authors": "Janse Roemer J, Fu Edouard L, Dahlström Ulf",
+        "journal": "European journal of heart failure",
+        "publication_date": "2022-Nov"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "26935365",
+        "doi": "",
+        "title": "Renal Insufficiency in Concert with Renin-angiotensin-aldosterone Inhibition Is a Major Risk Factor for Hyperkalemia Associated with Low-dose Trimethoprim-sulfamethoxazole in Adults.",
+        "authors": "Higashioka Kazuhiko, Niiro Hiroaki, Yoshida Kenji",
+        "journal": "Internal medicine (Tokyo, Japan)",
+        "publication_date": "2016"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "29336319",
+        "doi": "",
+        "title": "Acute renal injury induced by oral valacyclovir.",
+        "authors": "Han Yanfang, Guo Qing, Mai Shaozhen",
+        "journal": "European journal of dermatology : EJD",
+        "publication_date": "2018-Feb"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "26928486",
+        "doi": "",
+        "title": "Mortality in African-Americans Following Cardiac Resynchronization Therapy: A Single Center Experience.",
+        "authors": "Fontaine John M, Franklin Sona M, Gupta Ashwani",
+        "journal": "Journal of the National Medical Association",
+        "publication_date": "2016-Feb"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "39425811",
+        "doi": "",
+        "title": "Relationship between the AGT M235T genetic variant and the characteristics and prognosis of coronary atherosclerosis in patients with acute myocardial infarction.",
+        "authors": "Tran Duy Cong, Do Minh Duc, Le Linh Hoang Gia",
+        "journal": "Molecular biology reports",
+        "publication_date": "2024-Oct"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "32442294",
+        "doi": "",
+        "title": "Therapy With Agents Acting on the Renin-Angiotensin System and Risk of Severe Acute Respiratory Syndrome Coronavirus 2 Infection.",
+        "authors": "Gnavi Roberto, Demaria Moreno, Picariello Roberta",
+        "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "publication_date": "2020-Nov"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "30817790",
+        "doi": "",
+        "title": "Budget impact analysis of increasing prescription of renin-angiotensin system inhibitors drugs to standard anti-hypertensive treatments in patients with diabetes and hypertension in a hypothetical cohort of Malaysian population.",
+        "authors": "Mohd-Tahir Nurul-Ain, Li Shu-Chuen",
+        "journal": "PloS one",
+        "publication_date": "2019"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "32050991",
+        "doi": "",
+        "title": "Angiotensin II blockade had no effect on range of motion after total knee arthroplasty: a retrospective review.",
+        "authors": "Langston Joseph R, Ramsey Duncan C, Skoglund Kathryn",
+        "journal": "Journal of orthopaedic surgery and research",
+        "publication_date": "2020-Feb"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "25143336",
+        "doi": "",
+        "title": "Efficacy and safety of combination therapy of high-dose losartan and hydrochlorothiazide in patients with hypertension.",
+        "authors": "Shiga Yuhei, Miura Shin-Ichiro, Norimatsu Kenji",
+        "journal": "Journal of the renin-angiotensin-aldosterone system : JRAAS",
+        "publication_date": "2015-Dec"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "38293826",
+        "doi": "",
+        "title": "Transcriptomic profiling reveals a pronociceptive role for angiotensin II in inflammatory bowel disease.",
+        "authors": "Higham James P, Bhebhe Charity N, Gupta Rohit A",
+        "journal": "Pain",
+        "publication_date": "2024-Jul"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "29203863",
+        "doi": "",
+        "title": "ORAI channels are critical for receptor-mediated endocytosis of albumin.",
+        "authors": "Zeng Bo, Chen Gui-Lan, Garcia-Vaz Eliana",
+        "journal": "Nature communications",
+        "publication_date": "2017-Dec"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "31521117",
+        "doi": "",
+        "title": "In search of potential predictors of erythropoiesis-stimulating agents (ESAs) hyporesponsiveness: a population-based study.",
+        "authors": "Ingrasciotta Ylenia, Lacava Viviana, Marcianò Ilaria",
+        "journal": "BMC nephrology",
+        "publication_date": "2019-Sep"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "27230850",
+        "doi": "",
+        "title": "Effect of renal function on the pharmacokinetics of LCZ696 (sacubitril/valsartan), an angiotensin receptor neprilysin inhibitor.",
+        "authors": "Ayalasomayajula Surya P, Langenickel Thomas H, Jordaan Pierre",
+        "journal": "European journal of clinical pharmacology",
+        "publication_date": "2016-Sep"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "33929386",
+        "doi": "",
+        "title": "Adverse Events of Sacubitril/Valsartan: A Meta-analysis of Randomized Controlled Trials.",
+        "authors": "Huang Yun, Zhang YuYu, Ma Lili",
+        "journal": "Journal of cardiovascular pharmacology",
+        "publication_date": "2021-Aug"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "29265051",
+        "doi": "",
+        "title": "Pattern and predictors of urine protein excretion among patients with type 2 diabetes attending a single tertiary hospital in Lagos, Nigeria.",
+        "authors": "Bello Babawale T, Amira Christiana O",
+        "journal": "Saudi journal of kidney diseases and transplantation : an official publication of the Saudi Center for Organ Transplantation, Saudi Arabia",
+        "publication_date": "2017"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "34989278",
+        "doi": "",
+        "title": "Twelve-year follow up of a case of autosomal recessive bestrophinopathy with transient resolution of retinal edema in one eye.",
+        "authors": "Remolí Sargues Lidia, Monferrer Adsuara Clara, Rodríguez López Raquel",
+        "journal": "European journal of ophthalmology",
+        "publication_date": "2023-May"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "29887444",
+        "doi": "",
+        "title": "Effect of renin-angiotensin system blockade in patients with severe renal insufficiency and heart failure.",
+        "authors": "Jang Se Yong, Chae Shung Chull, Bae Myung Hwan",
+        "journal": "International journal of cardiology",
+        "publication_date": "2018-Sep"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "34713706",
+        "doi": "",
+        "title": "Lifetime Risk of Heart Failure and Trends in Incidence Rates Among Individuals With Type 2 Diabetes Between 1995 and 2018.",
+        "authors": "Schwartz Brian, Pierce Colin, Vasan Ramachandran S",
+        "journal": "Journal of the American Heart Association",
+        "publication_date": "2021-Nov"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "33787911",
+        "doi": "",
+        "title": "Association Between Renin-Angiotensin-Aldosterone System Inhibitors and Clinical Outcomes in Patients With COVID-19: A Systematic Review and Meta-analysis.",
+        "authors": "Baral Ranu, Tsampasian Vasiliki, Debski Maciej",
+        "journal": "JAMA network open",
+        "publication_date": "2021-Mar"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "28426743",
+        "doi": "",
+        "title": "Acute kidney injury can predict in-hospital and long-term mortality in elderly patients undergoing hip fracture surgery.",
+        "authors": "Hong Seong Eun, Kim Tae-Young, Yoo Je-Hyun",
+        "journal": "PloS one",
+        "publication_date": "2017"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "31448866",
+        "doi": "",
+        "title": "The prevalence and predictors of resistant hypertension in high-risk overweight and obese patients: A cross-sectional study based on the 2017 ACC/AHA guidelines.",
+        "authors": "Haddadin Faris, Sud Karan, Munoz Estrella Alba",
+        "journal": "Journal of clinical hypertension (Greenwich, Conn.)",
+        "publication_date": "2019-Oct"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "36062091",
+        "doi": "",
+        "title": "Sacubitril-valsartan for the treatment of hypertension in China: A cost-utility analysis based on meta-analysis of randomized controlled trials.",
+        "authors": "Lou Yake, Yu Ying, Liu Jinxing",
+        "journal": "Frontiers in public health",
+        "publication_date": "2022"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "31801476",
+        "doi": "",
+        "title": "Preventing acute kidney injury in high-risk patients by temporarily discontinuing medication - an observational study in general practice.",
+        "authors": "Faber Suzanne J, Scherpbier Nynke D, Peters Hans J G",
+        "journal": "BMC nephrology",
+        "publication_date": "2019-Dec"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "34398316",
+        "doi": "",
+        "title": "Commentary on the KDIGO 2021 Clinical Practice Guideline for the Management of Blood Pressure in CKD.",
+        "authors": "Mann Johannes F E, Chang Tara I, Cushman William C",
+        "journal": "Current cardiology reports",
+        "publication_date": "2021-Aug"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "32067030",
+        "doi": "",
+        "title": "Effects of Mineralocorticoid and AT1 Receptor Antagonism on The Aldosterone-Renin Ratio In Primary Aldosteronism-the EMIRA Study.",
+        "authors": "Rossi Gian Paolo, Ceolotto Giulio, Rossitto Giacomo",
+        "journal": "The Journal of clinical endocrinology and metabolism",
+        "publication_date": "2020-Jun"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "28389663",
+        "doi": "",
+        "title": "Associations of metabolic disorder factors with the risk of uncontrolled hypertension: a follow-up cohort in rural China.",
+        "authors": "Xiao Jing, Hua Tianqi, Shen Huan",
+        "journal": "Scientific reports",
+        "publication_date": "2017-Apr"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "27519769",
+        "doi": "",
+        "title": "Telmisartan improves cardiac fibrosis in diabetes through peroxisome proliferator activated receptor δ (PPARδ): from bedside to bench.",
+        "authors": "Chang Wei-Ting, Cheng Juei-Tang, Chen Zhih-Cherng",
+        "journal": "Cardiovascular diabetology",
+        "publication_date": "2016-Aug"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "33031831",
+        "doi": "",
+        "title": "Renin-Angiotensin-Aldosterone System Inhibitor Use and Mortality in Pulmonary Hypertension: Insights From the Veterans Affairs Clinical Assessment Reporting and Tracking Database.",
+        "authors": "Lahm Tim, Hess Edward, Barón Anna E",
+        "journal": "Chest",
+        "publication_date": "2021-Apr"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "32634013",
+        "doi": "",
+        "title": "Antidiabetics and antihypertensive medications use in Morocco: A pharmacoepidemiological descriptive study.",
+        "authors": "Rida Elyamani, Soulaymani Abdelmajid, Serhier Zineb",
+        "journal": "African journal of primary health care & family medicine",
+        "publication_date": "2020-Jun"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "30614384",
+        "doi": "",
+        "title": "Evaluation of endothelial function and arterial stiffness in obese individuals with insulin resistance.",
+        "authors": "Menezes V P, Cohen C, Del-Rei J",
+        "journal": "Nutrition and health",
+        "publication_date": "2019-Jun"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "28273314",
+        "doi": "",
+        "title": "Losartan Attenuates Scar Formation in Filtering Bleb After Trabeculectomy.",
+        "authors": "Shi Huimin, Wang Huiying, Fu Shuhao",
+        "journal": "Investigative ophthalmology & visual science",
+        "publication_date": "2017-Mar"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "29778133",
+        "doi": "",
+        "title": "Study of Acute Kidney Injury on 309 Hypertensive Inpatients with ACEI/ARB - Diuretic Treatment.",
+        "authors": "Chen Qiaochao, Zhu Shaofang, Liao Jianjun",
+        "journal": "Journal of the National Medical Association",
+        "publication_date": "2018-Jun"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "36074319",
+        "doi": "",
+        "title": "Drug-drug interactions between direct-acting antivirals and co-medications: a territory-wide cohort study.",
+        "authors": "Hui Vicki Wing-Ki, Au Christopher Langjun, Lam Amy Shuk Man",
+        "journal": "Hepatology international",
+        "publication_date": "2022-Dec"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "32336108",
+        "doi": "",
+        "title": "Disparities in the Use of Guideline-Based Pharmacotherapy Exist for Atherosclerotic Cardiovascular Disease and Heart Failure Patients Who Have Intellectual/Developmental Disabilities in a Commercially Insured Database.",
+        "authors": "Erickson Steven R, Basu Tanima, Dorsch Michael P",
+        "journal": "The Annals of pharmacotherapy",
+        "publication_date": "2020-Oct"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "27093616",
+        "doi": "",
+        "title": "The association between high-sensitivity C-reactive protein and hypertension in women of the CARDIA study.",
+        "authors": "Ebong Imo A, Schreiner Pamela, Lewis Cora E",
+        "journal": "Menopause (New York, N.Y.)",
+        "publication_date": "2016-Jun"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "31262348",
+        "doi": "",
+        "title": "Fimasartan versus perindopril with and without diuretics in the treatment of elderly patients with essential hypertension (Fimasartan in the Senior Subjects (FITNESS)): study protocol for a randomized controlled trial.",
+        "authors": "Kang Min-Gu, Kim Kwang-Il, Ihm Sang Hyun",
+        "journal": "Trials",
+        "publication_date": "2019-Jul"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "37820082",
+        "doi": "",
+        "title": "Investigation Into Potentially Inappropriate Prescribing Patterns of Loop Diuretics in a Nationally Representative Outpatient Population.",
+        "authors": "Fosnight Steven, Soric Mate Michael, Smearman Jacob",
+        "journal": "American journal of therapeutics",
+        "publication_date": ""
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "33460320",
+        "doi": "",
+        "title": "Isradipine plasma pharmacokinetics and exposure-response in early Parkinson's disease.",
+        "authors": "Venuto Charles S, Yang Luoying, Javidnia Monica",
+        "journal": "Annals of clinical and translational neurology",
+        "publication_date": "2021-Mar"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "38703159",
+        "doi": "",
+        "title": "Cost-Effectiveness of Medical Therapy for Heart Failure With Mildly Reduced and Preserved Ejection Fraction.",
+        "authors": "Dixit Neal M, Truong Katie P, Vaduganathan Muthiah",
+        "journal": "JACC. Heart failure",
+        "publication_date": "2024-Jul"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "36146925",
+        "doi": "",
+        "title": "The impact of renal denervation procedure on use of antihypertensive drugs in the real-life setting.",
+        "authors": "Rea Federico, Morabito Gabriella, Savaré Laura",
+        "journal": "Blood pressure",
+        "publication_date": "2022-Dec"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "29701171",
+        "doi": "",
+        "title": "Risk factors for rhabdomyolysis with HMG-CoA reductase inhibitors identified using a postmarketing surveillance database in Japan .",
+        "authors": "Hashiguchi Masayuki, Hakamata Jun, Shimizu Mikiko",
+        "journal": "International journal of clinical pharmacology and therapeutics",
+        "publication_date": "2018-Jul"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "30821177",
+        "doi": "",
+        "title": "Pre-fracture medication use as a predictor of 30-day mortality in hip fracture patients: an analysis of 141,201 patients.",
+        "authors": "Jantzen Christopher, Madsen Christian M, Abrahamsen Bo",
+        "journal": "Hip international : the journal of clinical and experimental research on hip pathology and therapy",
+        "publication_date": "2020-Jan"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "34669710",
+        "doi": "",
+        "title": "Metabolic syndrome among individuals living with hypertension in Accra, Ghana.",
+        "authors": "Christian Aaron Kobina, Sanuade Olutobi Adekunle, Kushitor Sandra Boatemaa",
+        "journal": "PloS one",
+        "publication_date": "2021"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "32118676",
+        "doi": "",
+        "title": "Is the blood pressure of right arm measured with synchronous four-limb method is equal to that with single arm method?",
+        "authors": "Yang Tao, Wu Qinghua, Hu Weitong",
+        "journal": "Blood pressure monitoring",
+        "publication_date": "2020-Apr"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "33725696",
+        "doi": "",
+        "title": "Soluble ST2 and Galectin-3 as Predictors of Chronic Kidney Disease Progression and Outcomes.",
+        "authors": "Kim Ae Jin, Ro Han, Kim Hyunsook",
+        "journal": "American journal of nephrology",
+        "publication_date": "2021"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "35900034",
+        "doi": "",
+        "title": "Pharmacist-driven interventions to de-escalate urinary antimuscarinics in the Programs of All-Inclusive Care for the Elderly.",
+        "authors": "Ha Meghan, Furman Anna, Al Rihani Sweilem B",
+        "journal": "Journal of the American Geriatrics Society",
+        "publication_date": "2022-Nov"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "31538856",
+        "doi": "",
+        "title": "Efficacy and Safety of Ticagrelor in Comparison to Clopidogrel in Elderly Patients With ST-Segment-Elevation Myocardial Infarctions.",
+        "authors": "Schmucker Johannes, Fach Andreas, Mata Marin Luis Alberto",
+        "journal": "Journal of the American Heart Association",
+        "publication_date": "2019-Sep"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "29321408",
+        "doi": "",
+        "title": "The Factors Affecting the Non-dipper Pattern in Japanese Patients with Severe Obstructive Sleep Apnea.",
+        "authors": "Sekizuka Hiromitsu, Osada Naohiko, Akashi Yoshihiro J",
+        "journal": "Internal medicine (Tokyo, Japan)",
+        "publication_date": "2018-Jun"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "27664476",
+        "doi": "",
+        "title": "Quiz Page October 2016: Severe Hypokalemia, Metabolic Alkalosis, and Malignancy.",
+        "authors": "George Jason C, Vedamurthy Deepak, Bermudez Maria",
+        "journal": "American journal of kidney diseases : the official journal of the National Kidney Foundation",
+        "publication_date": "2016-Oct"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "29445065",
+        "doi": "",
+        "title": "Questionnaire Survey From the Viewpoint of Concordance in Patient and Physician Satisfaction Concerning Hypertensive Treatment in Elderly Patients　- Patients Voice Study.",
+        "authors": "Ikeda Yoshiyuki, Sasaki Takeshi, Kuwahata So",
+        "journal": "Circulation journal : official journal of the Japanese Circulation Society",
+        "publication_date": "2018-Mar"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "30349279",
+        "doi": "",
+        "title": "Influence of fixed-dose combination perindopril/amlodipine on target organ damage in patients with arterial hypertension with and without ischemic heart disease (results of EPHES trial).",
+        "authors": "Radchenko Ganna D, Mushtenko Liliya O, Sirenko Yuriy M",
+        "journal": "Vascular health and risk management",
+        "publication_date": "2018"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "29282507",
+        "doi": "",
+        "title": "Recovery of Voice After Reconstruction of the Recurrent Laryngeal Nerve and Adjuvant Nimodipine.",
+        "authors": "Mattsson P, Frostell A, Björck G",
+        "journal": "World journal of surgery",
+        "publication_date": "2018-Mar"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "27111172",
+        "doi": "",
+        "title": "Angiotensin receptor blockers (ARB) outperform angiotensin-converting enzyme (ACE) inhibitors on ischemic stroke prevention in patients with hypertension and diabetes - A real-world population study in Taiwan.",
+        "authors": "Pai Pei-Ying, Muo Chih-Hsin, Sung Fung-Chang",
+        "journal": "International journal of cardiology",
+        "publication_date": "2016-Jul"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "34763438",
+        "doi": "",
+        "title": "Effect of amlodipine on ventricular hypertrophy in hypertension patients: a systematic review and meta-analysis.",
+        "authors": "Gao Yi, Zhou Di, Yang Ping",
+        "journal": "Annals of palliative medicine",
+        "publication_date": "2021-Oct"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "33864831",
+        "doi": "",
+        "title": "Determinants of cardiac structure in frail and sarcopenic elderly adults.",
+        "authors": "Pelà Giovanna, Tagliaferri Sara, Perrino Felice",
+        "journal": "Experimental gerontology",
+        "publication_date": "2021-Jul"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "39313851",
+        "doi": "",
+        "title": "Calcium channel blockers and beta blockers in pediatric supraventricular tachycardia.",
+        "authors": "Sullivan John, Pompa Anthony G, Schieber Jonah",
+        "journal": "Journal of cardiovascular electrophysiology",
+        "publication_date": "2024-Nov"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "29988125",
+        "doi": "",
+        "title": "Verapamil and beta cell function in adults with recent-onset type 1 diabetes.",
+        "authors": "Ovalle Fernando, Grimes Tiffany, Xu Guanlan",
+        "journal": "Nature medicine",
+        "publication_date": "2018-Aug"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "27595685",
+        "doi": "",
+        "title": "Rationale and design of the Improving Care for Cardiovascular Disease in China (CCC) project: A national effort to prompt quality enhancement for acute coronary syndrome.",
+        "authors": "Hao Yongchen, Liu Jing, Liu Jun",
+        "journal": "American heart journal",
+        "publication_date": "2016-Sep"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "33506944",
+        "doi": "",
+        "title": "Does Angiotensin II receptor blockers increase the risk of SARS-CoV-2 infection? A real-life experience.",
+        "authors": "De Vito A, Geremia N, Princic E",
+        "journal": "European review for medical and pharmacological sciences",
+        "publication_date": "2021-Jan"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "27001739",
+        "doi": "",
+        "title": "Comparative effectiveness of angiotensin-converting-enzyme inhibitors and angiotensin II receptor blockers in patients with type 2 diabetes and retinopathy.",
+        "authors": "Shih Chia-Jen, Chen Hung-Ta, Kuo Shu-Chen",
+        "journal": "CMAJ : Canadian Medical Association journal = journal de l'Association medicale canadienne",
+        "publication_date": "2016-May"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "29093384",
+        "doi": "",
+        "title": "A Pilot Study of Tranilast for Cardiomyopathy of Muscular Dystrophy.",
+        "authors": "Matsumura Tsuyoshi, Matsui Misa, Iwata Yuko",
+        "journal": "Internal medicine (Tokyo, Japan)",
+        "publication_date": "2018-Feb"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "26956409",
+        "doi": "",
+        "title": "Prevalence and possible causes of hypouricemia at a tertiary care hospital.",
+        "authors": "Son Chang-Nam, Kim Ji-Min, Kim Sang-Hyon",
+        "journal": "The Korean journal of internal medicine",
+        "publication_date": "2016-Sep"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "34560789",
+        "doi": "",
+        "title": "Endurance Exercise Training reduces Blood Pressure according to the Wilder's Principle.",
+        "authors": "Mora-Rodriguez Ricardo, Ortega Juan Fernando, Morales-Palomo Felix",
+        "journal": "International journal of sports medicine",
+        "publication_date": "2022-Apr"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "33234164",
+        "doi": "",
+        "title": "Clinical and pathological findings of SARS-CoV-2 infection and concurrent IgA nephropathy: a case report.",
+        "authors": "Huang Yi, Li Xiao-Juan, Li Yue-Qiang",
+        "journal": "BMC nephrology",
+        "publication_date": "2020-Nov"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "32091534",
+        "doi": "",
+        "title": "Antihypertensive Prescribing Cascades as High-Priority Targets for Deprescribing.",
+        "authors": "Anderson Timothy S, Steinman Michael A",
+        "journal": "JAMA internal medicine",
+        "publication_date": "2020-May"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "28146207",
+        "doi": "",
+        "title": "Multiprofessional Treatment of High Blood Pressure in Very Elderly Patients.",
+        "authors": "Jardim Luciana Muniz Sanches Siqueira Veiga, Jardim Thiago Veiga, Souza Weimar Kunz Sebba Barroso de",
+        "journal": "Arquivos brasileiros de cardiologia",
+        "publication_date": "2017-Jan"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "30924431",
+        "doi": "",
+        "title": "Cluster of differentiation 36 gene polymorphism (rs1761667) is associated with dietary MUFA intake and hypertension in a Japanese population.",
+        "authors": "Fujii Ryosuke, Hishida Asahi, Suzuki Koji",
+        "journal": "The British journal of nutrition",
+        "publication_date": "2019-Jun"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "37335853",
+        "doi": "",
+        "title": "Metabolomic Differences in Connective Tissue Disease-Associated Versus Idiopathic Pulmonary Arterial Hypertension in the PVDOMICS Cohort.",
+        "authors": "Simpson Catherine E, Hemnes Anna R, Griffiths Megan",
+        "journal": "Arthritis & rheumatology (Hoboken, N.J.)",
+        "publication_date": "2023-Dec"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "33459467",
+        "doi": "",
+        "title": "Effects of hyperkalaemia and non-adherence to renin-angiotensin-aldosterone system inhibitor therapy in patients with heart failure in Italy: a propensity-matched study.",
+        "authors": "Volterrani Maurizio, Perrone Valentina, Sangiorgi Diego",
+        "journal": "European journal of heart failure",
+        "publication_date": "2020-Nov"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "28366306",
+        "doi": "",
+        "title": "The LargPAD Trial: Phase IIA evaluation of l-arginine infusion in patients with peripheral arterial disease.",
+        "authors": "Kashyap Vikram S, Lakin Ryan O, Campos Patricia",
+        "journal": "Journal of vascular surgery",
+        "publication_date": "2017-Jul"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "35487321",
+        "doi": "",
+        "title": "Twenty-year trends in heart failure among U.S. adults, 1999-2018: The growing impact of obesity and diabetes.",
+        "authors": "Ciardullo Stefano, Cannistraci Rosa, Mazzetti Simone",
+        "journal": "International journal of cardiology",
+        "publication_date": "2022-Sep"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "38581132",
+        "doi": "",
+        "title": "Achieved dose and treatment discontinuation of candesartan in men and women with chronic heart failure: data from CHARM.",
+        "authors": "Qin Hailun, Dewan Pooja, Santema Bernadet T",
+        "journal": "ESC heart failure",
+        "publication_date": "2024-Aug"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "33181105",
+        "doi": "",
+        "title": "Intensity of Guideline-Directed Medical Therapy for Coronary Heart Disease and Ischemic Heart Failure Outcomes.",
+        "authors": "Crosier Rebecca, Austin Peter C, Ko Dennis T",
+        "journal": "The American journal of medicine",
+        "publication_date": "2021-May"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "32839953",
+        "doi": "",
+        "title": "Utilization of Sacubitril/Valsartan in Real-World Settings.",
+        "authors": "Eworuke Efe, Menzin Talia J, Welch Emily C",
+        "journal": "American journal of cardiovascular drugs : drugs, devices, and other interventions",
+        "publication_date": "2020-Dec"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "29789916",
+        "doi": "",
+        "title": "Two-Dimensional Speckle Tracking Echocardiography-Derived Strain Measurements in Survivors of Childhood Cancer on Angiotensin Converting Enzyme Inhibition or Receptor Blockade.",
+        "authors": "Harrington Jamie K, Richmond Marc E, Fein Arielle W",
+        "journal": "Pediatric cardiology",
+        "publication_date": "2018-Oct"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "34409755",
+        "doi": "",
+        "title": "Trends in the treatment and survival of heart failure patients: a nationwide population-based study in the Czech Republic.",
+        "authors": "Táborský Milos, Skála Tomas, Lazárová Marie",
+        "journal": "ESC heart failure",
+        "publication_date": "2021-Oct"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "36102228",
+        "doi": "",
+        "title": "Impact of Socioeconomic Status on Mortality and Readmission in Patients With Heart Failure With Reduced Ejection Fraction: The ARIC Study.",
+        "authors": "Mathews Lena, Ding Ning, Mok Yejin",
+        "journal": "Journal of the American Heart Association",
+        "publication_date": "2022-Sep"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "29033487",
+        "doi": "",
+        "title": "Gingival hyperplasia: Should drug interaction be blamed for?",
+        "authors": "Sharma Pramod Kumar, Misra Arup Kumar, Chugh Ankita",
+        "journal": "Indian journal of pharmacology",
+        "publication_date": "2017"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "29407301",
+        "doi": "",
+        "title": "Improvement of Blood Pressure Control in Renal Transplant Recipients-Retrospective Longitudinal Study.",
+        "authors": "Adrych D, Kuźmiuk-Glembin I, Tylicki L",
+        "journal": "Transplantation proceedings",
+        "publication_date": "2018"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "28177196",
+        "doi": "",
+        "title": "End-stage renal disease and adherence to angiotensin-converting enzyme inhibitors and angiotensin receptor blockers among patients with diabetes.",
+        "authors": "Shani Michal, Vinker Shlomo, Feldman Leonid",
+        "journal": "Journal of clinical hypertension (Greenwich, Conn.)",
+        "publication_date": "2017-Jun"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "39448921",
+        "doi": "",
+        "title": "High prevalence of comorbidities in older adult patients with type 2 diabetes: a cross-sectional survey.",
+        "authors": "Hashemi Rana, Rabizadeh Soghra, Yadegar Amirhossein",
+        "journal": "BMC geriatrics",
+        "publication_date": "2024-Oct"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "36915075",
+        "doi": "",
+        "title": "Safety and tolerability of Sacubitril/Valsartan in heart failure patient with reduced ejection fraction.",
+        "authors": "Khan Muhammad Nauman, Soomro Najia Aslam, Naseeb Khalid",
+        "journal": "BMC cardiovascular disorders",
+        "publication_date": "2023-Mar"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "26705234",
+        "doi": "",
+        "title": "Fixed-Dose Combinations of Renin-Angiotensin System Inhibitors and Calcium Channel Blockers in the Treatment of Hypertension: A Comparison of Angiotensin Receptor Blockers and Angiotensin-Converting Enzyme Inhibitors.",
+        "authors": "Hsiao Fu-Chih, Tung Ying-Chang, Chou Shing-Hsien",
+        "journal": "Medicine",
+        "publication_date": "2015-Dec"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "30917404",
+        "doi": "",
+        "title": "Calcium Channel Blocker Use and the Risk for Prostate Cancer: A Population-Based Nested Case-Control Study.",
+        "authors": "Rotshild Victoria, Azoulay Laurent, Feldhamer Ilan",
+        "journal": "Pharmacotherapy",
+        "publication_date": "2019-Jun"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "27129086",
+        "doi": "",
+        "title": "Effects of antihypertensive treatment on plasma apelin, resistin, and visfatin concentrations.",
+        "authors": "Skoczylas Aleksander, Piecha Grzegorz, Więcek Andrzej",
+        "journal": "Polskie Archiwum Medycyny Wewnetrznej",
+        "publication_date": "2016-Apr"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "30299591",
+        "doi": "",
+        "title": "Effectiveness and safety of rivaroxaban vs. warfarin in patients with non-valvular atrial fibrillation and heart failure.",
+        "authors": "Martinez Brandon K, Bunz Thomas J, Eriksson Daniel",
+        "journal": "ESC heart failure",
+        "publication_date": "2019-Feb"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "31792268",
+        "doi": "",
+        "title": "Renin Angiotensin Aldosterone System Blockades Does Not Protect Residual Renal Function in Patients with Hemodialysis at 1 Year After Dialysis Initiation: A Prospective Observational Cohort Study.",
+        "authors": "Yoo Kyung Don, Kim Clara Tammy, Kwon Soie",
+        "journal": "Scientific reports",
+        "publication_date": "2019-Dec"
+      }
+    },
+    {
+      "llm_info": {
+        "pmid": "26843280",
+        "doi": "",
+        "title": "Current therapy and outcome of Eisenmenger syndrome: data of the German National Register for congenital heart defects.",
+        "authors": "Diller Gerhard-Paul, Körten Marc-André, Bauer Ulrike M M",
+        "journal": "European heart journal",
+        "publication_date": "2016-May"
+      }
+    }
+  ],
+  "note": "Sample of 100 articles per category. Full data available from workflow_comparison_results.json"
+}

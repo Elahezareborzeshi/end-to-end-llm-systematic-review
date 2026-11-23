@@ -1,0 +1,46 @@
+{
+  "source_pdf": "path/to/your/data/manual_pdfs/Sonn.pdf",
+  "summarization": "Based on the provided context, here is a summary of the article relevant to the research question:\n\n**Main Findings Relevant to the Research Question:**\n1. The study identified clinical and metabolite markers that predict response to the ACE inhibitor lisinopril in hypertensive patients.\n2. BMI, GFR, and 2-oxoglutarate were significant predictors of response to lisinopril treatment.\n\n**Key Results:**\n- BMI (p = 0.009), GFR (p = 0.015), and 2-oxoglutarate were included in a logistic regression model to predict response to lisinopril.\n- Responders to lisinopril were defined by a 10% decline in systolic blood pressure.\n\n**Method and Study Design:**\n- This was a secondary analysis of a parent trial examining the pharmacogenomic effectiveness of metoprolol succinate in hypertensive patients.\n- The study design was a cohort study with a focus on metabolomics.\n\n**Inclusion and Exclusion Criteria:**\n- Inclusion: Patients aged 18-89 with uncontrolled hypertension (>140/90 mmHg).\n- Exclusion: Not explicitly mentioned in the provided context.\n\n**Intervention or Exposure:**\n- Patients received lisinopril (10 mg daily) as the intervention.\n\n**Patient/Population Characteristics:**\n- Sample size: 45 hypertensive patients.\n- Age range: 18-89 years.\n\n**Main Conclusions of the Study:**\n1. BMI, GFR, and 2-oxoglutarate may serve as predictive markers for response to lisinopril in hypertensive patients.\n2. Further validation cohorts are needed to confirm these findings.\n\n**Recommendations:**\n- The study suggests the need for further research to validate the predictive values of the identified clinical and metabolic markers.\n\n**Main Limitations of the Study:**\n- The study is a pilot with a small sample size, which may limit the generalizability of the findings.\n- Dietary records were not included, which could influence metabolomic profiles.\n\n**Exposures of Interest and Outcomes:**\n- Exposures: Lisinopril treatment.\n- Outcomes: Response to lisinopril defined by a 10% decline in systolic blood pressure and associated metabolomic markers.",
+  "final_results": {
+    "First Author": "Brandon J. Sonn",
+    "Publication Date": "2019",
+    "Study Design": "Secondary analysis of a parent trial",
+    "Sample Size": "45",
+    "Patient Type/Inclusion Criteria": "Hypertensive patients with uncontrolled HTN (> 140/90 mmHg)",
+    "Antihypertensive Drug Class": "ACE inhibitors",
+    "Metabolomics Measurement Method": "UHPLC-MS",
+    "Targeted or Untargeted Metabolomics": "Targeted",
+    "Identified Metabolites": [
+      {
+        "name": "2-oxoglutarate",
+        "concentration": "0.46",
+        "unit": "fold change"
+      },
+      {
+        "name": "Butanoic acid",
+        "concentration": "2.30",
+        "unit": "fold change"
+      },
+      {
+        "name": "Sphingosine 1-phosphate",
+        "concentration": "2.61",
+        "unit": "fold change"
+      },
+      {
+        "name": "Sphingosine",
+        "concentration": "5.20",
+        "unit": "fold change"
+      },
+      {
+        "name": "9-oxononanoic acid",
+        "concentration": "2.17",
+        "unit": "fold change"
+      }
+    ],
+    "BP Assessment Method": "Systolic blood pressure",
+    "Association with BP Response": "Positive",
+    "Statistical Significance": "p < 0.05",
+    "Biochemical Pathway": "Krebs cycle",
+    "Quality Assessment Score": null
+  }
+}

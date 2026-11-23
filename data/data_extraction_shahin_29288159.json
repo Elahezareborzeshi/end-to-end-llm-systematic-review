@@ -1,0 +1,100 @@
+{
+  "pmid": "29288159",
+  "extraction_source": "PMC5778957 (full text via NCBI E-utilities)",
+  "data_extraction": {
+    "pmid": "29288159",
+    "pmcid": "PMC5778957",
+    "title": "Sphingolipid Metabolic Pathway Impacts Thiazide Diuretics Blood Pressure Response: Insights From Genomics, Metabolomics, and Lipidomics.",
+    "journal": "Journal of the American Heart Association",
+    "publication_year": "2017",
+    "study_design": "Prospective pharmacogenomic cohort analysis (PEAR) with cohort replication (PEAR blacks, GERA whites) and lipidomics sub-study",
+    "intervention": "Hydrochlorothiazide monotherapy: PEAR 12.5 mg/day escalated to 25 mg/day over 9 weeks; replication GERA cohort received 25 mg/day for 4 weeks.",
+    "comparators": "Genotypic groups within SPTLC3 (rs6078905) carriers vs noncarriers; atenolol-treated cohort used for specificity testing.",
+    "primary_outcome": "Change in systolic and diastolic blood pressure after hydrochlorothiazide monotherapy.",
+    "population": {
+      "white_cohort_size": 228,
+      "black_cohort_size": 148,
+      "gera_white_replication_size": 196,
+      "lipidomics_subset_females": 40
+    },
+    "key_biomarkers": {
+      "genetic_variant": "SPTLC3 rs6078905 (C-allele beneficial)",
+      "significant_metabolites": [
+        "N24:2",
+        "N24:3",
+        "N16:1",
+        "N22:1"
+      ],
+      "pathway": "Sphingolipid metabolic pathway"
+    },
+    "blood_pressure_response": {
+      "delta_sbp_carrier_mmHg": -11.4,
+      "delta_dbp_carrier_mmHg": -6.9,
+      "delta_sbp_noncarrier_mmHg": -6.8,
+      "delta_dbp_noncarrier_mmHg": -3.5,
+      "delta_sbp_p_value": "6.7E-04",
+      "delta_dbp_p_value": "4.8E-04"
+    },
+    "lipid_correlations": {
+      "n24_2_sphingomyelin_dbp": {
+        "r": -0.42,
+        "p_value": "7E-03"
+      },
+      "n24_2_sphingomyelin_sbp": {
+        "r": -0.36,
+        "p_value": "2E-02"
+      }
+    },
+    "secondary_findings": [
+      "Replication analysis in PEAR blacks identified additional significant SNP signals within the SPTLC3 region associated with diastolic BP response.",
+      "No statistically significant replication was achieved in the GERA white cohort (office BP phenotype).",
+      "Baseline sphingomyelins (N24:2, N24:3, N16:1, N22:1) were higher among rs6078905 CC genotype carriers in lipidomics analyses."
+    ],
+    "conclusions": "SPTLC3 genetic variation and sphingomyelin metabolism influence hydrochlorothiazide blood pressure response, supporting precision antihypertensive therapy.",
+    "authors": "Shahin MH, Gong Y, Frye RF, Rotroff DM, Beitelshees AL, Baillie RA, Chapman AB, Gums JG, Turner ST, Boerwinkle E, Motsinger-Reif A, Fiehn O, Cooper-DeHoff RM, Han X, Kaddurah-Daouk R, Johnson JA",
+    "clinical_trial_id": "NCT00246519"
+  },
+  "prisma_assessment": {
+    "overall_score": 39.583333333333336,
+    "section_scores": {
+      "title": {
+        "score": 0.5,
+        "total_items": 2,
+        "weight": 0.05
+      },
+      "abstract": {
+        "score": 0.0,
+        "total_items": 6,
+        "weight": 0.1
+      },
+      "introduction": {
+        "score": 0.5,
+        "total_items": 2,
+        "weight": 0.1
+      },
+      "methods": {
+        "score": 0.6,
+        "total_items": 10,
+        "weight": 0.35
+      },
+      "results": {
+        "score": 0.2,
+        "total_items": 5,
+        "weight": 0.2
+      },
+      "discussion": {
+        "score": 0.25,
+        "total_items": 4,
+        "weight": 0.15
+      },
+      "other": {
+        "score": 0.6666666666666666,
+        "total_items": 3,
+        "weight": 0.05
+      }
+    },
+    "completeness_score": 1.0,
+    "accuracy_score": 1.0,
+    "quality_grade": "D"
+  }
+}

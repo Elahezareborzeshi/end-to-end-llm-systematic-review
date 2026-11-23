@@ -1,0 +1,45 @@
+# Core LLM / AI
+openai==2.32.0
+langchain==0.3.28
+langchain-openai==0.3.35
+langchain-community==0.3.31
+langchain-core==0.3.84
+
+# Vector store / embeddings
+faiss-cpu==1.13.0
+
+# Streamlit UI
+streamlit==1.50.0
+streamlit-tags==1.2.8
+streamlit-extras==0.7.8
+
+# Data analysis
+pandas==2.3.3
+numpy==2.0.2
+scipy==1.13.1
+
+# Bioinformatics / PubMed
+biopython==1.85
+metapub==0.7.4
+
+# Text / NLP helpers
+yake==0.4.8
+fuzzywuzzy==0.18.0
+python-Levenshtein==0.27.1
+
+# HTTP / scraping
+requests==2.32.5
+beautifulsoup4==4.14.3
+
+# Documents / PDF
+PyPDF2==3.0.1
+python-docx==1.2.0
+reportlab==4.4.10
+
+# Visualization
+matplotlib==3.9.4
+matplotlib-venn==1.1.2
+seaborn==0.13.2
+
+# Config
+python-dotenv==1.2.1

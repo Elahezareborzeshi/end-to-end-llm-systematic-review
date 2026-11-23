@@ -1,0 +1,16 @@
+{
+  "manual_total": 1507,
+  "manual_included": 1151,
+  "llm_total": 9973,
+  "llm_included": 9973,
+  "true_positives": 1,
+  "false_negatives": 1150,
+  "false_positives": 9972,
+  "precision": 0.0001002707309736288,
+  "recall": 0.0008688097306689834,
+  "f1_score": 0.00017979144192736425,
+  "accuracy": -6.380225613802256,
+  "intersection_count": 1,
+  "manual_only_count": 1150,
+  "llm_only_count": 9972
+}

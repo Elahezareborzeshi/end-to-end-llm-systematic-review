@@ -1,0 +1,265 @@
+{
+  "test_summary": {
+    "manual_keywords_count": 11,
+    "llm_keywords_count": 11,
+    "llm_mesh_terms_count": 3,
+    "search_query_length": 385,
+    "downloaded_articles_count": 0,
+    "overall_performance_score": 0.5928210678210679,
+    "performance_grade": "C"
+  },
+  "manual_data": {
+    "research_question": "Conduct a systematic review to identify metabolites and biochemical pathways associated with blood pressure response to antihypertensive drugs using pharmacometabolomics approaches.",
+    "concept_groups": {
+      "hypertension_concepts": [
+        "hypertension",
+        "blood pressure",
+        "high blood pressure",
+        "HTN",
+        "elevated blood pressure",
+        "arterial hypertension"
+      ],
+      "metabolomics_concepts": [
+        "metabolomics",
+        "metabolome",
+        "metabolites",
+        "metabolic profiling",
+        "pharmacometabolomics",
+        "metabolic biomarkers",
+        "metabolic pathways"
+      ],
+      "antihypertensive_drugs": [
+        "antihypertensive drug",
+        "antihypertensive medication",
+        "antihypertensive agents",
+        "diuretics",
+        "beta-blockers",
+        "ACE inhibitors",
+        "ARBs",
+        "angiotensin receptor blockers",
+        "calcium channel blockers"
+      ],
+      "treatment_response": [
+        "treatment response",
+        "drug response",
+        "therapeutic response",
+        "treatment efficacy",
+        "drug efficacy",
+        "antihypertensive response"
+      ]
+    },
+    "manual_boolean_query": "\n    ((\"hypertension\"[MeSH Terms] OR \"hypertension\"[Title/Abstract] OR \n      \"blood pressure\"[MeSH Terms] OR \"blood pressure\"[Title/Abstract] OR\n      \"high blood pressure\"[Title/Abstract] OR \"HTN\"[Title/Abstract]) AND\n     (\"metabolomics\"[MeSH Terms] OR \"metabolomics\"[Title/Abstract] OR\n      \"metabolome\"[Title/Abstract] OR \"metabolites\"[MeSH Terms] OR\n      \"metabolites\"[Title/Abstract] OR \"pharmacometabolomics\"[Title/Abstract] OR\n      \"metabolic profiling\"[Title/Abstract]) AND\n     (\"antihypertensive agents\"[MeSH Terms] OR \"antihypertensive drug\"[Title/Abstract] OR\n      \"diuretics\"[MeSH Terms] OR \"beta-blockers\"[MeSH Terms] OR\n      \"ACE inhibitors\"[MeSH Terms] OR \"angiotensin receptor blockers\"[MeSH Terms]) AND\n     (\"treatment response\"[Title/Abstract] OR \"drug response\"[Title/Abstract] OR\n      \"therapeutic response\"[Title/Abstract] OR \"antihypertensive response\"[Title/Abstract]))\n    AND \"humans\"[MeSH Terms] \n    AND \"english\"[Language]\n    ",
+    "manual_keywords": [
+      "hypertension",
+      "blood pressure",
+      "metabolomics",
+      "antihypertensive drug",
+      "treatment response",
+      "pharmacometabolomics",
+      "metabolites",
+      "diuretics",
+      "beta-blockers",
+      "ACE inhibitors",
+      "ARBs"
+    ],
+    "manual_mesh_terms": [
+      "Hypertension[MeSH Terms]",
+      "Blood Pressure[MeSH Terms]",
+      "Metabolomics[MeSH Terms]",
+      "Antihypertensive Agents[MeSH Terms]",
+      "Diuretics[MeSH Terms]",
+      "Adrenergic beta-Antagonists[MeSH Terms]",
+      "Angiotensin-Converting Enzyme Inhibitors[MeSH Terms]",
+      "Angiotensin Receptor Antagonists[MeSH Terms]"
+    ]
+  },
+  "llm_data": {
+    "keywords": [
+      "hypertension",
+      "blood pressure",
+      "metabolomics",
+      "antihypertensive drug",
+      "treatment response",
+      "pharmacometabolomics",
+      "metabolites",
+      "diuretics",
+      "beta-blockers",
+      "ACE inhibitors",
+      "ARBs"
+    ],
+    "grouped_terms": {
+      "hypertension": {
+        "68006973": "\n1: Hypertension\nPersistently high systemic arterial BLOOD PRESSURE. Based on multiple readings\n(BLOOD PRESSURE DETERMINATION), hypertension is currently defined as when\nSYSTOLIC PRESSURE is consistently greater than 140 mm Hg or when DIASTOLIC\nPRESSURE is consistently 90 mm Hg or more.\nDate introduced: January 1, 1999\n\nSubheadings:\n    blood\n    cerebrospinal fluid\n    chemically induced\n    classification\n    complications\n    congenital\n    diagnosis\n    diagnostic imaging\n    diet therapy\n    drug therapy\n    economics\n    embryology\n    enzymology\n    epidemiology\n    ethnology\n    etiology\n    genetics\n    history\n    immunology\n    metabolism\n    microbiology\n    mortality\n    nursing\n    parasitology\n    pathology\n    physiopathology\n    prevention and control\n    psychology\n    radiotherapy\n    rehabilitation\n    surgery\n    therapy\n    urine\n    veterinary\n    virology\n\nTree Number(s): C14.907.489\nEntry Terms:\n    Blood Pressure, High\n    Blood Pressures, High\n    High Blood Pressure\n    High Blood Pressures\n\nSee Also:\n    Antihypertensive Agents\n    Vascular Resistance\n\n    All MeSH Categories\n        Diseases Category\n            Cardiovascular Diseases\n                Vascular Diseases\n                    Hypertension\n                        Essential Hypertension\n                            Isolated Systolic Hypertension\n                        Hypertension, Malignant\n                        Hypertension, Pregnancy-Induced\n                        Hypertension, Pulmonary\n                        Hypertension, Renal\n                            Hypertension, Renovascular\n                        Hypertensive Crisis\n                        Hypertensive Retinopathy\n                            Retinal Arterial Macroaneurysm\n                        Masked Hypertension\n                        White Coat Hypertension\n\n\n"
+      },
+      "metabolomics": {
+        "68055432": "\n1: Metabolomics\nThe systematic identification and quantitation of all the metabolic products of a\ncell, tissue, organ, or organism under varying conditions. The METABOLOME of a\ncell or organism is a dynamic collection of metabolites which represent its net\nresponse to current conditions.\nYear introduced: 2009\nDate introduced: July 8, 2008\n\nSubheadings:\n    classification\n    economics\n    education\n    ethics\n    history\n    instrumentation\n    legislation and jurisprudence\n    methods\n    organization and administration\n    standards\n    statistics and numerical data\n    trends\n\nTree Number(s): H01.158.201.586, H01.158.273.180.599, H01.181.122.638\nEntry Terms:\n    Metabolomic\n    Metabonomics\n    Metabonomic\n\nSee Also:\n    Nutrigenomics\n\n    All MeSH Categories\n        Disciplines and Occupations Category\n            Natural Science Disciplines\n                Biological Science Disciplines\n                    Biochemistry\n                        Metabolomics\n                            Lipidomics\n\n    All MeSH Categories\n        Disciplines and Occupations Category\n            Natural Science Disciplines\n                Biological Science Disciplines\n                    Biology\n                        Computational Biology\n                            Metabolomics\n                                Lipidomics\n\n    All MeSH Categories\n        Disciplines and Occupations Category\n            Natural Science Disciplines\n                Chemistry\n                    Biochemistry\n                        Metabolomics\n                            Lipidomics\n\n\n"
+      },
+      "antihypertensive drug": {
+        "68000959": "\n1: Antihypertensive Agents\nDrugs used in the treatment of acute or chronic vascular HYPERTENSION regardless \nof pharmacological mechanism. Among the antihypertensive agents are DIURETICS;\n(especially DIURETICS, THIAZIDE); ADRENERGIC BETA-ANTAGONISTS; ADRENERGIC\nALPHA-ANTAGONISTS; ANGIOTENSIN-CONVERTING ENZYME INHIBITORS; CALCIUM CHANNEL\nBLOCKERS; GANGLIONIC BLOCKERS; and VASODILATOR AGENTS.\nDate introduced: January 1, 1999\n\nSubheadings:\n    administration and dosage\n    adverse effects\n    analysis\n    blood\n    cerebrospinal fluid\n    chemical synthesis\n    chemistry\n    classification\n    economics\n    history\n    immunology\n    isolation and purification\n    metabolism\n    pharmacokinetics\n    pharmacology\n    poisoning\n    radiation effects\n    standards\n    supply and distribution\n    therapeutic use\n    toxicity\n    urine\n\nTree Number(s): D27.505.954.411.162\nEntry Terms:\n    Agents, Antihypertensive\n    Antihypertensive Agent\n    Agent, Antihypertensive\n    Anti-Hypertensive Agent\n    Agent, Anti-Hypertensive\n    Anti Hypertensive Agent\n    Anti-Hypertensive Drug\n    Anti Hypertensive Drug\n    Drug, Anti-Hypertensive\n    Antihypertensive Drug\n    Drug, Antihypertensive\n    Antihypertensive\n    Anti-Hypertensive Agents\n    Agents, Anti-Hypertensive\n    Anti Hypertensive Agents\n    Anti-Hypertensive Drugs\n    Anti Hypertensive Drugs\n    Drugs, Anti-Hypertensive\n    Anti-Hypertensives\n    Anti Hypertensives\n    Antihypertensive Drugs\n    Drugs, Antihypertensive\n    Anti-Hypertensive\n    Anti Hypertensive\n    Antihypertensives\n\nSee Also:\n    Adrenergic alpha-Antagonists\n    Adrenergic beta-Antagonists\n    Angiotensin-Converting Enzyme Inhibitors\n    Diuretics\n    Ganglionic Blockers\n    Vasodilator Agents\n\n    All MeSH Categories\n        Chemicals and Drugs Category\n            Chemical Actions and Uses\n                Pharmacologic Actions\n                    Therapeutic Uses\n                        Cardiovascular Agents\n                            Antihypertensive Agents\n\n\n"
+      }
+    },
+    "search_query": "(\"hypertension\"[Title/Abstract] OR \"68006973\"[MeSH Terms] OR \"blood pressure\"[Title/Abstract]) AND (\"metabolomics\"[Title/Abstract] OR \"68055432\"[MeSH Terms] OR \"metabolites\"[Title/Abstract]) AND (\"antihypertensive drug\"[Title/Abstract] OR \"68000959\"[MeSH Terms] OR \"diuretics\"[Title/Abstract]) AND (\"treatment response\"[Title/Abstract]) AND \"humans\"[MeSH Terms] AND \"english\"[Language]"
+  },
+  "comparison_report": {
+    "overall_performance": {
+      "score": 0.5928210678210679,
+      "grade": "C"
+    },
+    "keyword_comparison": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "true_positives": 11,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "matched_keywords": [
+        "metabolites",
+        "beta-blockers",
+        "treatment response",
+        "hypertension",
+        "blood pressure",
+        "pharmacometabolomics",
+        "arbs",
+        "antihypertensive drug",
+        "diuretics",
+        "ace inhibitors",
+        "metabolomics"
+      ],
+      "missed_keywords": [],
+      "extra_keywords": []
+    },
+    "concept_comparison": {
+      "hypertension_concepts": {
+        "manual_terms": [
+          "hypertension",
+          "blood pressure",
+          "high blood pressure",
+          "HTN",
+          "elevated blood pressure",
+          "arterial hypertension"
+        ],
+        "llm_terms": [
+          "hypertension"
+        ],
+        "coverage": 0.16666666666666666,
+        "matched_terms": [
+          "hypertension"
+        ],
+        "missed_terms": [
+          "htn",
+          "blood pressure",
+          "elevated blood pressure",
+          "high blood pressure",
+          "arterial hypertension"
+        ],
+        "extra_terms": []
+      },
+      "metabolomics_concepts": {
+        "manual_terms": [
+          "metabolomics",
+          "metabolome",
+          "metabolites",
+          "metabolic profiling",
+          "pharmacometabolomics",
+          "metabolic biomarkers",
+          "metabolic pathways"
+        ],
+        "llm_terms": [
+          "metabolomics"
+        ],
+        "coverage": 0.14285714285714285,
+        "matched_terms": [
+          "metabolomics"
+        ],
+        "missed_terms": [
+          "metabolites",
+          "metabolic pathways",
+          "metabolic biomarkers",
+          "pharmacometabolomics",
+          "metabolic profiling",
+          "metabolome"
+        ],
+        "extra_terms": []
+      },
+      "antihypertensive_drugs": {
+        "manual_terms": [
+          "antihypertensive drug",
+          "antihypertensive medication",
+          "antihypertensive agents",
+          "diuretics",
+          "beta-blockers",
+          "ACE inhibitors",
+          "ARBs",
+          "angiotensin receptor blockers",
+          "calcium channel blockers"
+        ],
+        "llm_terms": [
+          "antihypertensive drug"
+        ],
+        "coverage": 0.1111111111111111,
+        "matched_terms": [
+          "antihypertensive drug"
+        ],
+        "missed_terms": [
+          "beta-blockers",
+          "arbs",
+          "antihypertensive medication",
+          "diuretics",
+          "ace inhibitors",
+          "calcium channel blockers",
+          "angiotensin receptor blockers",
+          "antihypertensive agents"
+        ],
+        "extra_terms": []
+      },
+      "treatment_response": {
+        "manual_terms": [
+          "treatment response",
+          "drug response",
+          "therapeutic response",
+          "treatment efficacy",
+          "drug efficacy",
+          "antihypertensive response"
+        ],
+        "llm_terms": [],
+        "coverage": 0.0,
+        "matched_terms": [],
+        "missed_terms": [
+          "antihypertensive response",
+          "treatment response",
+          "treatment efficacy",
+          "therapeutic response",
+          "drug efficacy",
+          "drug response"
+        ],
+        "extra_terms": []
+      }
+    },
+    "query_comparison": {
+      "manual_query": "\n    ((\"hypertension\"[MeSH Terms] OR \"hypertension\"[Title/Abstract] OR \n      \"blood pressure\"[MeSH Terms] OR \"blood pressure\"[Title/Abstract] OR\n      \"high blood pressure\"[Title/Abstract] OR \"HTN\"[Title/Abstract]) AND\n     (\"metabolomics\"[MeSH Terms] OR \"metabolomics\"[Title/Abstract] OR\n      \"metabolome\"[Title/Abstract] OR \"metabolites\"[MeSH Terms] OR\n      \"metabolites\"[Title/Abstract] OR \"pharmacometabolomics\"[Title/Abstract] OR\n      \"metabolic profiling\"[Title/Abstract]) AND\n     (\"antihypertensive agents\"[MeSH Terms] OR \"antihypertensive drug\"[Title/Abstract] OR\n      \"diuretics\"[MeSH Terms] OR \"beta-blockers\"[MeSH Terms] OR\n      \"ACE inhibitors\"[MeSH Terms] OR \"angiotensin receptor blockers\"[MeSH Terms]) AND\n     (\"treatment response\"[Title/Abstract] OR \"drug response\"[Title/Abstract] OR\n      \"therapeutic response\"[Title/Abstract] OR \"antihypertensive response\"[Title/Abstract]))\n    AND \"humans\"[MeSH Terms] \n    AND \"english\"[Language]\n    ",
+      "llm_query": "(\"hypertension\"[Title/Abstract] OR \"68006973\"[MeSH Terms] OR \"blood pressure\"[Title/Abstract]) AND (\"metabolomics\"[Title/Abstract] OR \"68055432\"[MeSH Terms] OR \"metabolites\"[Title/Abstract]) AND (\"antihypertensive drug\"[Title/Abstract] OR \"68000959\"[MeSH Terms] OR \"diuretics\"[Title/Abstract]) AND (\"treatment response\"[Title/Abstract]) AND \"humans\"[MeSH Terms] AND \"english\"[Language]",
+      "manual_analysis": {
+        "and_operators": 5,
+        "or_operators": 19,
+        "not_operators": 0,
+        "parentheses": 5,
+        "field_tags": 25,
+        "quoted_terms": 25,
+        "total_length": 965
+      },
+      "llm_analysis": {
+        "and_operators": 5,
+        "or_operators": 6,
+        "not_operators": 0,
+        "parentheses": 4,
+        "field_tags": 12,
+        "quoted_terms": 12,
+        "total_length": 385
+      },
+      "structure_similarity": 0.7537878787878788
+    },
+    "recommendations": [
+      "Improve coverage for concepts: hypertension_concepts, metabolomics_concepts, antihypertensive_drugs, treatment_response"
+    ]
+  }
+}

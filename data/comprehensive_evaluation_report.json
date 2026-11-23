@@ -1,0 +1,65 @@
+{
+  "overall_performance": {
+    "score": 0.22089327840215622,
+    "grade": "D"
+  },
+  "step_evaluations": {
+    "keywords": {
+      "precision": 0.45,
+      "recall": 0.6428571428571429,
+      "f1_score": 0.5294117647058824,
+      "true_positives": 9,
+      "false_positives": 11,
+      "false_negatives": 5,
+      "training_articles_count": 1507
+    },
+    "mesh_terms": {
+      "precision": 0.6666666666666666,
+      "recall": 0.25,
+      "f1_score": 0.36363636363636365,
+      "true_positives": 2,
+      "false_positives": 1,
+      "false_negatives": 6,
+      "training_articles_count": 1507
+    },
+    "search_query": {
+      "structure_similarity": 0.7205192367844855,
+      "concept_coverage": 0.0,
+      "query_effectiveness": 0.4323115420706913,
+      "f1_score": 0.4323115420706913,
+      "training_articles_count": 1507
+    },
+    "article_retrieval": {
+      "precision": 0,
+      "recall": 0.0,
+      "f1_score": 0,
+      "jaccard": 0.0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 1507,
+      "pubmed_articles_count": 1507,
+      "llm_articles_count": 0,
+      "comparison_note": "Compared against PubMed articles only (n=1507)"
+    },
+    "screening": {
+      "error": "No common articles for screening comparison",
+      "f1_score": 0.0
+    },
+    "data_extraction": {
+      "extraction_completeness": 0.0,
+      "field_accuracy": 0.0,
+      "f1_score": 0.0,
+      "training_articles_count": 1507
+    }
+  },
+  "summary": {
+    "total_steps": 6,
+    "completed_steps": 3,
+    "average_f1": 0.22089327840215622,
+    "best_performing_step": "keywords",
+    "worst_performing_step": "article_retrieval",
+    "training_articles_count": 1507,
+    "pubmed_comparison_count": 1507
+  },
+  "generation_timestamp": "2025-11-11T19:12:22.271125"
+}

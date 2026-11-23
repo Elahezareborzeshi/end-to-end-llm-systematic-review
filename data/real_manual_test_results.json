@@ -1,0 +1,16 @@
+{
+  "real_manual_test": {
+    "target_articles": 1507,
+    "real_query_articles": 1922,
+    "llm_query_articles": 208,
+    "real_coverage_percent": 127.53815527538154,
+    "llm_coverage_percent": 13.802256138022562,
+    "improvement_factor": 9.240384615384615
+  },
+  "query_analysis": {
+    "real_query_length": 12355,
+    "llm_query_length": 453,
+    "real_query_terms": 281,
+    "llm_query_terms": 15
+  }
+}

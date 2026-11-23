@@ -1,0 +1,26 @@
+{
+  "query_analysis": {
+    "total_length": 12355,
+    "mesh_terms_count": 24,
+    "title_abstract_count": 246,
+    "pharmacological_action_count": 2,
+    "filters_count": 6,
+    "date_range_count": 1,
+    "metabolomics_terms_count": 10,
+    "hypertension_terms_count": 21,
+    "antihypertensive_terms_count": 83
+  },
+  "filters": [
+    "(clinicaltrial[Filter] OR observationalstudy[Filter] OR randomizedcontrolledtrial[Filter]",
+    "humans[Filter]",
+    "english[Filter]",
+    "alladult[Filter]"
+  ],
+  "date_ranges": [
+    "2013:2023[pdat]"
+  ],
+  "test_results": {
+    "articles_found": 20,
+    "test_limit": 20
+  }
+}

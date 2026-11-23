@@ -1,0 +1,166 @@
+{
+  "criteria": {
+    "research_question": "What are the metabolomic profiles associated with antihypertensive drug response in patients with hypertension?",
+    "inclusion_criteria": "\n        - Studies investigating metabolomic profiles in relation to antihypertensive drug response\n        - Human studies\n        - Studies including patients with hypertension\n        - Studies measuring blood pressure response to antihypertensive medications\n        - Studies reporting metabolomic/metabolic profiling data\n        ",
+    "exclusion_criteria": "\n        - Animal studies\n        - In vitro studies only\n        - Studies not reporting metabolomic data\n        - Studies not related to antihypertensive drug response\n        - Reviews, editorials, or case reports without original data\n        ",
+    "data_extraction_instructions": "\n        Extract data on:\n        - Drug class/type\n        - Metabolites identified\n        - Association with blood pressure response\n        - Population characteristics\n        - Study design and methodology\n        "
+  },
+  "total_articles": 8,
+  "screened_articles": [
+    {
+      "pmid": "33235029",
+      "title": "Comparative Study of Metabolite Changes After Antihypertensive Therapy With Calcium Channel Blockers or Angiotensin Type 1 Receptor Blockers.",
+      "file_path": "data/downloaded_articles/article_1037_source.json",
+      "has_full_text": false,
+      "decision": "INCLUDE",
+      "reason": "The article investigates metabolomic profiles in relation to antihypertensive drug response, specifically focusing on calcium channel blockers and angiotensin type 1 receptor blockers in patients with hypertension. It reports metabolomic data and measures blood pressure response, meeting all inclusion criteria and addressing the research question.",
+      "screened_at": "2025-11-14 16:37:02"
+    },
+    {
+      "pmid": "29288159",
+      "title": "Sphingolipid Metabolic Pathway Impacts Thiazide Diuretics Blood Pressure Response: Insights From Genomics, Metabolomics, and Lipidomics.",
+      "file_path": "data/downloaded_articles/article_2760_source.json",
+      "has_full_text": false,
+      "decision": "INCLUDE",
+      "reason": "The article investigates metabolomic profiles in relation to antihypertensive drug response, specifically focusing on hydrochlorothiazide, a thiazide diuretic. It is a human study involving patients with hypertension and measures blood pressure response to the medication. The study reports metabolomic data, identifying metabolites and genetic variants associated with blood pressure response, thus meeting all inclusion criteria and aligning with the research question.",
+      "screened_at": "2025-11-14 16:37:08"
+    },
+    {
+      "pmid": "29121091",
+      "title": "Effects of four different antihypertensive drugs on plasma metabolomic profiles in patients with essential hypertension.",
+      "file_path": "data/downloaded_articles/article_2847_source.json",
+      "has_full_text": false,
+      "decision": "INCLUDE",
+      "reason": "The article investigates metabolomic profiles in relation to antihypertensive drug response in human subjects with hypertension. It measures blood pressure response to four different antihypertensive medications and reports metabolomic profiling data, meeting all inclusion criteria and addressing the research question.",
+      "screened_at": "2025-11-14 16:37:12"
+    },
+    {
+      "pmid": "28990522",
+      "title": "Untargeted Metabolomics Provides Insight into the Mechanisms Underlying Resistant Hypertension.",
+      "file_path": "data/downloaded_articles/article_2916_source.json",
+      "has_full_text": false,
+      "decision": "EXCLUDE",
+      "reason": "The article focuses on comparing metabolomic profiles between resistant and non-resistant hypertensive patients, but does not specifically investigate metabolomic profiles in relation to antihypertensive drug response. It does not measure blood pressure response to antihypertensive medications, which is a key inclusion criterion.",
+      "screened_at": "2025-11-14 16:37:15"
+    },
+    {
+      "pmid": "28874460",
+      "title": "Citric Acid Metabolism in Resistant Hypertension: Underlying Mechanisms and Metabolic Prediction of Treatment Response.",
+      "file_path": "data/downloaded_articles/article_2955_source.json",
+      "has_full_text": false,
+      "decision": "INCLUDE",
+      "reason": "The article investigates metabolomic profiles in relation to antihypertensive drug response, specifically focusing on spironolactone in patients with resistant hypertension. It reports on metabolomic data, including metabolites like citrate and oxaloacetate, and their association with blood pressure response, meeting all inclusion criteria.",
+      "screened_at": "2025-11-14 16:37:17"
+    },
+    {
+      "pmid": "27381900",
+      "title": "A Genetic Response Score for Hydrochlorothiazide Use: Insights From Genomics and Metabolomics Integration.",
+      "file_path": "data/downloaded_articles/article_3616_source.json",
+      "has_full_text": false,
+      "decision": "INCLUDE",
+      "reason": "The article investigates metabolomic profiles in relation to antihypertensive drug response, specifically hydrochlorothiazide, in human patients with hypertension. It reports metabolomic data and measures blood pressure response, meeting all inclusion criteria and aligning with the research question.",
+      "screened_at": "2025-11-14 16:37:22"
+    },
+    {
+      "pmid": "27120469",
+      "title": "The Pharmacogenetic Footprint of ACE Inhibition: A Population-Based Metabolomics Study.",
+      "file_path": "data/downloaded_articles/article_4580_source.json",
+      "has_full_text": false,
+      "decision": "INCLUDE",
+      "reason": "The article investigates metabolomic profiles in relation to antihypertensive drug response, specifically focusing on ACE inhibitors, which is relevant to the research question. It is a human study involving patients with hypertension and reports metabolomic data, including associations with blood pressure response. The study design and methodology align with the inclusion criteria.",
+      "screened_at": "2025-11-14 16:37:27"
+    },
+    {
+      "pmid": "26584406",
+      "title": "Hypertension subtypes modify metabolic response to thiazide diuretics.",
+      "file_path": "data/downloaded_articles/article_4845_source.json",
+      "has_full_text": false,
+      "decision": "INCLUDE",
+      "reason": "The article investigates metabolomic profiles in relation to antihypertensive drug response, specifically focusing on thiazide diuretics in patients with hypertension. It reports on metabolic changes such as serum adiponectin and asymmetric dimethylarginine levels, which are relevant to the research question. The study is conducted on human subjects with hypertension and measures blood pressure response, meeting all inclusion criteria.",
+      "screened_at": "2025-11-14 16:37:30"
+    }
+  ],
+  "included_articles": [
+    {
+      "pmid": "33235029",
+      "title": "Comparative Study of Metabolite Changes After Antihypertensive Therapy With Calcium Channel Blockers or Angiotensin Type 1 Receptor Blockers.",
+      "file_path": "data/downloaded_articles/article_1037_source.json",
+      "has_full_text": false,
+      "decision": "INCLUDE",
+      "reason": "The article investigates metabolomic profiles in relation to antihypertensive drug response, specifically focusing on calcium channel blockers and angiotensin type 1 receptor blockers in patients with hypertension. It reports metabolomic data and measures blood pressure response, meeting all inclusion criteria and addressing the research question.",
+      "screened_at": "2025-11-14 16:37:02"
+    },
+    {
+      "pmid": "29288159",
+      "title": "Sphingolipid Metabolic Pathway Impacts Thiazide Diuretics Blood Pressure Response: Insights From Genomics, Metabolomics, and Lipidomics.",
+      "file_path": "data/downloaded_articles/article_2760_source.json",
+      "has_full_text": false,
+      "decision": "INCLUDE",
+      "reason": "The article investigates metabolomic profiles in relation to antihypertensive drug response, specifically focusing on hydrochlorothiazide, a thiazide diuretic. It is a human study involving patients with hypertension and measures blood pressure response to the medication. The study reports metabolomic data, identifying metabolites and genetic variants associated with blood pressure response, thus meeting all inclusion criteria and aligning with the research question.",
+      "screened_at": "2025-11-14 16:37:08"
+    },
+    {
+      "pmid": "29121091",
+      "title": "Effects of four different antihypertensive drugs on plasma metabolomic profiles in patients with essential hypertension.",
+      "file_path": "data/downloaded_articles/article_2847_source.json",
+      "has_full_text": false,
+      "decision": "INCLUDE",
+      "reason": "The article investigates metabolomic profiles in relation to antihypertensive drug response in human subjects with hypertension. It measures blood pressure response to four different antihypertensive medications and reports metabolomic profiling data, meeting all inclusion criteria and addressing the research question.",
+      "screened_at": "2025-11-14 16:37:12"
+    },
+    {
+      "pmid": "28874460",
+      "title": "Citric Acid Metabolism in Resistant Hypertension: Underlying Mechanisms and Metabolic Prediction of Treatment Response.",
+      "file_path": "data/downloaded_articles/article_2955_source.json",
+      "has_full_text": false,
+      "decision": "INCLUDE",
+      "reason": "The article investigates metabolomic profiles in relation to antihypertensive drug response, specifically focusing on spironolactone in patients with resistant hypertension. It reports on metabolomic data, including metabolites like citrate and oxaloacetate, and their association with blood pressure response, meeting all inclusion criteria.",
+      "screened_at": "2025-11-14 16:37:17"
+    },
+    {
+      "pmid": "27381900",
+      "title": "A Genetic Response Score for Hydrochlorothiazide Use: Insights From Genomics and Metabolomics Integration.",
+      "file_path": "data/downloaded_articles/article_3616_source.json",
+      "has_full_text": false,
+      "decision": "INCLUDE",
+      "reason": "The article investigates metabolomic profiles in relation to antihypertensive drug response, specifically hydrochlorothiazide, in human patients with hypertension. It reports metabolomic data and measures blood pressure response, meeting all inclusion criteria and aligning with the research question.",
+      "screened_at": "2025-11-14 16:37:22"
+    },
+    {
+      "pmid": "27120469",
+      "title": "The Pharmacogenetic Footprint of ACE Inhibition: A Population-Based Metabolomics Study.",
+      "file_path": "data/downloaded_articles/article_4580_source.json",
+      "has_full_text": false,
+      "decision": "INCLUDE",
+      "reason": "The article investigates metabolomic profiles in relation to antihypertensive drug response, specifically focusing on ACE inhibitors, which is relevant to the research question. It is a human study involving patients with hypertension and reports metabolomic data, including associations with blood pressure response. The study design and methodology align with the inclusion criteria.",
+      "screened_at": "2025-11-14 16:37:27"
+    },
+    {
+      "pmid": "26584406",
+      "title": "Hypertension subtypes modify metabolic response to thiazide diuretics.",
+      "file_path": "data/downloaded_articles/article_4845_source.json",
+      "has_full_text": false,
+      "decision": "INCLUDE",
+      "reason": "The article investigates metabolomic profiles in relation to antihypertensive drug response, specifically focusing on thiazide diuretics in patients with hypertension. It reports on metabolic changes such as serum adiponectin and asymmetric dimethylarginine levels, which are relevant to the research question. The study is conducted on human subjects with hypertension and measures blood pressure response, meeting all inclusion criteria.",
+      "screened_at": "2025-11-14 16:37:30"
+    }
+  ],
+  "excluded_articles": [
+    {
+      "pmid": "28990522",
+      "title": "Untargeted Metabolomics Provides Insight into the Mechanisms Underlying Resistant Hypertension.",
+      "file_path": "data/downloaded_articles/article_2916_source.json",
+      "has_full_text": false,
+      "decision": "EXCLUDE",
+      "reason": "The article focuses on comparing metabolomic profiles between resistant and non-resistant hypertensive patients, but does not specifically investigate metabolomic profiles in relation to antihypertensive drug response. It does not measure blood pressure response to antihypertensive medications, which is a key inclusion criterion.",
+      "screened_at": "2025-11-14 16:37:15"
+    }
+  ],
+  "error_articles": [],
+  "stats": {
+    "total": 8,
+    "included": 7,
+    "excluded": 1,
+    "errors": 0
+  }
+}

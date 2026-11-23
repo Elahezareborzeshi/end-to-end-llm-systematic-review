@@ -1,0 +1,18 @@
+{
+  "full_scale_test": {
+    "manual_target_articles": 1507,
+    "manual_query_articles": 3,
+    "llm_query_articles": 6,
+    "manual_coverage_percent": 0.19907100199071004,
+    "llm_coverage_percent": 0.3981420039814201,
+    "overlap_count": 3,
+    "total_unique_count": 5
+  },
+  "query_analysis": {
+    "manual_query_length": 965,
+    "llm_query_length": 1776,
+    "manual_keywords_count": 11,
+    "llm_keywords_count": 11,
+    "llm_mesh_terms_count": 37
+  }
+}

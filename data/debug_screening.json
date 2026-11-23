@@ -1,0 +1,137 @@
+{
+  "date_range": [
+    2012,
+    2023
+  ],
+  "included_articles": [
+    {
+      "pmid": "37039792",
+      "title": "Heterogeneity in Blood Pressure Response to 4 Antihypertensive Drugs: A Randomized Clinical Trial.",
+      "first_author": "sundström johan",
+      "file_path": "data/downloaded_articles/article_164_source.json",
+      "match_type": "pmid"
+    },
+    {
+      "pmid": "32586526",
+      "title": "Variants in ADRB1 and CYP2C9: Association with Response to Atenolol and Losartan in Marfan Syndrome.",
+      "first_author": "van driest sara l",
+      "file_path": "data/downloaded_articles/article_1367_source.json",
+      "match_type": "pmid"
+    },
+    {
+      "pmid": "29288159",
+      "title": "Sphingolipid Metabolic Pathway Impacts Thiazide Diuretics Blood Pressure Response: Insights From Genomics, Metabolomics, and Lipidomics.",
+      "first_author": "shahin mohamed h",
+      "file_path": "data/downloaded_articles/article_2760_source.json",
+      "match_type": "pmid"
+    },
+    {
+      "pmid": "29121091",
+      "title": "Effects of four different antihypertensive drugs on plasma metabolomic profiles in patients with essential hypertension.",
+      "first_author": "hiltunen timo p",
+      "file_path": "data/downloaded_articles/article_2847_source.json",
+      "match_type": "pmid"
+    },
+    {
+      "pmid": "27381900",
+      "title": "A Genetic Response Score for Hydrochlorothiazide Use: Insights From Genomics and Metabolomics Integration.",
+      "first_author": "shahin mohamed h",
+      "file_path": "data/downloaded_articles/article_3616_source.json",
+      "match_type": "pmid"
+    },
+    {
+      "pmid": "27120469",
+      "title": "The Pharmacogenetic Footprint of ACE Inhibition: A Population-Based Metabolomics Study.",
+      "first_author": "altmaier elisabeth",
+      "file_path": "data/downloaded_articles/article_4580_source.json",
+      "match_type": "pmid"
+    }
+  ],
+  "manual_missed": [
+    {
+      "pmid": "36888697",
+      "title": "Sensitive detection of single-nucleotide polymorphisms by conjugated polymers for personalized treatment of hypertension",
+      "first_author": "shen"
+    },
+    {
+      "pmid": "37372980",
+      "title": "Metabolomic Profile and Its Correlation with the Plasmatic Levels of Losartan, EXP3174 and Blood Pressure Control in Hypertensive and Chronic Kidney Disease Patients",
+      "first_author": "santos"
+    },
+    {
+      "pmid": "36467587",
+      "title": "Pharmacometabolomic study of drug response to antihypertensive medications for hypertension marker identification in Han Chinese individuals in Taiwan",
+      "first_author": "liang"
+    },
+    {
+      "pmid": "34952949",
+      "title": "Plasma metabolomic profiles associated with hypertension and blood pressure in response to thiazide diuretics",
+      "first_author": "huang"
+    },
+    {
+      "pmid": "35399511",
+      "title": "Antihypertensive Therapy by ACEI/ARB Is Associated With Intestinal Flora Alterations and Metabolomic Profiles in Hypertensive Patients",
+      "first_author": "dong"
+    },
+    {
+      "pmid": "31583478",
+      "title": "Predicting response to lisinopril in treating hypertension: a pilot study",
+      "first_author": "sonn"
+    },
+    {
+      "pmid": "30041085",
+      "title": "(1)H NMR based pharmacometabolomics analysis of metabolic phenotype on predicting metabolism characteristics of losartan in healthy volunteers",
+      "first_author": "he"
+    },
+    {
+      "pmid": "29888336",
+      "title": "Pharmacogenomic studies of hypertension: paving the way for personalized antihypertensive treatment",
+      "first_author": "eadon"
+    },
+    {
+      "pmid": "28741243",
+      "title": "The Pharmacogenomic and Metabolomic Predictors of ACE Inhibitor and Angiotensin II Receptor Blocker Effectiveness and Safety",
+      "first_author": "flaten"
+    },
+    {
+      "pmid": "28587581",
+      "title": "ACE Phenotyping as a Guide Toward Personalized Therapy With ACE Inhibitors",
+      "first_author": "danilov"
+    },
+    {
+      "pmid": "28526818",
+      "title": "Essential hypertension: A filtered serum based metabolomics study",
+      "first_author": "ameta"
+    },
+    {
+      "pmid": "27181907",
+      "title": "A Targeted Metabolomics MRM-MS Study on Identifying Potential Hypertension Biomarkers in Human Plasma and Evaluating Acupuncture Effects",
+      "first_author": "yang"
+    },
+    {
+      "pmid": "28217401",
+      "title": "Presence of arachidonoyl-carnitine is associated with adverse cardiometabolic responses in hypertensive patients treated with atenolol",
+      "first_author": "weng"
+    },
+    {
+      "pmid": "27021566",
+      "title": "Individualized Angiotensin-Converting Enzyme (ACE)-Inhibitor Therapy in Stable Coronary Artery Disease Based on Clinical and Pharmacogenetic Determinants: The PERindopril GENEtic (PERGENE) Risk Model",
+      "first_author": "oemrawsingh"
+    },
+    {
+      "pmid": "27121444",
+      "title": "Impact of ACE2 gene polymorphism on antihypertensive efficacy of ACE inhibitors",
+      "first_author": "chen"
+    },
+    {
+      "pmid": "25872610",
+      "title": "The renal protective effect of angiotensin receptor blockers depends on intra-individual response variation in multiple risk markers",
+      "first_author": "schievink"
+    },
+    {
+      "pmid": "26783503",
+      "title": "Pharmacometabolomic Assessments of Atenolol and Hydrochlorothiazide Treatment Reveal Novel Drug Response Phenotypes",
+      "first_author": "rotroff"
+    }
+  ]
+}

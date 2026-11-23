@@ -1,0 +1,17 @@
+{
+  "enhanced_llm_test": {
+    "target_articles": 1507,
+    "enhanced_articles": 277,
+    "coverage_percent": 18.38088918380889,
+    "improvement_factor": 1.3317307692307692,
+    "query_length": 4245
+  },
+  "comparison": {
+    "enhanced_llm": 277,
+    "basic_llm": 208,
+    "real_manual": 1922,
+    "enhanced_coverage": 18.38088918380889,
+    "basic_coverage": 13.8,
+    "manual_coverage": 127.5
+  }
+}

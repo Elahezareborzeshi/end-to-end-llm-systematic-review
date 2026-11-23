@@ -1,0 +1,91 @@
+{
+  "total_manual_included": 1151,
+  "total_matched": 1139,
+  "total_missed": 12,
+  "missed_by_year": {
+    "2021": 1,
+    "2018": 3,
+    "2016": 1,
+    "2015": 3,
+    "2014": 4
+  },
+  "missed_keywords": {
+    "antihypertensive": 2,
+    "hypertension": 1
+  },
+  "missed_with_pmid": 12,
+  "sample_missed": [
+    {
+      "title": "Preoperative Amlodipine Is Efficacious in Preventing Intraoperative HDI in Pheochromocytoma: Pilot R",
+      "pmid": "33839787",
+      "publication_date": "2021",
+      "journal": "J Clin Endocrinol Metab"
+    },
+    {
+      "title": "Ventricular Arrhythmic Storm after Initiating Sacubitril/Valsartan",
+      "pmid": "29402859",
+      "publication_date": "2018",
+      "journal": "Cardiology"
+    },
+    {
+      "title": "Downregulation of Profibrotic Gene Expression by Angiotensin Receptor Blockers",
+      "pmid": "30595567",
+      "publication_date": "2018",
+      "journal": "Iran J Kidney Dis"
+    },
+    {
+      "title": "Do statins, ACE inhibitors or sartans improve outcome in primary glioblastoma?",
+      "pmid": "29423540",
+      "publication_date": "2018",
+      "journal": "J Neurooncol"
+    },
+    {
+      "title": "Unmeasured confounding in pharmacoepidemiology",
+      "pmid": "26559329",
+      "publication_date": "2016",
+      "journal": "Ann Epidemiol"
+    },
+    {
+      "title": "Time of administration important? Morning versus evening dosing of valsartan",
+      "pmid": "25259546",
+      "publication_date": "2015",
+      "journal": "J Hypertens"
+    },
+    {
+      "title": "Intensive Supportive Care plus Immunosuppression in IgA Nephropathy",
+      "pmid": "26630142",
+      "publication_date": "2015",
+      "journal": "N Engl J Med"
+    },
+    {
+      "title": "Therapeutic Molecular Phenotype of \u03b2-Blocker-Associated Reverse-Remodeling in Nonischemic Dilated Ca",
+      "pmid": "25637602",
+      "publication_date": "2015",
+      "journal": "Circ Cardiovasc Genet"
+    },
+    {
+      "title": "Taste acceptability of pulverized brand-name and generic drugs containing amlodipine or candesartan",
+      "pmid": "24746411",
+      "publication_date": "2014",
+      "journal": "Int J Pharm"
+    },
+    {
+      "title": "Angiotensin-neprilysin inhibition versus enalapril in heart failure",
+      "pmid": "25176015",
+      "publication_date": "2014",
+      "journal": "N Engl J Med"
+    },
+    {
+      "title": "Effect of long-term antihypertensive treatment on white-coat hypertension",
+      "pmid": "25245386",
+      "publication_date": "2014",
+      "journal": "Hypertension"
+    },
+    {
+      "title": "Progression of IgA nephropathy under current therapy regimen in a Chinese population",
+      "pmid": "24408121",
+      "publication_date": "2014",
+      "journal": "Clin J Am Soc Nephrol"
+    }
+  ]
+}

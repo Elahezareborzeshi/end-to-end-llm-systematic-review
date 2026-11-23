@@ -1,0 +1,48 @@
+# Environment and secrets — never commit real keys
+.env
+.env.local
+.env.*.local
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# OS / IDE junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs and local caches
+*.log
+*.cache
+
+# Large raw article downloads (not required to recompute paper metrics)
+data/downloaded_articles/*
+!data/downloaded_articles/.gitkeep
+src/data/downloaded_articles/*
+!src/data/downloaded_articles/.gitkeep
+
+# Local debug / embedding caches (regenerable)
+data/debug_rag.pkl
+data/title_abstract_rag_embeddings.pkl
+data/vector_store.txt
+data/user_feedback.jsonl
+
+# Validation plot binaries (optional; keep JSON/CSV metrics)
+data/validation_plots/*.png

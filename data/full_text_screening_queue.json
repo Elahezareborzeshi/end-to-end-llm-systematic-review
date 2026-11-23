@@ -1,0 +1,68 @@
+{
+  "total_candidates": 7,
+  "articles": [
+    {
+      "pmid": "34952949",
+      "title": "Plasma metabolomic profiles associated with hypertension and blood pressure in response to thiazide diuretics",
+      "first_author": "Huang, C. C.",
+      "source": "manual_endnote_only",
+      "file_path": null,
+      "within_date_range": true,
+      "selection_reason": "priority_target_article"
+    },
+    {
+      "pmid": "26783503",
+      "title": "Pharmacometabolomic Assessments of Atenolol and Hydrochlorothiazide Treatment Reveal Novel Drug Response Phenotypes",
+      "first_author": "Rotroff, D. M.",
+      "source": "manual_endnote_only",
+      "file_path": null,
+      "within_date_range": true,
+      "selection_reason": "priority_target_article"
+    },
+    {
+      "pmid": "29288159",
+      "title": "Sphingolipid Metabolic Pathway Impacts Thiazide Diuretics Blood Pressure Response: Insights From Genomics, Metabolomics, and Lipidomics.",
+      "first_author": "Shahin Mohamed H",
+      "source": "llm_downloaded",
+      "file_path": "./data/downloaded_articles/article_2760_source.json",
+      "within_date_range": true,
+      "selection_reason": "priority_target_article"
+    },
+    {
+      "pmid": "28217401",
+      "title": "Presence of arachidonoyl-carnitine is associated with adverse cardiometabolic responses in hypertensive patients treated with atenolol",
+      "first_author": "Weng, L.",
+      "source": "manual_endnote_only",
+      "file_path": null,
+      "within_date_range": true,
+      "selection_reason": "priority_target_article"
+    },
+    {
+      "pmid": "31583478",
+      "title": "Predicting response to lisinopril in treating hypertension: a pilot study",
+      "first_author": "Sonn, B. J.",
+      "source": "manual_endnote_only",
+      "file_path": null,
+      "within_date_range": true,
+      "selection_reason": "priority_target_article"
+    },
+    {
+      "pmid": "37039792",
+      "title": "Heterogeneity in Blood Pressure Response to 4 Antihypertensive Drugs: A Randomized Clinical Trial.",
+      "first_author": "Sundstr\u00f6m Johan",
+      "source": "llm_downloaded",
+      "file_path": "./data/downloaded_articles/article_164_source.json",
+      "within_date_range": true,
+      "selection_reason": "manual_match_pmid"
+    },
+    {
+      "pmid": "32586526",
+      "title": "Variants in ADRB1 and CYP2C9: Association with Response to Atenolol and Losartan in Marfan Syndrome.",
+      "first_author": "Van Driest Sara L",
+      "source": "llm_downloaded",
+      "file_path": "./data/downloaded_articles/article_1367_source.json",
+      "within_date_range": true,
+      "selection_reason": "manual_match_pmid"
+    }
+  ]
+}

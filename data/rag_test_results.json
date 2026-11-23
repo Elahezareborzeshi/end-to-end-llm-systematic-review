@@ -1,0 +1,27 @@
+{
+  "rag_test": {
+    "manual_target": 1922,
+    "rag_results": 50,
+    "coverage_percent": 2.6014568158168574,
+    "query_length": 35935,
+    "validation": {
+      "is_valid": true,
+      "errors": [],
+      "warnings": [
+        "Query is very long, may hit PubMed limits"
+      ],
+      "query_length": 35935,
+      "has_filters": true,
+      "has_wildcards": true,
+      "has_mesh_terms": true,
+      "has_title_abstract": true
+    }
+  },
+  "rag_features": {
+    "learned_from_manual": true,
+    "generates_from_mesh": true,
+    "includes_filters": true,
+    "includes_wildcards": true,
+    "includes_mesh_terms": true
+  }
+}

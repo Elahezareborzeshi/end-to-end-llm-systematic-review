@@ -1,0 +1,43 @@
+{
+  "target_articles_for_data_extraction": [
+    {
+      "first_author": "Huang",
+      "pmid": "34952949",
+      "doi": "10.1038/s41440-021-00825-9",
+      "notes": "Target article for data extraction"
+    },
+    {
+      "first_author": "Rotroff",
+      "pmid": "26783503",
+      "pmcid": "PMC4716583",
+      "doi": "10.1002/psp4.12017",
+      "notes": "Target article for data extraction"
+    },
+    {
+      "first_author": "Shahin",
+      "pmid": "29288159",
+      "pmcid": "PMC5778957",
+      "doi": "10.1161/JAHA.117.006656",
+      "notes": "Target article for data extraction"
+    },
+    {
+      "first_author": "Weng",
+      "pmid": "28217401",
+      "pmcid": "PMC5313050",
+      "doi": "10.1007/s11306-016-1098-2",
+      "notes": "Target article for data extraction"
+    },
+    {
+      "first_author": "Sonn",
+      "pmid": "31583478",
+      "pmcid": "PMC6815665",
+      "doi": "10.1007/s11306-019-1601-7",
+      "notes": "Target article for data extraction"
+    }
+  ],
+  "usage": "These PMIDs identify the 5 key articles selected for inclusion in the manuscript. They should be prioritized during data extraction validation.",
+  "total_articles": 5
+}
+
+
+

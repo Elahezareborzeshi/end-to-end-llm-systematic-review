@@ -1,0 +1,54 @@
+{
+  "queries": [
+    {
+      "name": "enhanced_v1_wildcards_recall",
+      "query": "(     \"Hypertension\"[MeSH Terms] OR     \"hypertens*\"[Title/Abstract] OR     \"high blood pressure\"[Title/Abstract] OR     \"Blood Pressure\"[MeSH Terms] OR     \"blood pressure\"[Title/Abstract] OR     \"Blood Pressure, High\"[MeSH Terms]   ) AND (     \"Metabolomics\"[MeSH Terms] OR     \"Metabolome\"[MeSH Terms] OR     \"Metabonomics\"[MeSH Terms] OR     \"metabolom*\"[Title/Abstract] OR     \"metabonom*\"[Title/Abstract] OR     \"metabolic profil*\"[Title/Abstract] OR     \"metabolic signatur*\"[Title/Abstract] OR     \"metabol* profil*\"[Title/Abstract]   ) AND (     \"Antihypertensive Agents\"[MeSH Terms] OR     \"antihypertens*\"[Title/Abstract] OR     \"anti-hypertens*\"[Title/Abstract] OR     \"Vasodilator Agents\"[MeSH Terms] OR     \"vasodilat*\"[Title/Abstract] OR     \"Calcium Channel Blockers\"[MeSH Terms] OR     \"calcium channel block*\"[Title/Abstract] OR     \"Angiotensin Receptor Antagonists\"[MeSH Terms] OR     \"angiotensin receptor block*\"[Title/Abstract] OR     \"ARB\"[Title/Abstract] OR     \"Angiotensin-Converting Enzyme Inhibitors\"[MeSH Terms] OR     \"ACE inhibitor*\"[Title/Abstract] OR     \"angiotensin converting enzyme inhibitor*\"[Title/Abstract] OR     \"Diuretics\"[MeSH Terms] OR     \"diuretic*\"[Title/Abstract] OR     \"beta-blocker*\"[Title/Abstract] OR     \"beta blocker*\"[Title/Abstract] OR     \"Adrenergic beta-Antagonists\"[MeSH Terms]   ) AND humans[MeSH Terms] AND   english[Language] AND   (clinicaltrial[Filter] OR observationalstudy[Filter] OR randomizedcontrolledtrial[Filter]) AND   (2013:2024[dp])",
+      "description": "Enhanced query with wildcards for maximum recall",
+      "strategy": "Recall-oriented with wildcards (*) for term variations"
+    },
+    {
+      "name": "enhanced_v2_mesh_precision",
+      "query": "(     \"Hypertension\"[MeSH Terms] OR     \"hypertens*\"[Title/Abstract]   ) AND (     \"Metabolomics\"[MeSH Terms] OR     \"Metabolome\"[MeSH Terms] OR     \"metabolom*\"[Title/Abstract]   ) AND (     \"Antihypertensive Agents\"[MeSH Terms] OR     \"Vasodilator Agents\"[MeSH Terms] OR     \"Calcium Channel Blockers\"[MeSH Terms] OR     \"Angiotensin Receptor Antagonists\"[MeSH Terms] OR     \"Angiotensin-Converting Enzyme Inhibitors\"[MeSH Terms] OR     \"Diuretics\"[MeSH Terms]   ) AND   humans[MeSH Terms] AND   english[Language] AND   (clinicaltrial[Filter] OR observationalstudy[Filter] OR randomizedcontrolledtrial[Filter]) AND   (2013:2024[dp])",
+      "description": "MeSH-focused query for precision",
+      "strategy": "Precision-oriented with primary MeSH terms"
+    },
+    {
+      "name": "enhanced_v3_broadest_recall",
+      "query": "(     \"Hypertension\"[MeSH Terms] OR     \"hypertens*\"[Title/Abstract] OR     \"high blood pressure\"[Title/Abstract] OR     \"Blood Pressure\"[MeSH Terms] OR     \"blood pressure\"[Title/Abstract] OR     \"Blood Pressure, High\"[MeSH Terms]   ) AND (   \"Metabolomics\"[MeSH Terms] OR   \"Metabolome\"[MeSH Terms] OR   \"Metabonomics\"[MeSH Terms] OR   \"metabolom*\"[Title/Abstract] OR   \"metabonom*\"[Title/Abstract] OR   \"metabolic profil*\"[Title/Abstract] OR   \"metabolic signatur*\"[Title/Abstract] OR   \"metabol*\"[Title/Abstract] OR   \"lipidom*\"[Title/Abstract] OR   \"Lipidomics\"[MeSH Terms] ) AND (     \"Antihypertensive Agents\"[MeSH Terms] OR     \"antihypertens*\"[Title/Abstract] OR     \"anti-hypertens*\"[Title/Abstract] OR     \"Vasodilator Agents\"[MeSH Terms] OR     \"vasodilat*\"[Title/Abstract] OR     \"Calcium Channel Blockers\"[MeSH Terms] OR     \"calcium channel block*\"[Title/Abstract] OR     \"Angiotensin Receptor Antagonists\"[MeSH Terms] OR     \"angiotensin receptor block*\"[Title/Abstract] OR     \"ARB\"[Title/Abstract] OR     \"Angiotensin-Converting Enzyme Inhibitors\"[MeSH Terms] OR     \"ACE inhibitor*\"[Title/Abstract] OR     \"angiotensin converting enzyme inhibitor*\"[Title/Abstract] OR     \"Diuretics\"[MeSH Terms] OR     \"diuretic*\"[Title/Abstract] OR     \"beta-blocker*\"[Title/Abstract] OR     \"beta blocker*\"[Title/Abstract] OR     \"Adrenergic beta-Antagonists\"[MeSH Terms]   ) AND humans[MeSH Terms] AND   english[Language] AND   (clinicaltrial[Filter] OR observationalstudy[Filter] OR randomizedcontrolledtrial[Filter]) AND   (2013:2024[dp])",
+      "description": "Broadest query with wildcards and expanded metabolomics",
+      "strategy": "Maximum recall with wildcards and lipidomics"
+    },
+    {
+      "name": "enhanced_v4_balanced",
+      "query": "(     \"Hypertension\"[MeSH Terms] OR     \"hypertens*\"[Title/Abstract] OR     \"blood pressure\"[Title/Abstract]   ) AND (     \"Metabolomics\"[MeSH Terms] OR     \"metabolom*\"[Title/Abstract] OR     \"metabolic profil*\"[Title/Abstract]   ) AND (     \"Antihypertensive Agents\"[MeSH Terms] OR     \"Vasodilator Agents\"[MeSH Terms] OR     \"Calcium Channel Blockers\"[MeSH Terms] OR     \"Angiotensin Receptor Antagonists\"[MeSH Terms] OR     \"Angiotensin-Converting Enzyme Inhibitors\"[MeSH Terms] OR     \"Diuretics\"[MeSH Terms] OR     \"antihypertens*\"[Title/Abstract] OR     \"vasodilat*\"[Title/Abstract] OR     \"calcium channel block*\"[Title/Abstract] OR     \"ACE inhibitor*\"[Title/Abstract] OR     \"diuretic*\"[Title/Abstract]   ) AND   humans[MeSH Terms] AND   english[Language] AND   (clinicaltrial[Filter] OR observationalstudy[Filter] OR randomizedcontrolledtrial[Filter]) AND   (2013:2024[dp])",
+      "description": "Balanced query with wildcards and MeSH terms",
+      "strategy": "Balanced approach combining MeSH and wildcard terms"
+    }
+  ],
+  "improvements": {
+    "date_syntax": "Changed from [Publication Date] to [dp]",
+    "wildcards_added": [
+      "hypertens*",
+      "metabolom*",
+      "metabonom*",
+      "antihypertens*",
+      "vasodilat*",
+      "diuretic*",
+      "profil*",
+      "block*"
+    ],
+    "missing_mesh_terms": [
+      "Vasodilator Agents",
+      "Calcium Channel Blockers",
+      "Angiotensin Receptor Antagonists",
+      "Metabolomics",
+      "Metabonomics"
+    ],
+    "expanded_terms": [
+      "metabolic signatur*",
+      "lipidom*",
+      "ARB",
+      "beta-blocker*"
+    ]
+  }
+}

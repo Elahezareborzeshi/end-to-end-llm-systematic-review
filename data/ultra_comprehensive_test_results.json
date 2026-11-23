@@ -1,0 +1,21 @@
+{
+  "ultra_comprehensive_test": {
+    "target_articles": 1507,
+    "ultra_articles": 337,
+    "coverage_percent": 22.362309223623093,
+    "improvement_over_basic": 1.6201923076923077,
+    "improvement_over_enhanced": 1.2166064981949458,
+    "gap_to_manual": 0.1753381893860562,
+    "query_length": 18200
+  },
+  "complete_comparison": {
+    "ultra_comprehensive": 337,
+    "enhanced_llm": 277,
+    "basic_llm": 208,
+    "real_manual": 1922,
+    "ultra_coverage": 22.362309223623093,
+    "enhanced_coverage": 18.4,
+    "basic_coverage": 13.8,
+    "manual_coverage": 127.5
+  }
+}

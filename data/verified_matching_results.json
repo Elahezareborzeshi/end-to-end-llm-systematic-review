@@ -1,0 +1,16 @@
+{
+  "manual_included_total": 1151,
+  "matched_total": 3,
+  "correctly_captured": 3,
+  "missed": 1148,
+  "match_counts": {
+    "pmid": 1,
+    "doi": 0,
+    "title_exact": 0,
+    "title_fuzzy": 2,
+    "unmatched": 9879
+  },
+  "precision": 1.0,
+  "recall": 0.0026064291920069507,
+  "f1_score": 0.005199306759098787
+}

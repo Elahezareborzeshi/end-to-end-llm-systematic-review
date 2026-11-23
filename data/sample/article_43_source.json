@@ -1,0 +1,322 @@
+{
+  "MedlineCitation": {
+    "OtherAbstract": [],
+    "InvestigatorList": [],
+    "GeneralNote": [],
+    "CitationSubset": [
+      "IM"
+    ],
+    "SpaceFlightMission": [],
+    "OtherID": [],
+    "KeywordList": [
+      [
+        "hypertension",
+        "malignant",
+        "systemic"
+      ]
+    ],
+    "PMID": "38658108",
+    "DateCompleted": {
+      "Year": "2024",
+      "Month": "04",
+      "Day": "24"
+    },
+    "DateRevised": {
+      "Year": "2024",
+      "Month": "04",
+      "Day": "24"
+    },
+    "Article": {
+      "ArticleDate": [],
+      "Language": [
+        "eng"
+      ],
+      "ELocationID": [
+        "10.1016/j.jacc.2024.02.037",
+        "S0735-1097(24)00481-9"
+      ],
+      "Journal": {
+        "ISSN": "1558-3597",
+        "JournalIssue": {
+          "Volume": "83",
+          "Issue": "17",
+          "PubDate": {
+            "Year": "2024",
+            "Month": "Apr",
+            "Day": "30"
+          }
+        },
+        "Title": "Journal of the American College of Cardiology",
+        "ISOAbbreviation": "J Am Coll Cardiol"
+      },
+      "ArticleTitle": "Malignant Hypertension:A Systemic Cardiovascular Disease: JACC Review Topic of the Week.",
+      "Pagination": {
+        "StartPage": "1688",
+        "EndPage": "1701",
+        "MedlinePgn": "1688-1701"
+      },
+      "Abstract": {
+        "AbstractText": [
+          "Malignant hypertension (MHT) is a hypertensive emergency with excessive blood pressure (BP) elevation and accelerated disease progression. MHT is characterized by acute microvascular damage and autoregulation failure affecting the retina, brain, heart, kidney, and vascular tree. BP must be lowered within hours to mitigate patient risk. Both absolute BP levels and the pace of BP rise determine risk of target-organ damage. Nonadherence to the antihypertensive regimen remains the most common cause for MHT, although antiangiogenic and immunosuppressant therapy can also trigger hypertensive emergencies. Depending on the clinical presentation, parenteral or oral therapy can be used to initiate BP lowering. Evidence-based outcome data are spotty or lacking in MHT. With effective treatment, the prognosis for MHT has improved; however, patients remain at high risk of adverse cardiovascular and kidney outcomes. In this review, we summarize current viewpoints on the epidemiology, pathogenesis, and management of MHT; highlight research gaps; and propose strategies to improve outcomes."
+        ],
+        "CopyrightInformation": "Copyright \u00a9 2024 American College of Cardiology Foundation. Published by Elsevier Inc. All rights reserved."
+      },
+      "AuthorList": [
+        {
+          "Identifier": [],
+          "AffiliationInfo": [
+            {
+              "Identifier": [],
+              "Affiliation": "Universit\u00e9 de Bordeaux, UMR Inserm 1034, Service des maladies coronaires et vasculaires, CHU de Bordeaux, INI-CRCT network, Pessac, France."
+            }
+          ],
+          "LastName": "Boulestreau",
+          "ForeName": "Romain",
+          "Initials": "R"
+        },
+        {
+          "Identifier": [],
+          "AffiliationInfo": [
+            {
+              "Identifier": [],
+              "Affiliation": "Magnetic Resonance Unit, Department of Radiology, National Institute of Cardiology, Warsaw, Poland. Electronic address: mspiewak@ikard.pl."
+            }
+          ],
+          "LastName": "\u015apiewak",
+          "ForeName": "Mateusz",
+          "Initials": "M"
+        },
+        {
+          "Identifier": [],
+          "AffiliationInfo": [
+            {
+              "Identifier": [],
+              "Affiliation": "Department of Hypertension, National Institute of Cardiology, Warsaw, Poland."
+            }
+          ],
+          "LastName": "Januszewicz",
+          "ForeName": "Andrzej",
+          "Initials": "A"
+        },
+        {
+          "Identifier": [],
+          "AffiliationInfo": [
+            {
+              "Identifier": [],
+              "Affiliation": "Charit\u00e9-Universit\u00e4tsmedizin Berlin, Institute of Clinical Pharmacology and Toxicology, Berlin, Germany."
+            }
+          ],
+          "LastName": "Kreutz",
+          "ForeName": "Reinhold",
+          "Initials": "R"
+        },
+        {
+          "Identifier": [],
+          "AffiliationInfo": [
+            {
+              "Identifier": [],
+              "Affiliation": "Department of Medicine and Omicron Medical Genomics Laboratory, Jagiellonian University, Collegium Medicum, Krak\u00f3w, Poland; Centre for Cardiovascular Sciences, University of Edinburgh, Edinburgh, United Kingdom."
+            }
+          ],
+          "LastName": "Guzik",
+          "ForeName": "Tomasz J",
+          "Initials": "TJ"
+        },
+        {
+          "Identifier": [],
+          "AffiliationInfo": [
+            {
+              "Identifier": [],
+              "Affiliation": "II Department of Radiology, Medical University of Warsaw, Warsaw, Poland."
+            }
+          ],
+          "LastName": "Januszewicz",
+          "ForeName": "Magdalena",
+          "Initials": "M"
+        },
+        {
+          "Identifier": [],
+          "AffiliationInfo": [
+            {
+              "Identifier": [],
+              "Affiliation": "European Society of Hypertension (ESH) Excellence Center, Department of Clinical and Experimental Sciences, University of Brescia and ASST Spedali Civili, Brescia, Italy."
+            }
+          ],
+          "LastName": "Muiesan",
+          "ForeName": "Maria Lorenza",
+          "Initials": "ML"
+        },
+        {
+          "Identifier": [],
+          "AffiliationInfo": [
+            {
+              "Identifier": [],
+              "Affiliation": "Division of Cardiology, Cliniques Universitaires Saint-Luc and Pole of Cardiovascular Research, Institut de Recherche Exp\u00e9rimentale et Clinique, Universit\u00e9 Catholique de Louvain, Brussels, Belgium."
+            }
+          ],
+          "LastName": "Persu",
+          "ForeName": "Alexandre",
+          "Initials": "A"
+        },
+        {
+          "Identifier": [],
+          "AffiliationInfo": [
+            {
+              "Identifier": [],
+              "Affiliation": "1st Department of Nephrology, Hippokration Hospital, Aristotle University of Thessaloniki, Thessaloniki, Greece."
+            }
+          ],
+          "LastName": "Sarafidis",
+          "ForeName": "Pantelis",
+          "Initials": "P"
+        },
+        {
+          "Identifier": [],
+          "AffiliationInfo": [
+            {
+              "Identifier": [],
+              "Affiliation": "Istituto di Ricovero e Cura a Carattere Scientifico (IRCCS) San Raffaele, Rome, Italy."
+            }
+          ],
+          "LastName": "Volpe",
+          "ForeName": "Massimo",
+          "Initials": "M"
+        },
+        {
+          "Identifier": [],
+          "AffiliationInfo": [
+            {
+              "Identifier": [],
+              "Affiliation": "Department of Ophthalmology, Medical University of Warsaw, Warsaw, Poland; Ophthalmic Teaching Hospital, Warsaw, Poland."
+            }
+          ],
+          "LastName": "Zaleska-\u017bmijewska",
+          "ForeName": "Anna",
+          "Initials": "A"
+        },
+        {
+          "Identifier": [],
+          "AffiliationInfo": [
+            {
+              "Identifier": [],
+              "Affiliation": "Department of Public and Occupational Health, Amsterdam UMC, University of Amsterdam, Amsterdam Public Health Research Institute, Amsterdam, the Netherlands; Department of Internal and Vascular Medicine, Amsterdam UMC, University of Amsterdam, Cardiovascular Sciences, Amsterdam, the Netherlands."
+            }
+          ],
+          "LastName": "van den Born",
+          "ForeName": "Bert-Jan H",
+          "Initials": "BH"
+        },
+        {
+          "Identifier": [],
+          "AffiliationInfo": [
+            {
+              "Identifier": [],
+              "Affiliation": "Department of Cardiology and Biomedical Research, University Hospital Bern, University of Bern, Bern, Switzerland; Jagiellonian University Krak\u00f3w, Poland. Electronic address: dirsecretariat@dbmr.unibe.ch."
+            }
+          ],
+          "LastName": "Messerli",
+          "ForeName": "Franz H",
+          "Initials": "FH"
+        }
+      ],
+      "PublicationTypeList": [
+        "Journal Article",
+        "Review",
+        "Research Support, N.I.H., Extramural"
+      ]
+    },
+    "MedlineJournalInfo": {
+      "Country": "United States",
+      "MedlineTA": "J Am Coll Cardiol",
+      "NlmUniqueID": "8301365",
+      "ISSNLinking": "0735-1097"
+    },
+    "ChemicalList": [
+      {
+        "RegistryNumber": "0",
+        "NameOfSubstance": "Antihypertensive Agents"
+      }
+    ],
+    "MeshHeadingList": [
+      {
+        "QualifierName": [],
+        "DescriptorName": "Humans"
+      },
+      {
+        "QualifierName": [
+          "epidemiology",
+          "physiopathology",
+          "complications"
+        ],
+        "DescriptorName": "Hypertension, Malignant"
+      },
+      {
+        "QualifierName": [
+          "epidemiology",
+          "etiology"
+        ],
+        "DescriptorName": "Cardiovascular Diseases"
+      },
+      {
+        "QualifierName": [
+          "therapeutic use"
+        ],
+        "DescriptorName": "Antihypertensive Agents"
+      },
+      {
+        "QualifierName": [
+          "physiology"
+        ],
+        "DescriptorName": "Blood Pressure"
+      }
+    ],
+    "CoiStatement": "Funding Support and Author Disclosures The authors have reported that they have no relationships relevant to the contents of this paper to disclose."
+  },
+  "PubmedData": {
+    "ReferenceList": [],
+    "History": [
+      {
+        "Year": "2023",
+        "Month": "11",
+        "Day": "14"
+      },
+      {
+        "Year": "2024",
+        "Month": "1",
+        "Day": "30"
+      },
+      {
+        "Year": "2024",
+        "Month": "2",
+        "Day": "5"
+      },
+      {
+        "Year": "2024",
+        "Month": "4",
+        "Day": "25",
+        "Hour": "0",
+        "Minute": "55"
+      },
+      {
+        "Year": "2024",
+        "Month": "4",
+        "Day": "25",
+        "Hour": "0",
+        "Minute": "54"
+      },
+      {
+        "Year": "2024",
+        "Month": "4",
+        "Day": "24",
+        "Hour": "20",
+        "Minute": "58"
+      }
+    ],
+    "PublicationStatus": "ppublish",
+    "ArticleIdList": [
+      "38658108",
+      "10.1016/j.jacc.2024.02.037",
+      "S0735-1097(24)00481-9"
+    ]
+  }
+}
