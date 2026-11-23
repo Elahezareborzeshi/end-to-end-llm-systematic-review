@@ -128,4 +128,3 @@ To re-run interactive stages of the framework (optional; incurs API cost):
 ## Documentation
 
 - [Framework instructions](docs/LLM_SYSTEMATIC_REVIEW_FRAMEWORK_INSTRUCTIONS.md)
-- [Security checklist](docs/SECURITY_CHECKLIST.md)
