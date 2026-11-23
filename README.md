@@ -6,7 +6,7 @@ An end-to-end, human-in-the-loop large language model (LLM) framework for system
 
 > **Paper citation (placeholder):** Zare Borzeshi, E., et al. (year). *Title of the paper*. PLOS ONE. DOI: `https://doi.org/10.XXXX/journal.pone.XXXXXXX`
 
-> **Software archive (placeholder):** Zenodo DOI: `https://doi.org/10.5281/zenodo.XXXXXXX`
+> **Software archive:** Zenodo DOI: https://doi.org/10.5281/zenodo.24468503
 
 Please replace the placeholders above with the final PLOS ONE citation and Zenodo DOI before submission/publication.
 
